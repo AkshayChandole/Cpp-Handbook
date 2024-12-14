@@ -21,7 +21,7 @@ Each of these data types has a specific use case, size, and range. Understanding
 
 ----------
 
-### 1. [**Integer Types**](#integer-types)
+### [Integer Types](#integer-types)
 
 Integer types are used to store whole numbers, i.e., numbers without any decimal points.
 
