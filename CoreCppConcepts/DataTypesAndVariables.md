@@ -238,7 +238,7 @@ In C++, **user-defined data types** are data types that are created by the progr
 
 The key user-defined data types in C++ are:
 
-1.  [**Structures (`struct`)**](#structures)
+1.  [**Structures (`struct`)**](#structures-struct)
 2.  **Classes (`class`)**
 3.  **Unions (`union`)**
 4.  **Enumerations (`enum`)**
@@ -248,7 +248,7 @@ These types allow you to encapsulate multiple data elements into a single entity
 
 ----------
 
-### [**Structures (`struct`)**](#structures):
+### [**Structures (`struct`)**](#structures-struct):
 
 A **structure** is a user-defined data type that allows the grouping of variables (called members or fields) of different data types under a single name. This is particularly useful when you need to store data that represents an entity with multiple attributes.
 
