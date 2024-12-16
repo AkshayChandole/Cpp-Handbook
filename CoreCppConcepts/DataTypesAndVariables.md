@@ -71,7 +71,7 @@ int main() {
 
 ----------
 
-### 2. **Floating-Point Types**:
+### 2. [**Floating-Point Types**](#floating-point-types):
 
 Floating-point types are used to represent numbers with decimal points, allowing for the storage of fractional values.
 
@@ -108,7 +108,7 @@ int main() {
 
 ----------
 
-### 3. **Character Types**:
+### 3. [**Character Types**](#character-types):
 
 Character types are used to store individual characters, which are stored as integers according to the character encoding standard (typically ASCII or Unicode).
 
@@ -142,7 +142,7 @@ int main() {
 
 ----------
 
-### 4. **Boolean Type**:
+### 4. [**Boolean Type**](#boolean-type):
 
 The **`bool`** type is used to store binary values, i.e., `true` or `false`. It's typically used for flags, conditions, and logical operations.
 
@@ -169,7 +169,7 @@ int main() {
 
 ----------
 
-### 5. **Void Type**:
+### 5. [**Void Type**](#void-type):
 
 The **`void`** type represents the absence of a type. It is used primarily in two scenarios:
 
@@ -238,7 +238,7 @@ In C++, **user-defined data types** are data types that are created by the progr
 
 The key user-defined data types in C++ are:
 
-1.  **Structures (`struct`)**
+1.  [**Structures (`struct`)**](#structures)
 2.  **Classes (`class`)**
 3.  **Unions (`union`)**
 4.  **Enumerations (`enum`)**
@@ -248,7 +248,7 @@ These types allow you to encapsulate multiple data elements into a single entity
 
 ----------
 
-### 1. **Structures (`struct`)**:
+### 1. [**Structures (`struct`)**](#structures):
 
 A **structure** is a user-defined data type that allows the grouping of variables (called members or fields) of different data types under a single name. This is particularly useful when you need to store data that represents an entity with multiple attributes.
 
