@@ -10,9 +10,9 @@ Let’s dive into each subtopic in detail:
 
 ## Table of Contents
 
-   - [3.1 Data Types and Variables](#data-types-and-variables)  
-     - [3.1.1 Primitive Data Types](#primitive-data-types)  
-     - [3.1.2 User-Defined Data Types](#user-defined-data-types)  
+   - [3.1 Data Types and Variables](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CoreCppConcepts/DataTypesAndVariables.md#data-types-and-variables)  
+     - [3.1.1 Primitive Data Types](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CoreCppConcepts/DataTypesAndVariables.md#primitive-data-types)  
+     - [3.1.2 User-Defined Data Types](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CoreCppConcepts/DataTypesAndVariables.md#user-defined-data-types)  
    - [3.2 Operators](#operators)  
      - [3.2.1 Arithmetic Operators](#arithmetic-operators)  
      - [3.2.2 Relational Operators](#relational-operators)  
