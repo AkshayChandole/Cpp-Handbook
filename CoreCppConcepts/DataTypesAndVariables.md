@@ -12,16 +12,16 @@ In C++, **primitive data types** (also called **built-in types**) are the fundam
 The most commonly used primitive data types in C++ include:
 
 1.  [**Integer Types**](#integer-types)
-2.  **Floating Point Types**
-3.  **Character Types**
-4.  **Boolean Type**
-5.  **Void Type**
+2.  [**Floating Point Types**](#floating-point-types)
+3.  [**Character Types**](#character-types)
+4.  [**Boolean Type**](#boolean-type)
+5.  [**Void Type**](#void-type)
 
 Each of these data types has a specific use case, size, and range. Understanding them is essential for memory management, performance optimization, and making appropriate design choices.
 
 ----------
 
-### [Integer Types](#integer-types)
+### [**Integer Types**](#integer-types)
 
 Integer types are used to store whole numbers, i.e., numbers without any decimal points.
 
