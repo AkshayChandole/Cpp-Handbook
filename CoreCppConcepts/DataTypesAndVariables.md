@@ -239,10 +239,10 @@ In C++, **user-defined data types** are data types that are created by the progr
 The key user-defined data types in C++ are:
 
 1.  [**Structures (`struct`)**](#structures-struct)
-2.  **Classes (`class`)**
-3.  **Unions (`union`)**
-4.  **Enumerations (`enum`)**
-5.  **Typedefs and `using` (type aliases)**
+2.  [**Classes (`class`)**](#classes-class)
+3.  [**Unions (`union`)**](#unions-union)
+4.  [**Enumerations (`enum`)**](#enumerations-enum)
+5.  [**Typedefs and `using` (type aliases)**](#typedefs-and-using-type-aliases)
 
 These types allow you to encapsulate multiple data elements into a single entity or create custom types that align more closely with the problem you're trying to solve. Understanding these types is crucial for writing modular, efficient, and maintainable code.
 
@@ -294,7 +294,7 @@ int main() {
 
 ----------
 
-### 2. **Classes (`class`)**:
+### [**Classes (`class`)**](#classes-class):
 
 A **class** is a user-defined data type that is similar to a structure but with additional capabilities, such as **encapsulation**, **inheritance**, and **polymorphism**. Classes are the foundation of object-oriented programming (OOP) in C++. They allow you to model real-world entities with both data (attributes) and functions (methods) that operate on the data.
 
@@ -357,7 +357,7 @@ int main() {
 
 ----------
 
-### 3. **Unions (`union`)**:
+### [**Unions (`union`)**](#unions-union):
 
 A **union** is a special data type that allows you to store different data types in the same memory location. Unlike a structure, where each member has its own memory location, all members of a union share the same memory space. The size of the union is the size of its largest member.
 
@@ -405,7 +405,7 @@ int main() {
 
 ----------
 
-### 4. **Enumerations (`enum`)**:
+### [**Enumerations (`enum`)**](#enumerations-enum):
 
 An **enumeration** is a user-defined data type that consists of a set of named integer constants. It is used to represent a collection of related constants in a more readable and maintainable way. Enums can make the code more expressive and easier to understand.
 
@@ -445,7 +445,7 @@ int main() {
 
 ----------
 
-### 5. **Typedefs and `using` (Type Aliases)**:
+### [**Typedefs and `using` (Type Aliases)**](typedefs-and-using-type-aliases):
 
 **Typedef** and **`using`** are used to define new names (aliases) for existing types, making code more readable and easier to maintain. **Typedef** was the traditional way to create type aliases, but **`using`** is more modern and preferred.
 
