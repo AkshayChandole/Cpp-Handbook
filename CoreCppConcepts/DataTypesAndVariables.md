@@ -490,7 +490,7 @@ int main() {
 
 ----------
 
-### Key Differences Between Structures and Classes:
+### [Key Differences Between Structures and Classes](#key-differences-between-structures-and-classes):
 
  | Feature | `struct` | `class` |
  |--------------------|-------------------------------|-------------------------------|
