@@ -1,5 +1,5 @@
 
-# Data Types and Variables
+# [Data Types and Variables](#data-types-and-variables)
 In C++, **data types** define the kind of data a variable can hold. Each variable has a type, and the type dictates what operations can be performed on that variable and how much memory it consumes. C++ is a statically-typed language, meaning the type of a variable is defined at compile time.
 
 Variables are used to store data values in a program. Each variable has a specific data type that determines the kind of data it can hold, such as integers, floating-point numbers, characters, etc.
