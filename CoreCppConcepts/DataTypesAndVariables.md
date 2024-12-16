@@ -5,8 +5,10 @@ In C++, **data types** define the kind of data a variable can hold. Each variabl
 Variables are used to store data values in a program. Each variable has a specific data type that determines the kind of data it can hold, such as integers, floating-point numbers, characters, etc.
 
 They are classified as -
-(i) [Primitive Data Types](#primitive-data-types)
-(B) [User-Defined Data Types](#user-defined-data-types)
+
+(A) [**Primitive Data Types**](#primitive-data-types)
+
+(B) [**User-Defined Data Types**](#user-defined-data-types)
 
 ---
 
