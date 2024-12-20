@@ -69,9 +69,17 @@ Let’s dive into each subtopic in detail:
          - [3.5.2.5 Comparing Strings](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CoreCppConcepts/ArraysAndStrings.md#3525-comparing-strings)
          
 
-   - [3.6 Pointers and References](#pointers-and-references)  
-     - [3.6.1 Basics of Pointers](#basics-of-pointers)  
-     - [3.6.2 Dynamic Memory Allocation](#dynamic-memory-allocation)  
-     - [3.6.3 Pointer Arithmetic](#pointer-arithmetic)  
+- [3.6 Pointers and References](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CoreCppConcepts/PointersAndReferences.md#36-pointers-and-references)
+  - [3.6.1 Pointers](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CoreCppConcepts/PointersAndReferences.md#361-pointers)
+    - [3.6.1.1 Declaring and Initializing Pointers](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CoreCppConcepts/PointersAndReferences.md#3611-declaring-and-initializing-pointers)
+    - [3.6.1.2 Pointer Arithmetic](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CoreCppConcepts/PointersAndReferences.md#3612-pointer-arithmetic)
+    - [3.6.1.3 Null and Dangling Pointers](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CoreCppConcepts/PointersAndReferences.md#3613-null-and-dangling-pointers)
+    - [3.6.1.4 Dynamic Memory Allocation](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CoreCppConcepts/PointersAndReferences.md#3614-dynamic-memory-allocation)
+    - [3.6.1.5 Function Pointers](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CoreCppConcepts/PointersAndReferences.md#3615-function-pointers)
+  - [3.6.2 References](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CoreCppConcepts/PointersAndReferences.md#362-references)
+    - [3.6.2.1 Declaring and Using References](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CoreCppConcepts/PointersAndReferences.md#3621-declaring-and-using-references)
+    - [3.6.2.2 Passing by Reference](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CoreCppConcepts/PointersAndReferences.md#3622-passing-by-reference)
+    - [3.6.2.3 Reference as Return Value](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CoreCppConcepts/PointersAndReferences.md#3623-reference-as-return-value)
+  - [3.6.3 Pointers vs. References](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CoreCppConcepts/PointersAndReferences.md#363-pointers-vs-references)
 
 ---
