@@ -125,7 +125,7 @@ int main() {
 
 ---
 
-### [**3.3.1.5 switch Statement**](#switch-statement)
+### [**3.3.1.5 switch Statement**](#3315-switch-statement)
 The `switch` statement selects one of many code blocks to execute based on the value of an expression.
 
 **Syntax**:
