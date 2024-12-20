@@ -4,7 +4,7 @@ Operators in C++ perform specific operations on operands. They are the backbone 
 
 ---
 
-## [**3.2.1 Arithmetic Operators**](#arithmetic-operators)
+## [**3.2.1 Arithmetic Operators**](#321-arithmetic-operators)
 
 These operators perform basic arithmetic operations.
 
@@ -69,7 +69,7 @@ int main() {
 
 ---
 
-## [**3.2.3 Logical Operators**](#logical-operators)
+## [**3.2.3 Logical Operators**](#323-logical-operators)
 
 These are used to combine or invert boolean expressions.
 
@@ -97,7 +97,7 @@ int main() {
 
 ---
 
-## [**3.2.4 Bitwise Operators**](#bitwise-operators)
+## [**3.2.4 Bitwise Operators**](#324-bitwise-operators)
 
 Operate at the bit level.
 
@@ -131,7 +131,7 @@ int main() {
 
 ---
 
-## [**3.2.5 Assignment Operators**](#assignment-operators)
+## [**3.2.5 Assignment Operators**](#325-assignment-operators)
 
 These assign values to variables and can combine with arithmetic operators.
 
@@ -164,7 +164,7 @@ int main() {
 
 ---
 
-## [**3.2.6 Increment and Decrement Operators**](#increment-and-decrement-operators)
+## [**3.2.6 Increment and Decrement Operators**](#326-increment-and-decrement-operators)
 
 These increase or decrease a variable's value by 1.
 
@@ -191,7 +191,7 @@ int main() {
 
 ---
 
-## [**3.2.7 Ternary Operator**](#ternary-operator)
+## [**3.2.7 Ternary Operator**](#327-ternary-operator)
 
 A compact way to write an if-else condition.
 
@@ -216,7 +216,7 @@ int main() {
 
 ---
 
-## [**3.2.8 Special Operators**](#special-operators)
+## [**3.2.8 Special Operators**](#328-special-operators)
 
 1. **`sizeof`:** Returns the size of a data type or variable.
    ```cpp
