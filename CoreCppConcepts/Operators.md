@@ -4,7 +4,7 @@ Operators in C++ perform specific operations on operands. They are the backbone 
 
 ---
 
-### **3.2.1 Arithmetic Operators**
+### [**3.2.1 Arithmetic Operators**](#arithmetic-operators)
 
 These operators perform basic arithmetic operations.
 
