@@ -6,11 +6,11 @@ C++ is an object-oriented language, and mastering OOP is critical for writing mo
 
 ### Table of Contents
 
-[4.1 Principles of OOP]()
-- [4.1.1 Encapsulation]()  
-- [4.1.2 Abstraction]()  
-- [4.1.3 Inheritance]()  
-- [4.1.4 Polymorphism]()  
+[4.1 Principles of OOP](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/ObjectOrientedProgramming/PrinciplesOfOOP.md#41-principles-of-oop)
+- [4.1.1 Encapsulation](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/ObjectOrientedProgramming/PrinciplesOfOOP.md#411-encapsulation)  
+- [4.1.2 Abstraction](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/ObjectOrientedProgramming/PrinciplesOfOOP.md#412-abstraction)  
+- [4.1.3 Inheritance](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/ObjectOrientedProgramming/PrinciplesOfOOP.md#413-inheritance)  
+- [4.1.4 Polymorphism](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/ObjectOrientedProgramming/PrinciplesOfOOP.md#414-polymorphism)  
 
 [4.2 Classes and Objects]()
 - [4.2.1 Defining a Class]()  
