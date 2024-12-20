@@ -247,7 +247,7 @@ int main() {
 
 ---
 
-## [**Best Practices**](best-practices)
+## [**Best Practices**](#best-practices)
 
 ### **What to Do:**
 1. Use `std::string` over character arrays for safer and more flexible string manipulation.
