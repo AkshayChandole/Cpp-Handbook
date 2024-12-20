@@ -3,7 +3,7 @@
 Control flow determines the execution order of statements or blocks in a program. It is one of the most fundamental concepts in programming, allowing conditional execution, loops, and decisions based on logic.
 
 Control flow in C++ can be categorized into the following:
-1. **Conditional Statements**: Decide which block of code to execute.
+1. [**Conditional Statements**](#331-conditional-statements): Decide which block of code to execute.
 2. **Looping Statements**: Repeat a block of code multiple times.
 3. **Jump Statements**: Alter the flow of control explicitly.
 
