@@ -37,7 +37,7 @@ int main() {
 
 ---
 
-## [**3.2.2 Relational (Comparison) Operators**](#relational-comparison-operators)
+## [**3.2.2 Relational (Comparison) Operators**](#322-relational-comparison-operators)
 
 These compare two values and return a boolean result (`true` or `false`).
 
