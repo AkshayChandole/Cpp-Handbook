@@ -6,7 +6,7 @@ Let's dive deep into all aspects of functions in C++.
 
 ---
 
-## [**3.4.1 Function Declaration and Definition**](341-function-declaration-and-definition)
+## [**3.4.1 Function Declaration and Definition**](#341-function-declaration-and-definition)
 
 ### **Function Declaration**  
 A function declaration (or prototype) tells the compiler about the function's name, return type, and parameters, without providing the actual body of the function. It’s used to declare the existence of the function so it can be used before its definition.
