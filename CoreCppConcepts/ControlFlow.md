@@ -279,7 +279,7 @@ int main() {
 
 ---
 
-## [**3.3.3 Jump Statements](#333-jump-statements)
+## [3.3.3 Jump Statements](#333-jump-statements)
 
 ### [**3.3.3.1 break**](#3331-break)
 Exits the current loop or switch statement.
