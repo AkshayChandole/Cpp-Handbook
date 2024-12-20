@@ -37,7 +37,7 @@ int main() {
 
 ---
 
-## [**3.2.2 Relational (Comparison) Operators**](relational-comparison-operators)
+## [**3.2.2 Relational (Comparison) Operators**](#relational-comparison-operators)
 
 These compare two values and return a boolean result (`true` or `false`).
 
@@ -69,7 +69,7 @@ int main() {
 
 ---
 
-## [**3.2.3 Logical Operators**](logical-operators)
+## [**3.2.3 Logical Operators**](#logical-operators)
 
 These are used to combine or invert boolean expressions.
 
