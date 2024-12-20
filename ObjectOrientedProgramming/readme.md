@@ -43,7 +43,7 @@ C++ is an object-oriented language, and mastering OOP is critical for writing mo
   - [4.4.2.1 Virtual Functions]()  
   - [4.4.2.2 Pure Virtual Functions]()  
 
-[4.5 Special Member Functions]
+[4.5 Special Member Functions]()
 - [4.5.1 Copy Assignment Operator]()  
 - [4.5.2 Move Constructor and Move Assignment]()  
 
