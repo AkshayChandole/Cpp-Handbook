@@ -111,7 +111,7 @@ C++ provides robust string handling through the STL class `std::string`, which o
 
 ---
 
-### [**3.5.2.1 Character Arrays vs. `std::string`**](#3521-character-arrays-vs-std-string)
+### [**3.5.2.1 Character Arrays vs. `std::string`**](#3521-character-arrays-vs-stdstring)
 1. **Character Array**: Fixed-size, manually managed null-terminated strings.
 2. **`std::string`**: Dynamically-sized, safer, and feature-rich.
 
@@ -137,7 +137,7 @@ int main() {
 
 ---
 
-### [**3.5.2.2 Common Operations on `std::string`**](#3522-common-operations-on-std-string)
+### [**3.5.2.2 Common Operations on `std::string`**](#3522-common-operations-on-stdstring)
 The `std::string` class provides a variety of useful methods for string manipulation.
 
 **Example:**
