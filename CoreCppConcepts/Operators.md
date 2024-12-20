@@ -4,7 +4,7 @@ Operators in C++ perform specific operations on operands. They are the backbone 
 
 ---
 
-### [**3.2.1 Arithmetic Operators**](#arithmetic-operators)
+## [**3.2.1 Arithmetic Operators**](#arithmetic-operators)
 
 These operators perform basic arithmetic operations.
 
@@ -16,7 +16,7 @@ These operators perform basic arithmetic operations.
 | `/`      | Division          | `a / b`        |
 | `%`      | Modulus (remainder)| `a % b`        |
 
-#### **Example:**
+### **Example:**
 
 ```cpp
 #include <iostream>
@@ -37,7 +37,7 @@ int main() {
 
 ---
 
-### **3.2.2 Relational (Comparison) Operators**
+## [**3.2.2 Relational (Comparison) Operators**](relational-comparison-operators)
 
 These compare two values and return a boolean result (`true` or `false`).
 
@@ -50,7 +50,7 @@ These compare two values and return a boolean result (`true` or `false`).
 | `>=`     | Greater than or equal to | `a >= b` |
 | `<=`     | Less than or equal to   | `a <= b` |
 
-#### **Example:**
+### **Example:**
 ```cpp
 #include <iostream>
 using namespace std;
@@ -69,7 +69,7 @@ int main() {
 
 ---
 
-### **3.2.3 Logical Operators**
+## [**3.2.3 Logical Operators**](logical-operators)
 
 These are used to combine or invert boolean expressions.
 
@@ -79,7 +79,7 @@ These are used to combine or invert boolean expressions.
 | `||`     | Logical OR                 | `(a > b) || (b > c)` |
 | `!`      | Logical NOT                | `!(a > b)`      |
 
-#### **Example:**
+### **Example:**
 ```cpp
 #include <iostream>
 using namespace std;
@@ -97,7 +97,7 @@ int main() {
 
 ---
 
-### **3.2.4 Bitwise Operators**
+## [**3.2.4 Bitwise Operators**](#bitwise-operators)
 
 Operate at the bit level.
 
@@ -110,7 +110,7 @@ Operate at the bit level.
 | `<<`     | Left Shift        | `a << 1`     |
 | `>>`     | Right Shift       | `a >> 1`     |
 
-#### **Example:**
+### **Example:**
 ```cpp
 #include <iostream>
 using namespace std;
@@ -131,7 +131,7 @@ int main() {
 
 ---
 
-### **3.2.5 Assignment Operators**
+## [**3.2.5 Assignment Operators**](#assignment-operators)
 
 These assign values to variables and can combine with arithmetic operators.
 
@@ -144,7 +144,7 @@ These assign values to variables and can combine with arithmetic operators.
 | `/=`     | Divide and assign | `a /= b`  |
 | `%=`     | Modulus and assign| `a %= b`  |
 
-#### **Example:**
+### **Example:**
 ```cpp
 #include <iostream>
 using namespace std;
@@ -164,7 +164,7 @@ int main() {
 
 ---
 
-### **3.2.6 Increment and Decrement Operators**
+## [**3.2.6 Increment and Decrement Operators**](#increment-and-decrement-operators)
 
 These increase or decrease a variable's value by 1.
 
@@ -173,7 +173,7 @@ These increase or decrease a variable's value by 1.
 | `++`     | Increment by 1         | `a++` or `++a` |
 | `--`     | Decrement by 1         | `a--` or `--a` |
 
-#### **Example:**
+### **Example:**
 ```cpp
 #include <iostream>
 using namespace std;
@@ -191,7 +191,7 @@ int main() {
 
 ---
 
-### **3.2.7 Ternary Operator**
+## [**3.2.7 Ternary Operator**](#ternary-operator)
 
 A compact way to write an if-else condition.
 
@@ -199,7 +199,7 @@ A compact way to write an if-else condition.
 |-----------------------|------------------------------|
 | `condition ? trueVal : falseVal;` | If `condition` is true, returns `trueVal`; otherwise, `falseVal`. |
 
-#### **Example:**
+### **Example:**
 ```cpp
 #include <iostream>
 using namespace std;
@@ -216,7 +216,7 @@ int main() {
 
 ---
 
-### **3.2.8 Special Operators**
+## [**3.2.8 Special Operators**](#special-operators)
 
 1. **`sizeof`:** Returns the size of a data type or variable.
    ```cpp
