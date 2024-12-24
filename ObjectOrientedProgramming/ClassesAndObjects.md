@@ -248,3 +248,51 @@ Destructor called
 ```
 
 ---
+
+### [**4.2.5 Best Practices**](#425-best-practices)
+
+-   Use meaningful names for classes and objects.
+-   Keep class members private or protected to ensure encapsulation.
+-   Use constructors to initialize data members.
+-   Avoid large and complex methods within classes; keep methods focused and concise.
+
+----------
+
+### [**4.2.6 Exceptional Cases and Edge Scenarios**](#426-exceptional-cases-and-edge-scenarios)
+
+1.  **Default Access Modifier**:
+    
+    -   The default access modifier in a class is `private`. If you omit the access specifier, members will be private by default.
+    -   Example:
+        
+        ```cpp
+        class Test {
+            int x; // private by default
+        public:
+            void setX(int value) { x = value; }
+        };
+        
+        ```
+        
+2.  **Memory Management**:
+    
+    -   Objects created dynamically using `new` require manual deallocation using `delete`.
+    -   Example:
+        
+        ```cpp
+        Person* p = new Person();
+        delete p; // Free memory
+        
+        ```
+        
+3.  **Multiple Objects**:
+    
+    -   You can create multiple objects of the same class, and each object will have its own copy of data members.
+4.  **Object Slicing**:
+    
+    -   When assigning an object of a derived class to a base class object, only the base part is copied. This is called **object slicing**.
+
+----------
+
+
+
