@@ -171,6 +171,52 @@ int main() {
 }
 ```
 
+**Example: Compile-Time Polymorphism (Function Overloading):**
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class Complex {
+private:
+    double real;
+    double imag;
+
+public:
+    // Constructor
+    Complex(double r = 0, double i = 0) : real(r), imag(i) {}
+
+    // Overload the + operator
+    Complex operator+(const Complex& other) const {
+        return Complex(real + other.real, imag + other.imag);
+    }
+
+    // Function to display the complex number
+    void display() const {
+        cout << real << " + " << imag << "i" << endl;
+    }
+};
+
+int main() {
+    Complex c1(3.5, 2.5);
+    Complex c2(1.5, 4.5);
+
+    // Using the overloaded + operator
+    Complex c3 = c1 + c2;
+
+    cout << "Complex Number 1: ";
+    c1.display(); // Output: 3.5 + 2.5i
+
+    cout << "Complex Number 2: ";
+    c2.display(); // Output: 1.5 + 4.5i
+
+    cout << "Sum of Complex Numbers: ";
+    c3.display(); // Output: 5.0 + 7.0i
+
+    return 0;
+}
+```
+
 **Example: Runtime Polymorphism (Virtual Functions):**
 
 ```cpp
