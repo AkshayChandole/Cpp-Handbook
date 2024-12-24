@@ -45,9 +45,13 @@ C++ is an object-oriented language, and mastering OOP is critical for writing mo
   - [4.4.2.1 Virtual Functions](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/ObjectOrientedProgramming/Polymorphism.md#4421-virtual-functions)  
   - [4.4.2.2 Function Overriding](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/ObjectOrientedProgramming/Polymorphism.md#4422-function-overriding)  
 
-[4.5 Special Member Functions]()
-- [4.5.1 Copy Assignment Operator]()  
-- [4.5.2 Move Constructor and Move Assignment]()  
+[4.5 Special Member Functions](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/ObjectOrientedProgramming/SpecialMemberFunctions.md#45-special-member-functions)
+- [4.5.1 Default Constructor](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/ObjectOrientedProgramming/SpecialMemberFunctions.md#451-default-constructor)  
+- [4.5.2 Copy Constructor](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/ObjectOrientedProgramming/SpecialMemberFunctions.md#452-copy-constructor)  
+- [4.5.3 Copy Assignment Operator](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/ObjectOrientedProgramming/SpecialMemberFunctions.md#453-copy-assignment-operator)  
+- [4.5.4 Move Constructor](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/ObjectOrientedProgramming/SpecialMemberFunctions.md#454-move-constructor)  
+- [4.5.5 Move Assignment Operator](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/ObjectOrientedProgramming/SpecialMemberFunctions.md#455-move-assignment-operator)
+- [4.5.6 Destructor](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/ObjectOrientedProgramming/SpecialMemberFunctions.md#456-destructor)  
 
 [4.6 Advanced OOP Features]()  
 - [4.6.1 Friend Functions and Classes]()  
