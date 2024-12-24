@@ -171,7 +171,7 @@ int main() {
 }
 ```
 
-**Example: Compile-Time Polymorphism (Function Overloading):**
+**Example: Compile-Time Polymorphism (Operator Overloading):**
 
 ```cpp
 #include <iostream>
