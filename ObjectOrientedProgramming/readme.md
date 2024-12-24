@@ -61,12 +61,12 @@ C++ is an object-oriented language, and mastering OOP is critical for writing mo
 - [4.6.3 Nested Classes](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/ObjectOrientedProgramming/AdvancedOOPFeatures.md#463-nested-classes)  
 - [4.6.4 Abstract Classes and Interfaces](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/ObjectOrientedProgramming/AdvancedOOPFeatures.md#464-abstract-classes-and-interfaces)  
 
-[4.7 Best Practices in OOP]()
-- [4.7.1 Code Reusability and DRY Principle]()  
-- [4.7.2 Favor Composition Over Inheritance]()  
-- [4.7.3 Avoid Overusing Friends]()  
-- [4.7.4 Ensure Proper Use of Access Modifiers]()  
-- [4.7.5 Avoid Code Smells]()  
+[4.7 Best Practices in OOP](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/ObjectOrientedProgramming/BestPracticesInOOP.md#47-best-practices-in-oop)
+- [4.7.1 Code Reusability and DRY Principle](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/ObjectOrientedProgramming/BestPracticesInOOP.md#471-code-reusability-and-dry-principle)  
+- [4.7.2 Favor Composition Over Inheritance](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/ObjectOrientedProgramming/BestPracticesInOOP.md#472-favor-composition-over-inheritance)  
+- [4.7.3 Avoid Overusing Friends](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/ObjectOrientedProgramming/BestPracticesInOOP.md#473-avoid-overusing-friends)  
+- [4.7.4 Ensure Proper Use of Access Modifiers](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/ObjectOrientedProgramming/BestPracticesInOOP.md#474-ensure-proper-use-of-access-modifiers)  
+- [4.7.5 Avoid Code Smells](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/ObjectOrientedProgramming/BestPracticesInOOP.md#475-avoid-code-smells)  
 
 [4.8 Exceptional Cases and Edge Scenarios]()
 - [4.8.1 Diamond Problem in Multiple Inheritance]()  
