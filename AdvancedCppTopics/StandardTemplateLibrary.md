@@ -1,14 +1,19 @@
 # [5.7 Standard Template Library (STL)](#57-standard-template-library-stl)
 The Standard Template Library (STL) is a powerful library in C++ that provides a collection of template classes and functions designed to make working with data structures and algorithms easier and more efficient. STL includes containers, iterators, algorithms, and function objects (functors).
 
-Sure! Here are the improved code examples with commonly used methods for each container and their expected outputs included in the comments.
-
 ---
 
 
 ## [5.7.1.1 Sequential Containers](#5711-sequential-containers)
 
 ### [5.7.1.1.1 `std::vector`](#57111-stdvector)
+
+**Description:** A `std::vector` is a dynamic array that can grow or shrink in size. It provides fast random access to elements.
+
+**Characteristics:**
+- **Access Time:** O(1) for accessing elements by index.
+- **Insertions/Deletions:** Inserting/removing elements at the end is fast (O(1)), but inserting/removing elements at the beginning or in the middle is slow (O(n)).
+- **Memory:** Contiguous memory layout, which is cache-friendly.
 
 ```cpp
 #include <iostream>
@@ -45,6 +50,14 @@ int main() {
 ```
 
 ### [5.7.1.1.2 `std::deque`](#57112-stddeque)
+
+**Description:** A `std::deque` (double-ended queue) allows fast insertions and deletions at both ends.
+
+**Characteristics:**
+- Access Time: O(1) for accessing elements by index.
+- Insertions/Deletions: O(1) for inserting or deleting elements at both ends, but O(n) for inserting/removing in the middle.
+- Memory: Non-contiguous memory layout.
+
 
 ```cpp
 #include <iostream>
@@ -83,7 +96,14 @@ int main() {
 // Deque elements: 1 2
 ```
 
-### 5.7.1.1.3 `std::list`
+### [5.7.1.1.3 `std::list`](#57113-stdlist)
+
+**Description:** A `std::list` is a doubly linked list that allows efficient insertions and deletions from both ends and in the middle.
+
+**Characteristics:**
+- **Access Time:** O(n) for accessing elements by index (since it is not contiguous).
+- **Insertions/Deletions:** O(1) for inserting/removing elements anywhere in the list (given an iterator).
+- **Memory:** Each element is linked to the next, so it is non-contiguous in memory.
 
 ```cpp
 #include <iostream>
@@ -121,9 +141,17 @@ int main() {
 
 ---
 
-## 5.7.1.2 Associative Containers
+## [5.7.1.2 Associative Containers](#5712-associative-containers)
+Associative containers store elements in key-value pairs and automatically order the elements by their keys. They provide fast lookup, insertion, and deletion based on the key.
 
-### 5.7.1.2.1 `std::set`
+
+### [5.7.1.2.1 `std::set`](#57121-stdset)
+**Description:** A `std::set` is a collection of unique elements, automatically ordered by their value.
+
+**Characteristics:**
+- **Access Time:** O(log n) for searching, insertion, and deletion.
+- **Order:** Elements are automatically sorted.
+- **Duplicates:** Does not allow duplicate values.
 
 ```cpp
 #include <iostream>
