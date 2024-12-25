@@ -20,12 +20,12 @@ The Advanced C++ Topics section delves into more sophisticated features of the l
 - [5.2.4 Exception Safety Levels](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/AdvancedCppTopics/ExceptionHandling.md#524-exception-safety-levels)  
 - [5.2.5 noexcept Specifier](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/AdvancedCppTopics/ExceptionHandling.md#525-noexcept-specifier)  
 
-[**5.3 Type Casting**]()
-- [5.3.1 C-Style Casts](#531-c-style-casts)  
-- [5.3.2 Static Cast](#532-static-cast)  
-- [5.3.3 Dynamic Cast](#533-dynamic-cast)  
-- [5.3.4 Const Cast](#534-const-cast)  
-- [5.3.5 Reinterpret Cast](#535-reinterpret-cast)  
+[**5.3 Type Casting**](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/AdvancedCppTopics/TypeCasting.md#53-type-casting)
+- [5.3.1 C-Style Casts](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/AdvancedCppTopics/TypeCasting.md#531-c-style-cast)  
+- [5.3.2 Static Cast](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/AdvancedCppTopics/TypeCasting.md#532-static-cast)  
+- [5.3.3 Dynamic Cast](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/AdvancedCppTopics/TypeCasting.md#533-dynamic-cast)  
+- [5.3.4 Const Cast](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/AdvancedCppTopics/TypeCasting.md#534-const-cast)  
+- [5.3.5 Reinterpret Cast](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/AdvancedCppTopics/TypeCasting.md#535-reinterpret-cast)  
 
 [**5.4 Smart Pointers**]()
 - [5.4.1 Unique Pointers (`std::unique_ptr`)](#541-unique-pointers-stdunique_ptr)  
