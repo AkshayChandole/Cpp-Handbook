@@ -186,7 +186,14 @@ int main() {
 // Set elements: 1 2 3 4
 ```
 
-### 5.7.1.2.2 `std::map`
+### [5.7.1.2.2 `std::map`](#57122-stdmap)
+
+**Description:** A `std::map` is a collection of key-value pairs where keys are unique and are stored in a sorted order.
+
+**Characteristics:**
+- **Access Time:** O(log n) for searching, insertion, and deletion.
+- **Order:** Keys are sorted automatically.
+- **Duplicates:** Does not allow duplicate keys.
 
 ```cpp
 #include <iostream>
@@ -221,7 +228,14 @@ int main() {
 // Charlie: 35
 ```
 
-### 5.7.1.2.3 `std::multiset`
+### [5.7.1.2.3 `std::multiset`](#57123-stdmultiset)
+
+**Description:** A `std::multiset` is similar to `std::set`, but it allows duplicate elements.
+
+**Characteristics:**
+- **Access Time:** O(log n) for searching, insertion, and deletion.
+- **Order:** Elements are automatically sorted.
+- **Duplicates:** Allows duplicate values.
 
 ```cpp
 #include <iostream>
@@ -249,7 +263,14 @@ int main() {
 // Multiset elements: 1 2 2 2 3
 ```
 
-### 5.7.1.2.4 `std::multimap`
+### [5.7.1.2.4 `std::multimap`](#57124-stdmultimap)
+
+**Description:** A `std::multimap` is similar to `std::map`, but it allows duplicate keys.
+
+**Characteristics:**
+- **Access Time:** O(log n) for searching, insertion, and deletion.
+- **Order:** Keys are sorted automatically.
+- **Duplicates:** Allows duplicate keys.
 
 ```cpp
 #include <iostream>
