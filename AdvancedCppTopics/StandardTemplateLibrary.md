@@ -303,9 +303,18 @@ int main() {
 
 ---
 
-## 5.7.1.3 Unordered Containers
+## [5.7.1.3 Unordered Containers](#5713-unordered-containers)
 
-### 5.7.1.3.1 `std::unordered_set`
+Unordered containers store elements in an unordered fashion, usually for faster average time complexity for lookup, insertion, and deletion operations (using hash tables).
+
+### [5.7.1.3.1 `std::unordered_set`](#57131-stdunordered_set)
+
+**Description:** A `std::unordered_set` is a collection of unique elements stored without any specific order.
+
+**Characteristics:**
+- **Access Time:** O(1) on average for searching, insertion, and deletion.
+- **Order:** No guaranteed order.
+- **Duplicates:** Does not allow duplicate values.
 
 ```cpp
 #include <iostream>
@@ -339,7 +348,14 @@ int main() {
 // Unordered set elements: 1 2 3 4
 ```
 
-### 5.7.1.3.2 `std::unordered_map`
+### [5.7.1.3.2 `std::unordered_map`](#57132-stdunordered_map)
+
+**Description:** A std::unordered_map is a collection of key-value pairs, where keys are unique and stored in an unordered fashion.
+
+**Characteristics:**
+- **Access Time:** O(1) on average for searching, insertion, and deletion.
+- **Order:** No guaranteed order.
+- **Duplicates:** Does not allow duplicate keys.
 
 ```cpp
 #include <iostream>
@@ -375,7 +391,14 @@ int main() {
 // Charlie: 35
 ```
 
-### 5.7.1.3.3 `std::unordered_multiset`
+### [5.7.1.3.3 `std::unordered_multiset`](#57133-stdunordered_multiset)
+
+**Description:** A std::unordered_multiset allows duplicate elements but does not guarantee any specific order.
+
+**Characteristics:**
+- **Access Time:** O(1) on average for searching, insertion, and deletion.
+- **Order:** No guaranteed order.
+- **Duplicates:** Allows duplicate values.
 
 ```cpp
 #include <iostream>
@@ -405,7 +428,14 @@ int main() {
 // Unordered multiset elements: 1 2 2 2 3
 ```
 
-### 5.7.1.3.4 `std::unordered_multimap`
+### [5.7.1.3.4 `std::unordered_multimap`](#57134-stdunordered_multimap)
+
+**Description:** A std::unordered_multimap is similar to std::unordered_map, but it allows duplicate keys.
+
+**Characteristics:**
+- **Access Time:** O(1) on average for searching, insertion, and deletion.
+- **Order:** No guaranteed order.
+- **Duplicates:** Allows duplicate keys.
 
 ```cpp
 #include <iostream>
