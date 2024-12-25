@@ -13,12 +13,12 @@ The Advanced C++ Topics section delves into more sophisticated features of the l
 - [5.1.4 Template Specialization](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/AdvancedCppTopics/Templates.md#514-template-specialization)  
 - [5.1.5 Template Metaprogramming](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/AdvancedCppTopics/Templates.md#515-template-metaprogramming)  
 
-[**5.2 Exception Handling**]()
-- [5.2.1 Try, Catch, and Throw](#521-try-catch-and-throw)  
-- [5.2.2 Standard Exceptions](#522-standard-exceptions)  
-- [5.2.3 Custom Exceptions](#523-custom-exceptions)  
-- [5.2.4 Exception Safety Levels](#524-exception-safety-levels)  
-- [5.2.5 noexcept Specifier](#525-noexcept-specifier)  
+[**5.2 Exception Handling**](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/AdvancedCppTopics/ExceptionHandling.md#52-exception-handling)
+- [5.2.1 Try, Catch, and Throw](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/AdvancedCppTopics/ExceptionHandling.md#521-try-catch-and-throw)  
+- [5.2.2 Standard Exceptions](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/AdvancedCppTopics/ExceptionHandling.md#522-standard-exceptions)  
+- [5.2.3 Custom Exceptions](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/AdvancedCppTopics/ExceptionHandling.md#523-custom-exceptions)  
+- [5.2.4 Exception Safety Levels](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/AdvancedCppTopics/ExceptionHandling.md#524-exception-safety-levels)  
+- [5.2.5 noexcept Specifier](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/AdvancedCppTopics/ExceptionHandling.md#525-noexcept-specifier)  
 
 [**5.3 Type Casting**]()
 - [5.3.1 C-Style Casts](#531-c-style-casts)  
