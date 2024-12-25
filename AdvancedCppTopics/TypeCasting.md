@@ -178,7 +178,7 @@ int main() {
 
 ---
 
-### Comparison of C++ Casting Mechanisms
+### [Comparison of C++ Casting Mechanisms](#comparison-of-c-casting-mechanisms)
 
 | **Cast Type**       | **Purpose**                                          | **Safety**             | **When to Use**                                       |
 |---------------------|------------------------------------------------------|------------------------|------------------------------------------------------|
