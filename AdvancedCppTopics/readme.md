@@ -42,12 +42,12 @@ The Advanced C++ Topics section delves into more sophisticated features of the l
 - [5.5.6 Lambdas with Mutable](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/AdvancedCppTopics/LambdaFunctions.md#556-lambdas-with-mutable)
 - [5.5.7 Lambdas and Function Objects](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/AdvancedCppTopics/LambdaFunctions.md#557-lambdas-and-function-objects)
 
-[**5.6 Multithreading and Concurrency**]()
-- [5.6.1 Threads in C++ (`std::thread`)](#561-threads-in-c-stdthread)  
-- [5.6.2 Mutex and Locking Mechanisms](#562-mutex-and-locking-mechanisms)  
-- [5.6.3 Condition Variables](#563-condition-variables)  
-- [5.6.4 Futures and Promises](#564-futures-and-promises)  
-- [5.6.5 Thread Pool Implementation](#565-thread-pool-implementation)  
+[**5.6 Multithreading and Concurrency**](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/AdvancedCppTopics/MultithreadingAndConcurrency.md#56-multithreading-and-concurrency)
+- [5.6.1 Threads in C++](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/AdvancedCppTopics/MultithreadingAndConcurrency.md#561-threads-in-c)  
+- [5.6.2 Mutexes and Synchronization](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/AdvancedCppTopics/MultithreadingAndConcurrency.md#562-mutexes-and-synchronization)  
+- [5.6.3 Condition Variables](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/AdvancedCppTopics/MultithreadingAndConcurrency.md#563-condition-variables)  
+- [5.6.4 Thread Safety and Atomic Operations](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/AdvancedCppTopics/MultithreadingAndConcurrency.md#564-thread-safety-and-atomic-operations)
+- [5.6.5 Thread Pools](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/AdvancedCppTopics/MultithreadingAndConcurrency.md#565-thread-pools)  
 
 [**5.7 Standard Template Library (STL)**]()  
 - [5.7.1 Containers](#571-containers)  
