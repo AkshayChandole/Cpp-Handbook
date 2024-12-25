@@ -91,19 +91,30 @@ A **weak pointer** is a smart pointer that **does not own the resource** it poin
 ```cpp
 #include <iostream>
 #include <memory>
+using namespace std;
 
 int main() {
-    std::shared_ptr<int> shared = std::make_shared<int>(42);
-    std::weak_ptr<int> weak = shared; // Observes shared pointer
+    shared_ptr<int> sptr = make_shared<int>(30);
+    weak_ptr<int> wptr = sptr;
 
-    if (auto locked = weak.lock()) {
-        std::cout << "Value: " << *locked << std::endl;
+    cout << "Weak Pointer use count: " << wptr.use_count() << endl;
+    // Output: Weak Pointer use count: 1
+    if (auto spt = wptr.lock()) { // Check if shared_ptr is valid
+        cout << "Weak Pointer value: " << *spt << endl;
+        // Output: Weak Pointer value: 30
     } else {
-        std::cout << "Resource is no longer available." << std::endl;
+        cout << "Weak Pointer is expired" << endl;
+    }
+
+    sptr.reset(); // Release shared_ptr ownership
+    if (wptr.expired()) {
+        cout << "Weak Pointer is expired after reset" << endl;
+        // Output: Weak Pointer is expired after reset
     }
 
     return 0;
 }
+
 ```
 
 **Use Case:**
@@ -123,11 +134,18 @@ The **auto pointer** was an early smart pointer in C++ but has been deprecated i
 ```cpp
 #include <iostream>
 #include <memory>
+using namespace std;
 
 int main() {
-    // Deprecated example
-    std::auto_ptr<int> ptr(new int(42));
-    std::cout << "Value: " << *ptr << std::endl;
+    auto_ptr<int> aptr1(new int(40));
+    cout << "Auto Pointer value: " << *aptr1 << endl;
+    // Output: Auto Pointer value: 40
+
+    auto_ptr<int> aptr2 = aptr1; // Ownership is transferred
+    // cout << *aptr1; // Undefined behavior (ownership lost)
+    cout << "Auto Pointer value after transfer: " << *aptr2 << endl;
+    // Output: Auto Pointer value after transfer: 40
+
     return 0;
 }
 ```
