@@ -467,3 +467,232 @@ int main() {
 ```
 
 ---
+
+
+## [5.7.2 Iterators](#572-iterators)
+
+Iterators in C++ are objects that enable you to traverse through the elements of a container (like vectors, sets, or maps). They are similar to pointers and allow you to read or modify elements in the container. C++ provides several types of iterators, each suited to different use cases.
+
+---
+
+### [5.7.2.1 Input Iterators](#5721-input-iterators)
+
+Input iterators are used for reading the elements of a container one at a time. They only allow access to each element once in a single direction, typically from the beginning to the end.
+
+**Key properties of input iterators**:
+- Can only be used to read values (i.e., they provide "read-only" access).
+- They only support a one-way traversal, i.e., you can only move forward.
+
+**Example**:
+
+```cpp
+#include <iostream>
+#include <vector>
+#include <iterator>
+using namespace std;
+
+int main() {
+    vector<int> vec = {1, 2, 3, 4, 5};
+
+    // Input iterator example using begin and end
+    vector<int>::iterator it = vec.begin();
+    cout << "Input Iterator: ";
+    while (it != vec.end()) {
+        cout << *it << " "; // Output: 1 2 3 4 5
+        ++it; // Move to the next element
+    }
+    cout << endl;
+
+    return 0;
+}
+
+// Output:
+// Input Iterator: 1 2 3 4 5
+```
+
+In the example, the iterator `it` traverses through the vector `vec` and outputs each element. The movement of the iterator is only forward.
+
+---
+
+### [5.7.2.2 Output Iterators](#5722-output-iterators)
+
+Output iterators are used for writing data to a container. You can only assign a value to the location pointed to by the iterator, and you can move forward. They are typically used in scenarios like output streams or modifying containers.
+
+**Key properties of output iterators**:
+- Can only be used for writing data.
+- They only support one-way traversal (forward).
+
+**Example**:
+
+```cpp
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+    vector<int> vec(5);  // Create a vector with 5 elements
+
+    // Output iterator example using begin
+    vector<int>::iterator it = vec.begin();
+    cout << "Output Iterator: ";
+    for (int i = 0; i < 5; ++i) {
+        *it = i + 1;  // Assign values to the vector
+        cout << *it << " "; // Output: 1 2 3 4 5
+        ++it;  // Move to the next element
+    }
+    cout << endl;
+
+    return 0;
+}
+
+// Output:
+// Output Iterator: 1 2 3 4 5
+```
+
+Here, the output iterator `it` is used to write values into the `vec` container, moving through the container from beginning to end.
+
+---
+
+### [5.7.2.3 Forward Iterators](#5723-forward-iterators)
+
+Forward iterators can read or write to the container and can traverse forward. These iterators support reading and modifying elements and can traverse through the container multiple times in a single direction.
+
+**Key properties of forward iterators**:
+- Can be used for both reading and writing elements.
+- They allow forward traversal and can revisit elements if necessary.
+
+**Example**:
+
+```cpp
+#include <iostream>
+#include <list>
+using namespace std;
+
+int main() {
+    list<int> l = {1, 2, 3, 4, 5};
+
+    // Forward iterator example using begin and end
+    list<int>::iterator it = l.begin();
+    cout << "Forward Iterator: ";
+    while (it != l.end()) {
+        cout << *it << " ";  // Output: 1 2 3 4 5
+        ++it;  // Move to the next element
+    }
+    cout << endl;
+
+    return 0;
+}
+
+// Output:
+// Forward Iterator: 1 2 3 4 5
+```
+
+The forward iterator `it` traverses through the list `l`, allowing both reading and moving forward through the elements.
+
+---
+
+### [5.7.2.4 Bidirectional Iterators](#5724-bidirectional-iterators)
+
+Bidirectional iterators can traverse a container both forward and backward. They provide more flexibility than forward iterators as they allow reverse iteration.
+
+**Key properties of bidirectional iterators**:
+- Can read and write values.
+- Can move both forward and backward through the container.
+- Commonly used with containers like `std::list` that support both directions of traversal.
+
+**Example**:
+
+```cpp
+#include <iostream>
+#include <list>
+using namespace std;
+
+int main() {
+    list<int> l = {1, 2, 3, 4, 5};
+
+    // Bidirectional iterator example using begin and rbegin
+    list<int>::iterator it = l.begin();
+    cout << "Bidirectional Iterator (forward): ";
+    while (it != l.end()) {
+        cout << *it << " ";  // Output: 1 2 3 4 5
+        ++it;  // Move forward
+    }
+    cout << endl;
+
+    // Moving backward with reverse iterator
+    list<int>::reverse_iterator rit = l.rbegin();
+    cout << "Bidirectional Iterator (reverse): ";
+    while (rit != l.rend()) {
+        cout << *rit << " ";  // Output: 5 4 3 2 1
+        ++rit;  // Move backward
+    }
+    cout << endl;
+
+    return 0;
+}
+
+// Output:
+// Bidirectional Iterator (forward): 1 2 3 4 5
+// Bidirectional Iterator (reverse): 5 4 3 2 1
+```
+
+In this example, the bidirectional iterator `it` moves forward, and the reverse iterator `rit` moves backward through the `list` container.
+
+---
+
+### [5.7.2.5 Random Access Iterators](#5725-random-access-iterators)
+
+Random access iterators allow you to access elements at any position in the container and can move in any direction, both forward and backward. They are typically used with containers like `std::vector` and `std::deque`, where elements are stored in contiguous memory.
+
+**Key properties of random access iterators**:
+- Can read and write values.
+- Supports moving both forward and backward with constant time complexity (O(1)).
+- Allows accessing elements directly by index.
+
+**Example**:
+
+```cpp
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+    vector<int> vec = {10, 20, 30, 40, 50};
+
+    // Random access iterator example using begin and end
+    vector<int>::iterator it = vec.begin();
+    cout << "Random Access Iterator (forward): ";
+    for (int i = 0; i < vec.size(); ++i) {
+        cout << *(it + i) << " ";  // Output: 10 20 30 40 50 (direct access by index)
+    }
+    cout << endl;
+
+    // Reverse iteration using random access iterator
+    cout << "Random Access Iterator (reverse): ";
+    for (int i = vec.size() - 1; i >= 0; --i) {
+        cout << *(it + i) << " ";  // Output: 50 40 30 20 10 (direct access by index)
+    }
+    cout << endl;
+
+    return 0;
+}
+
+// Output:
+// Random Access Iterator (forward): 10 20 30 40 50
+// Random Access Iterator (reverse): 50 40 30 20 10
+```
+
+In this example, the random access iterator `it` provides direct access to elements in both forward and reverse directions, allowing for efficient random access.
+
+---
+
+## Summary of Iterator Types:
+
+- **Input Iterators**: Can only read values, move forward. (`vector<int>::iterator`)
+- **Output Iterators**: Can only write values, move forward. (`vector<int>::iterator`)
+- **Forward Iterators**: Can read and write, move forward, and revisit elements. (`list<int>::iterator`)
+- **Bidirectional Iterators**: Can read and write, move forward and backward. (`list<int>::iterator`)
+- **Random Access Iterators**: Can read and write, move forward and backward, and access elements by index in constant time. (`vector<int>::iterator`)
+
+---
+
