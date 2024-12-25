@@ -4,14 +4,14 @@ In C++, **smart pointers** are objects that manage the lifecycle of dynamically 
 
 This section explores the different types of smart pointers in C++:
 
-- [5.4.1 Unique Pointer (`std::unique_ptr`)](#541-unique-pointer-stduniqueptr)
-- [5.4.2 Shared Pointer (`std::shared_ptr`)](#542-shared-pointer-stdsharedptr)
-- [5.4.3 Weak Pointer (`std::weak_ptr`)](#543-weak-pointer-stdweakptr)
-- [5.4.4 Auto Pointer (`std::auto_ptr`) (Deprecated)](#544-auto-pointer-stdautoptr-deprecated)
+- [5.4.1 Unique Pointer (`std::unique_ptr`)](#541-unique-pointer-stdunique_ptr)
+- [5.4.2 Shared Pointer (`std::shared_ptr`)](#542-shared-pointer-stdshared_ptr)
+- [5.4.3 Weak Pointer (`std::weak_ptr`)](#543-weak-pointer-stdweak_ptr)
+- [5.4.4 Auto Pointer (`std::auto_ptr`) (Deprecated)](#544-auto-pointer-stdauto_ptr-deprecated)
 
 ---
 
-## [5.4.1 Unique Pointer (`std::unique_ptr`)](#541-unique-pointer-stduniqueptr)
+## [5.4.1 Unique Pointer (`std::unique_ptr`)](#541-unique-pointer-stdunique_ptr)
 
 A **unique pointer** is a smart pointer that **owns and manages a dynamically allocated object**. It ensures that only one `std::unique_ptr` object can own the resource at any given time. When the `std::unique_ptr` is destroyed, the resource is automatically deallocated.
 
@@ -43,7 +43,7 @@ int main() {
 
 ---
 
-## [5.4.2 Shared Pointer (`std::shared_ptr`)](#542-shared-pointer-stdsharedptr)
+## [5.4.2 Shared Pointer (`std::shared_ptr`)](#542-shared-pointer-stdshared_ptr)
 
 A **shared pointer** is a smart pointer that **allows multiple shared ownership** of the same dynamically allocated object. The object is destroyed when the last `std::shared_ptr` that owns it is destroyed or reset.
 
@@ -71,7 +71,7 @@ int main() {
 
 ---
 
-## [5.4.3 Weak Pointer (`std::weak_ptr`)](#543-weak-pointer-stdweakptr)
+## [5.4.3 Weak Pointer (`std::weak_ptr`)](#543-weak-pointer-stdweak_ptr)
 
 A **weak pointer** is a smart pointer that **does not own the resource** it points to. It is used to prevent **cyclic dependencies** between `std::shared_ptr` instances, which can cause memory leaks.
 
@@ -103,7 +103,7 @@ int main() {
 
 ---
 
-## [5.4.4 Auto Pointer (`std::auto_ptr`) (Deprecated)](#544-auto-pointer-stdautoptr-deprecated)
+## [5.4.4 Auto Pointer (`std::auto_ptr`) (Deprecated)](#544-auto-pointer-stdauto_ptr-deprecated)
 
 The **auto pointer** was an early smart pointer in C++ but has been deprecated in C++11 and removed in C++17. It is replaced by `std::unique_ptr`.
 
