@@ -68,10 +68,10 @@ C++ is an object-oriented language, and mastering OOP is critical for writing mo
 - [4.7.4 Ensure Proper Use of Access Modifiers](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/ObjectOrientedProgramming/BestPracticesInOOP.md#474-ensure-proper-use-of-access-modifiers)  
 - [4.7.5 Avoid Code Smells](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/ObjectOrientedProgramming/BestPracticesInOOP.md#475-avoid-code-smells)  
 
-[4.8 Exceptional Cases and Edge Scenarios]()
-- [4.8.1 Diamond Problem in Multiple Inheritance]()  
-- [4.8.2 Object Slicing]()  
-- [4.8.3 Destructor in Polymorphic Base Classes]()  
-- [4.8.4 Memory Management and Resource Cleanup]()  
+[4.8 Exceptional Cases and Edge Scenarios](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/ObjectOrientedProgramming/ExceptionalCasesAndEdgeScenarios.md#48-exceptional-cases-and-edge-scenarios)
+- [4.8.1 Diamond Problem in Multiple Inheritance](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/ObjectOrientedProgramming/ExceptionalCasesAndEdgeScenarios.md#481-diamond-problem-in-multiple-inheritance)  
+- [4.8.2 Object Slicing](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/ObjectOrientedProgramming/ExceptionalCasesAndEdgeScenarios.md#482-object-slicing)  
+- [4.8.3 Destructor in Polymorphic Base Classes](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/ObjectOrientedProgramming/ExceptionalCasesAndEdgeScenarios.md#483-destructor-in-polymorphic-base-classes)  
+- [4.8.4 Memory Management and Resource Cleanup](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/ObjectOrientedProgramming/ExceptionalCasesAndEdgeScenarios.md#484-memory-management-and-resource-cleanup)  
 
 ---
