@@ -103,7 +103,7 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 
 ---
 
-### 4. [Object-Oriented Programming (OOP)](#object-oriented-programming)  
+### 4. [Object-Oriented Programming (OOP)](https://github.com/AkshayChandole/Cpp-Handbook/tree/main/ObjectOrientedProgramming#4-object-oriented-programming)  
 
    - [4.1 Principles of OOP](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/ObjectOrientedProgramming/PrinciplesOfOOP.md#41-principles-of-oop)
       - [4.1.1 Encapsulation](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/ObjectOrientedProgramming/PrinciplesOfOOP.md#411-encapsulation)  
