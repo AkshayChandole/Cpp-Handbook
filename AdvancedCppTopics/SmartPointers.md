@@ -23,16 +23,17 @@ A **unique pointer** is a smart pointer that **owns and manages a dynamically al
 ```cpp
 #include <iostream>
 #include <memory>
+using namespace std;
 
 int main() {
-    std::unique_ptr<int> ptr = std::make_unique<int>(42);
-    std::cout << "Value: " << *ptr << std::endl;
+    unique_ptr<int> uptr = make_unique<int>(10);
+    cout << "Unique Pointer value: " << *uptr << endl;
+    // Output: Unique Pointer value: 10
 
-    // Transfer ownership
-    std::unique_ptr<int> newPtr = std::move(ptr);
-    if (!ptr) {
-        std::cout << "Ownership transferred." << std::endl;
-    }
+    // uptr2 = uptr; // Error: unique_ptr cannot be copied
+    unique_ptr<int> uptr2 = move(uptr);
+    cout << "Unique Pointer value after move: " << *uptr2 << endl;
+    // Output: Unique Pointer value after move: 10
 
     return 0;
 }
@@ -55,12 +56,19 @@ A **shared pointer** is a smart pointer that **allows multiple shared ownership*
 ```cpp
 #include <iostream>
 #include <memory>
+using namespace std;
 
 int main() {
-    std::shared_ptr<int> ptr1 = std::make_shared<int>(42);
-    std::shared_ptr<int> ptr2 = ptr1; // Shared ownership
+    shared_ptr<int> sptr1 = make_shared<int>(20);
+    shared_ptr<int> sptr2 = sptr1; // Shared ownership
+    cout << "Shared Pointer value: " << *sptr1 << endl;
+    // Output: Shared Pointer value: 20
+    cout << "Shared Pointer use count: " << sptr1.use_count() << endl;
+    // Output: Shared Pointer use count: 2
 
-    std::cout << "Value: " << *ptr1 << ", Use Count: " << ptr1.use_count() << std::endl;
+    sptr2.reset(); // Release one ownership
+    cout << "Shared Pointer use count after reset: " << sptr1.use_count() << endl;
+    // Output: Shared Pointer use count after reset: 1
 
     return 0;
 }
