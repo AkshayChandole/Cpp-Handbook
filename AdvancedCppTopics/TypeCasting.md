@@ -1,4 +1,4 @@
-### [5.3 Type Casting](#53-type-casting)
+# [5.3 Type Casting](#53-type-casting)
 
 In C++, **type casting** refers to converting one data type to another. C++ provides various mechanisms for type casting, each suited for specific situations. The five primary types of casting in C++ are:
 
@@ -12,7 +12,7 @@ Let's explore each of these casting methods in detail.
 
 ---
 
-#### [**5.3.1 C-Style Cast**](#531-c-style-cast)
+## [**5.3.1 C-Style Cast**](#531-c-style-cast)
 
 The **C-style cast** is the most basic form of casting in C++ and is similar to casting in C. It is the least safe and most ambiguous type of cast. It uses the syntax:
 ```cpp
@@ -39,7 +39,7 @@ In modern C++, **C-style casts** are typically discouraged in favor of more expl
 
 ---
 
-#### [**5.3.2 Static Cast**](#532-static-cast)
+## [**5.3.2 Static Cast**](#532-static-cast)
 
 A **static cast** is the most commonly used cast in C++. It is used for conversions that are known at compile-time and are generally safe (e.g., numeric conversions or converting between related types). **Static cast** performs **compile-time checks** to ensure the conversion is valid.
 
@@ -67,7 +67,7 @@ int main() {
 
 ---
 
-#### [**5.3.3 Dynamic Cast**](#533-dynamic-cast)
+## [**5.3.3 Dynamic Cast**](#533-dynamic-cast)
 
 The **dynamic cast** is primarily used for safe downcasting in polymorphic class hierarchies (i.e., converting a base class pointer or reference to a derived class pointer or reference). It ensures that the cast is valid at runtime and performs **runtime type checks**.
 
@@ -115,7 +115,7 @@ int main() {
 
 ---
 
-#### [**5.3.4 Const Cast**](#534-const-cast)
+## [**5.3.4 Const Cast**](#534-const-cast)
 
 The **const cast** is used to add or remove the `const` qualifier from a variable. This is often used when a function requires a non-const pointer/reference, but the object itself is `const`. **Const cast** does not modify the actual `const`-ness of the object; it only allows casting away the `const` qualifier.
 
@@ -144,7 +144,7 @@ int main() {
 
 ---
 
-#### [**5.3.5 Reinterpret Cast**](#535-reinterpret-cast)
+## [**5.3.5 Reinterpret Cast**](#535-reinterpret-cast)
 
 The **reinterpret cast** is the most powerful and dangerous type of cast in C++. It reinterprets the bit-pattern of an object as if it were of another type. This is useful for low-level operations like type-punning and working with hardware or system resources, but should be used with great caution because it **does not perform any type checking** and can lead to undefined behavior.
 
