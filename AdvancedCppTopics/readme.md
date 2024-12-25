@@ -6,12 +6,12 @@ The Advanced C++ Topics section delves into more sophisticated features of the l
 
 #### Table of Contents
 
-[**5.1 Templates**]()
-- [5.1.1 Function Templates](#511-function-templates)  
-- [5.1.2 Class Templates](#512-class-templates)  
-- [5.1.3 Variadic Templates](#513-variadic-templates)  
-- [5.1.4 Template Specialization](#514-template-specialization)  
-- [5.1.5 Template Metaprogramming](#515-template-metaprogramming)  
+[**5.1 Templates**](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/AdvancedCppTopics/Templates.md#51-templates)
+- [5.1.1 Function Templates](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/AdvancedCppTopics/Templates.md#511-function-templates)  
+- [5.1.2 Class Templates](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/AdvancedCppTopics/Templates.md#512-class-templates)  
+- [5.1.3 Variadic Templates](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/AdvancedCppTopics/Templates.md#513-variadic-templates)  
+- [5.1.4 Template Specialization](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/AdvancedCppTopics/Templates.md#514-template-specialization)  
+- [5.1.5 Template Metaprogramming](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/AdvancedCppTopics/Templates.md#515-template-metaprogramming)  
 
 [**5.2 Exception Handling**]()
 - [5.2.1 Try, Catch, and Throw](#521-try-catch-and-throw)  
