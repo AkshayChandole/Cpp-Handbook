@@ -696,3 +696,184 @@ In this example, the random access iterator `it` provides direct access to eleme
 
 ---
 
+## [5.7.3 Algorithms](#573-algorithms)
+
+The `<algorithm>` header in C++ provides a variety of algorithms to perform operations on data structures. These algorithms simplify common tasks such as searching, sorting, manipulating data, and performing numeric computations.
+
+---
+
+### **[5.7.3.1 Searching Algorithms](#5731-searching-algorithms)**
+
+Searching algorithms in C++ are used to find specific elements in containers. The Standard Library provides functions like `std::find`, `std::binary_search`, etc.
+
+**Example: Searching in a container**
+
+```cpp
+#include <iostream>
+#include <vector>
+#include <algorithm>
+using namespace std;
+
+int main() {
+    vector<int> vec = {10, 20, 30, 40, 50};
+
+    // Linear search using std::find
+    auto it = find(vec.begin(), vec.end(), 30);
+    if (it != vec.end()) {
+        cout << "Element found: " << *it << endl;  // Output: Element found: 30
+    } else {
+        cout << "Element not found" << endl;
+    }
+
+    // Binary search (requires sorted data)
+    bool found = binary_search(vec.begin(), vec.end(), 40);
+    cout << "Binary search result for 40: " << (found ? "Found" : "Not Found") << endl;  // Output: Found
+
+    return 0;
+}
+
+// Output:
+// Element found: 30
+// Binary search result for 40: Found
+```
+
+---
+
+### **[5.7.3.2 Sorting Algorithms](#5732-sorting-algorithms)**
+
+Sorting algorithms reorder the elements in a container. The Standard Library provides functions like `std::sort`, `std::stable_sort`, and `std::partial_sort`.
+
+**Example: Sorting a container**
+
+```cpp
+#include <iostream>
+#include <vector>
+#include <algorithm>
+using namespace std;
+
+int main() {
+    vector<int> vec = {50, 10, 40, 20, 30};
+
+    // Sorting in ascending order
+    sort(vec.begin(), vec.end());
+    cout << "Sorted (ascending): ";
+    for (int val : vec) cout << val << " ";  // Output: 10 20 30 40 50
+    cout << endl;
+
+    // Sorting in descending order
+    sort(vec.rbegin(), vec.rend());
+    cout << "Sorted (descending): ";
+    for (int val : vec) cout << val << " ";  // Output: 50 40 30 20 10
+    cout << endl;
+
+    return 0;
+}
+
+// Output:
+// Sorted (ascending): 10 20 30 40 50
+// Sorted (descending): 50 40 30 20 10
+```
+
+---
+
+### **[5.7.3.3 Manipulation Algorithms](#5733-manipulation-algorithms)**
+
+Manipulation algorithms perform operations like reversing, rotating, or removing elements in a container. Examples include `std::reverse`, `std::rotate`, and `std::remove`.
+
+**Example: Manipulating a container**
+
+```cpp
+#include <iostream>
+#include <vector>
+#include <algorithm>
+using namespace std;
+
+int main() {
+    vector<int> vec = {1, 2, 3, 4, 5};
+
+    // Reversing a container
+    reverse(vec.begin(), vec.end());
+    cout << "Reversed: ";
+    for (int val : vec) cout << val << " ";  // Output: 5 4 3 2 1
+    cout << endl;
+
+    // Rotating a container
+    rotate(vec.begin(), vec.begin() + 2, vec.end());
+    cout << "Rotated: ";
+    for (int val : vec) cout << val << " ";  // Output: 3 2 1 5 4
+    cout << endl;
+
+    // Removing an element
+    vec.erase(remove(vec.begin(), vec.end(), 3), vec.end());
+    cout << "After removing 3: ";
+    for (int val : vec) cout << val << " ";  // Output: 2 1 5 4
+    cout << endl;
+
+    return 0;
+}
+
+// Output:
+// Reversed: 5 4 3 2 1
+// Rotated: 3 2 1 5 4
+// After removing 3: 2 1 5 4
+```
+
+---
+
+### **[5.7.3.4 Numeric Algorithms](#5734-numeric-algorithms)**
+
+Numeric algorithms perform operations like summing elements, calculating partial sums, or generating products. Examples include `std::accumulate`, `std::partial_sum`, and `std::iota`.
+
+**Example: Numeric operations on a container**
+
+```cpp
+#include <iostream>
+#include <vector>
+#include <numeric>
+using namespace std;
+
+int main() {
+    vector<int> vec = {1, 2, 3, 4, 5};
+
+    // Summing all elements
+    int sum = accumulate(vec.begin(), vec.end(), 0);
+    cout << "Sum: " << sum << endl;  // Output: Sum: 15
+
+    // Calculating partial sums
+    vector<int> partialSums(vec.size());
+    partial_sum(vec.begin(), vec.end(), partialSums.begin());
+    cout << "Partial sums: ";
+    for (int val : partialSums) cout << val << " ";  // Output: 1 3 6 10 15
+    cout << endl;
+
+    // Generating sequential values
+    vector<int> seq(5);
+    iota(seq.begin(), seq.end(), 10);  // Start from 10
+    cout << "Sequential values: ";
+    for (int val : seq) cout << val << " ";  // Output: 10 11 12 13 14
+    cout << endl;
+
+    return 0;
+}
+
+// Output:
+// Sum: 15
+// Partial sums: 1 3 6 10 15
+// Sequential values: 10 11 12 13 14
+```
+
+---
+
+## Summary
+
+- **[5.7.3.1 Searching Algorithms](#5731-searching-algorithms)**: Locate elements in a container (e.g., `std::find`, `std::binary_search`).
+- **[5.7.3.2 Sorting Algorithms](#5732-sorting-algorithms)**: Reorder elements (e.g., `std::sort`, `std::stable_sort`).
+- **[5.7.3.3 Manipulation Algorithms](#5733-manipulation-algorithms)**: Modify containers (e.g., `std::reverse`, `std::rotate`, `std::remove`).
+- **[5.7.3.4 Numeric Algorithms](#5734-numeric-algorithms)**: Perform numeric operations (e.g., `std::accumulate`, `std::partial_sum`, `std::iota`).
+
+Each algorithm can significantly simplify operations on data structures and improve code efficiency.
+
+---
+
+
+
