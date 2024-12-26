@@ -1021,5 +1021,230 @@ Functors provide a flexible and reusable way to encapsulate logic, making them e
 
 ---
 
+## [5.8 Modern C++ Features](#58-modern-c-features)
+
+Modern C++ (starting from C++11 and beyond) introduced numerous features to make the language more expressive, efficient, and easier to use. Below, we explore five key features with explanations and examples.
+
+---
+
+### **[5.8.1 Rvalue References and Move Semantics](#581-rvalue-references-and-move-semantics)**
+
+- **Rvalue references (`T&&`)** allow developers to distinguish between lvalues and rvalues. They enable efficient resource transfers through **move semantics**, avoiding unnecessary copies.
+- **Move constructors** and **move assignment operators** use rvalue references to "steal" resources rather than copying them.
+
+**Example: Using move semantics**
+
+```cpp
+#include <iostream>
+#include <vector>
+#include <string>
+using namespace std;
+
+class MyString {
+    char* data;
+    size_t length;
+public:
+    // Constructor
+    MyString(const char* str) : length(strlen(str)) {
+        data = new char[length + 1];
+        strcpy(data, str);
+        cout << "Constructed: " << data << endl;
+    }
+
+    // Move Constructor
+    MyString(MyString&& other) noexcept : data(other.data), length(other.length) {
+        other.data = nullptr;
+        other.length = 0;
+        cout << "Moved: " << data << endl;
+    }
+
+    // Destructor
+    ~MyString() {
+        if (data) {
+            cout << "Destroyed: " << data << endl;
+            delete[] data;
+        }
+    }
+};
+
+int main() {
+    vector<MyString> vec;
+    vec.push_back(MyString("Hello"));
+    vec.push_back(MyString("World"));
+    return 0;
+}
+
+// Output:
+// Constructed: Hello
+// Moved: Hello
+// Constructed: World
+// Moved: World
+// Destroyed: Hello
+// Destroyed: World
+```
+
+---
+
+### **[5.8.2 auto and decltype](#582-auto-and-decltype)**
+
+- **`auto`** allows the compiler to deduce the type of a variable from its initializer, simplifying code and reducing redundancy.
+- **`decltype`** inspects the type of an expression, enabling type-safe operations.
+
+**Example: Using `auto` and `decltype`**
+
+```cpp
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+    // auto deduces type
+    auto x = 10;  // x is int
+    auto y = 3.14; // y is double
+    auto vec = vector<int>{1, 2, 3};
+
+    cout << "x: " << x << ", y: " << y << endl;
+
+    // decltype deduces type from expression
+    decltype(x + y) z = x + y; // z is double
+    cout << "z: " << z << endl;
+
+    return 0;
+}
+
+// Output:
+// x: 10, y: 3.14
+// z: 13.14
+```
+
+---
+
+### **[5.8.3 Range-Based Loops](#583-range-based-loops)**
+
+- Introduced in C++11, range-based loops provide a clean and concise way to iterate over containers and arrays.
+
+**Example: Using range-based loops**
+
+```cpp
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+    vector<int> numbers = {1, 2, 3, 4, 5};
+
+    // Read-only iteration
+    cout << "Numbers: ";
+    for (const int& num : numbers) {
+        cout << num << " ";
+    }
+    cout << endl;
+
+    // Modifying elements
+    for (int& num : numbers) {
+        num *= 2;
+    }
+
+    cout << "Doubled numbers: ";
+    for (const int& num : numbers) {
+        cout << num << " ";
+    }
+    cout << endl;
+
+    return 0;
+}
+
+// Output:
+// Numbers: 1 2 3 4 5
+// Doubled numbers: 2 4 6 8 10
+```
+
+---
+
+### **[5.8.4 nullptr](#584-nullptr)**
+
+- Replaces `NULL` in modern C++ to represent a null pointer. 
+- Unlike `NULL`, `nullptr` has a type (`std::nullptr_t`), making it type-safe.
+
+**Example: Using `nullptr`**
+
+```cpp
+#include <iostream>
+using namespace std;
+
+void checkPointer(int* ptr) {
+    if (ptr == nullptr) {
+        cout << "Pointer is null" << endl;
+    } else {
+        cout << "Pointer is not null" << endl;
+    }
+}
+
+int main() {
+    int* p1 = nullptr;  // Safe way to initialize a null pointer
+    int value = 42;
+    int* p2 = &value;
+
+    checkPointer(p1);  // Output: Pointer is null
+    checkPointer(p2);  // Output: Pointer is not null
+
+    return 0;
+}
+
+// Output:
+// Pointer is null
+// Pointer is not null
+```
+
+---
+
+### **[5.8.5 Structured Bindings](#585-structured-bindings)**
+
+- Introduced in C++17, structured bindings allow unpacking of tuples, pairs, or structs into individual variables.
+
+**Example: Using structured bindings**
+
+```cpp
+#include <iostream>
+#include <tuple>
+using namespace std;
+
+int main() {
+    tuple<int, double, string> myTuple = {42, 3.14, "Hello"};
+
+    // Structured bindings
+    auto [num, pi, message] = myTuple;
+
+    cout << "num: " << num << ", pi: " << pi << ", message: " << message << endl;
+
+    return 0;
+}
+
+// Output:
+// num: 42, pi: 3.14, message: Hello
+```
+
+---
+
+## Summary
+
+- **[5.8.1 Rvalue References and Move Semantics](#581-rvalue-references-and-move-semantics)**:
+  Efficient resource management through move constructors and move assignment operators.
+  
+- **[5.8.2 auto and decltype](#582-auto-and-decltype)**:
+  Simplified type inference for variables and expressions.
+
+- **[5.8.3 Range-Based Loops](#583-range-based-loops)**:
+  A concise way to iterate over containers and arrays.
+
+- **[5.8.4 nullptr](#584-nullptr)**:
+  Type-safe replacement for `NULL`.
+
+- **[5.8.5 Structured Bindings](#585-structured-bindings)**:
+  Decompose complex data structures like tuples or pairs into separate variables. 
+
+These features enhance readability, performance, and safety in modern C++ programs.
+
+---
 
 
