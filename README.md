@@ -264,13 +264,13 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 
 ---
 
-### 6. [Low-Level Programming](#low-level-programming)  
-   - [6.1 Memory Management](#memory-management)  
-     - [6.1.1 Stack vs Heap](#stack-vs-heap)  
-     - [6.1.2 Allocating and Deallocating Memory](#allocating-and-deallocating-memory)  
-   - [6.2 Multithreading](#multithreading)  
-     - [6.2.1 Threads in C++11](#threads-in-cpp11)  
-     - [6.2.2 Thread Synchronization](#thread-synchronization)  
+### 6. [Low-Level Programming](https://github.com/AkshayChandole/Cpp-Handbook/tree/main/LowLevelProgramming#6-low-level-programming)  
+   - [6.1 Memory Management](https://github.com/AkshayChandole/Cpp-Handbook/tree/main/LowLevelProgramming#61-memory-management)  
+     - [6.1.1 Stack vs Heap](https://github.com/AkshayChandole/Cpp-Handbook/tree/main/LowLevelProgramming#611-stack-vs-heap)  
+     - [6.1.2 Allocating and Deallocating Memory](https://github.com/AkshayChandole/Cpp-Handbook/tree/main/LowLevelProgramming#612-allocating-and-deallocating-memory)  
+   - [6.2 Multithreading](https://github.com/AkshayChandole/Cpp-Handbook/tree/main/LowLevelProgramming#62-multithreading)  
+     - [6.2.1 Threads in C++11](https://github.com/AkshayChandole/Cpp-Handbook/tree/main/LowLevelProgramming#621-threads-in-c11)  
+     - [6.2.2 Thread Synchronization](https://github.com/AkshayChandole/Cpp-Handbook/tree/main/LowLevelProgramming#622-thread-synchronization)  
 
 ---
 
