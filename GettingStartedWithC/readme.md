@@ -49,7 +49,7 @@ An Integrated Development Environment (IDE) or code editor makes development eas
 
 ---
 
-## [**2.2 Hello World Program](#22-hello-world-program)
+## [**2.2 Hello World Program**](#22-hello-world-program)
 
 The "Hello World" program is the first step in any programming language. It introduces basic syntax and verifies your setup.
 
@@ -74,7 +74,7 @@ int main() {
 
 C++ syntax forms the foundation for writing programs. Understanding these basics is crucial.
 
-### **2.3.1 Comments**
+### [**2.3.1 Comments**](#231-comments)
 Comments improve code readability and are ignored by the compiler.
 
 - **Single-Line Comments**:
