@@ -283,5 +283,6 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 ---
 
 # [C++ Interview Questions](#cpp-interview-questions)  
-
+1. [What is the difference between C and C++?](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/DifferenceBetweenCAndCpp.md)
+2. 
 ---
