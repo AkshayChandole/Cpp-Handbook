@@ -1,4 +1,4 @@
-# [Explain inline functions](#explain-inline-functions)
+# [Explain inline functions.](#explain-inline-functions)
 
 ## **Inline Function in C++**
 
