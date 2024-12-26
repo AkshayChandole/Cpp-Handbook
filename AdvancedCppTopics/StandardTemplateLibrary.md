@@ -875,7 +875,7 @@ Each algorithm can significantly simplify operations on data structures and impr
 
 ---
 
-## [5.7.4 Function Objects (Functors)](#574-function-objects)
+## [5.7.4 Function Objects (Functors)](#574-function-objects-functors)
 
 A **function object** or **functor** is any object that can be called using the function call operator `()`. Functors are widely used in C++ with algorithms and STL containers, as they enable encapsulation of custom logic and state within an object that behaves like a function.
 
