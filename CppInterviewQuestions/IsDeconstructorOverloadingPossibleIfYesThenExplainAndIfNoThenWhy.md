@@ -1,12 +1,12 @@
 # [Is deconstructor overloading possible? If yes then explain and if no then why?](#is-deconstructor-overloading-possible-if-yes-then-explain-and-if-no-then-why)
 
-### **Destructor Overloading in C++**
+## **Destructor Overloading in C++**
 
 No, **destructor overloading is not possible in C++**. A class can only have **one destructor**, and its signature is fixed.
 
 ---
 
-### **Why Destructor Overloading is Not Possible?**
+## **Why Destructor Overloading is Not Possible?**
 1. **Purpose of Destructor**:
    - A destructor is a special member function that is invoked automatically when an object goes out of scope or is deleted. Its purpose is to clean up resources, and only one cleanup routine is needed per object.
 
@@ -21,9 +21,9 @@ No, **destructor overloading is not possible in C++**. A class can only have **o
 
 ---
 
-### **Examples for Explanation**
+## **Examples for Explanation**
 
-#### Attempting to Overload Destructor
+### Attempting to Overload Destructor
 ```cpp
 #include <iostream>
 using namespace std;
@@ -53,7 +53,7 @@ error: destructor cannot have parameters
 
 ---
 
-### **Alternatives to Handle Special Cleanup Cases**
+## **Alternatives to Handle Special Cleanup Cases**
 If you need different cleanup routines based on specific conditions, you can:
 
 1. **Use Flags or Conditional Logic in the Destructor**:
@@ -122,7 +122,7 @@ Custom cleanup with parameter: 42
 
 ---
 
-### **Conclusion**
+## **Conclusion**
 - Destructors cannot be overloaded because their signature is fixed and they are automatically invoked by the runtime. 
 - To handle diverse cleanup scenarios, use conditional logic within the destructor or provide explicit cleanup methods.
 
