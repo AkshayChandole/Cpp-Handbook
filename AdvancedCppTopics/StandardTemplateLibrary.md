@@ -875,5 +875,151 @@ Each algorithm can significantly simplify operations on data structures and impr
 
 ---
 
+## [5.7.4 Function Objects (Functors)](#574-function-objects)
+
+A **function object** or **functor** is any object that can be called using the function call operator `()`. Functors are widely used in C++ with algorithms and STL containers, as they enable encapsulation of custom logic and state within an object that behaves like a function.
+
+---
+
+### **[5.7.4.1 Built-in Functors](#5741-built-in-functors)**
+
+C++ provides several predefined functors in the `<functional>` header. These functors are used to perform operations like comparisons, arithmetic, logical operations, etc.
+
+**Common Built-in Functors**
+- `std::plus`: Adds two values.
+- `std::minus`: Subtracts one value from another.
+- `std::multiplies`: Multiplies two values.
+- `std::less`: Compares two values to check if one is less than the other.
+- `std::greater`: Compares two values to check if one is greater than the other.
+
+**Example: Using built-in functors**
+
+```cpp
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <functional>
+using namespace std;
+
+int main() {
+    vector<int> vec = {10, 20, 30, 40};
+
+    // Using std::plus
+    int sum = accumulate(vec.begin(), vec.end(), 0, plus<int>());
+    cout << "Sum using std::plus: " << sum << endl;  // Output: Sum using std::plus: 100
+
+    // Using std::less with sort
+    sort(vec.begin(), vec.end(), less<int>());
+    cout << "Sorted (ascending) using std::less: ";
+    for (int val : vec) cout << val << " ";  // Output: 10 20 30 40
+    cout << endl;
+
+    // Using std::greater with sort
+    sort(vec.begin(), vec.end(), greater<int>());
+    cout << "Sorted (descending) using std::greater: ";
+    for (int val : vec) cout << val << " ";  // Output: 40 30 20 10
+    cout << endl;
+
+    return 0;
+}
+
+// Output:
+// Sum using std::plus: 100
+// Sorted (ascending) using std::less: 10 20 30 40
+// Sorted (descending) using std::greater: 40 30 20 10
+```
+
+---
+
+### **[5.7.4.2 Custom Functors](#5742-custom-functors)**
+
+Custom functors are user-defined classes that overload the `()` operator. They allow you to define custom behavior to use with algorithms or other contexts.
+
+**Example: A custom functor to calculate squares**
+
+```cpp
+#include <iostream>
+#include <vector>
+#include <algorithm>
+using namespace std;
+
+// Custom functor
+class Square {
+public:
+    int operator()(int x) const {
+        return x * x;
+    }
+};
+
+int main() {
+    vector<int> vec = {1, 2, 3, 4, 5};
+
+    // Transform each element using the custom functor
+    vector<int> result(vec.size());
+    transform(vec.begin(), vec.end(), result.begin(), Square());
+
+    cout << "Squares of elements: ";
+    for (int val : result) cout << val << " ";  // Output: 1 4 9 16 25
+    cout << endl;
+
+    return 0;
+}
+
+// Output:
+// Squares of elements: 1 4 9 16 25
+```
+
+**Example: A functor with state**
+
+A functor can also have internal state to influence its behavior.
+
+```cpp
+#include <iostream>
+#include <vector>
+#include <algorithm>
+using namespace std;
+
+// Custom functor with state
+class Adder {
+    int increment;
+public:
+    Adder(int inc) : increment(inc) {}
+    int operator()(int x) const {
+        return x + increment;
+    }
+};
+
+int main() {
+    vector<int> vec = {1, 2, 3, 4, 5};
+
+    // Use Adder functor to add 10 to each element
+    vector<int> result(vec.size());
+    transform(vec.begin(), vec.end(), result.begin(), Adder(10));
+
+    cout << "After adding 10 to each element: ";
+    for (int val : result) cout << val << " ";  // Output: 11 12 13 14 15
+    cout << endl;
+
+    return 0;
+}
+
+// Output:
+// After adding 10 to each element: 11 12 13 14 15
+```
+
+---
+
+## Summary
+
+- **[5.7.4.1 Built-in Functors](#5741-built-in-functors)**:
+  Predefined functors in the `<functional>` header simplify common operations like addition, subtraction, comparison, etc.
+
+- **[5.7.4.2 Custom Functors](#5742-custom-functors)**:
+  User-defined classes can implement custom logic by overloading the `()` operator. They are useful for more complex operations or when state is required.
+
+Functors provide a flexible and reusable way to encapsulate logic, making them essential tools for working with algorithms and containers in C++.
+
+---
+
 
 
