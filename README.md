@@ -285,4 +285,11 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 # [C++ Interview Questions](#cpp-interview-questions)  
 1. [What is the difference between C and C++?](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/DifferenceBetweenCAndCpp.md)
 2. [What are the static members and static member functions?](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/WhatAreTheStaticMembersAndStaticMemberFunctions.md#What-are-the-static-members-and-static-member-functions)
+3. [What is an abstract class and when do you use it?](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/WhatIsAnAbstractClassAndWhenDoYouUseIt.md#what-is-an-abstract-class-and-when-do-you-use-it)
+4. [Is deconstructor overloading possible? If yes then explain and if no then why?](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/IsDeconstructorOverloadingPossibleIfYesThenExplainAndIfNoThenWhy.md#is-deconstructor-overloading-possible-if-yes-then-explain-and-if-no-then-why)
+5. [Explain inline functions.](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/ExplainInlineFunctions.md#explain-inline-functions)
+6. [Explain friend class and friend function.](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/ExplainFriendClassAndFriendFunction.md#explain-friend-class-and-friend-function)
+
+
+
 ---
