@@ -5,10 +5,9 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 
 ## Table of Contents
 
-### 1. [Introduction](#introduction)  
-   - [1.1 About This Repository](#about-this-repository)  
-   - [1.2 Why Learn C++?](#why-learn-c)  
-   - [1.3 How to Use This Repository](#how-to-use-this-repository)  
+### 1. [Introduction](https://github.com/AkshayChandole/Cpp-Handbook/tree/main/Introduction#1-introduction)  
+   - [1.1 About This Repository](https://github.com/AkshayChandole/Cpp-Handbook/tree/main/Introduction#11-about-this-repository)  
+   - [1.2 Why Learn C++?](https://github.com/AkshayChandole/Cpp-Handbook/tree/main/Introduction#12-why-learn-c)  
 
 ---
 
