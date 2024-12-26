@@ -11,17 +11,17 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 
 ---
 
-### 2. [Getting Started with C++](#getting-started-with-cpp)  
-   - [2.1 Setting Up the Environment](#setting-up-the-environment)  
-     - [2.1.1 Installing Compilers](#installing-compilers)  
-     - [2.1.2 Configuring IDEs and Editors](#configuring-ides-and-editors)  
-   - [2.2 Hello World Program](#hello-world-program)  
-   - [2.3 Basic Syntax](#basic-syntax)  
-     - [2.3.1 Comments](#comments)  
-     - [2.3.2 Code Structure](#code-structure)  
-   - [2.4 Input and Output](#input-and-output)  
-     - [2.4.1 `cin` and `cout`](#cin-and-cout)  
-     - [2.4.2 Formatting Output](#formatting-output)  
+### 2. [Getting Started with C++](https://github.com/AkshayChandole/Cpp-Handbook/tree/main/GettingStartedWithC#2-getting-started-with-c)  
+   - [2.1 Setting Up the Environment](https://github.com/AkshayChandole/Cpp-Handbook/tree/main/GettingStartedWithC#21-setting-up-the-environment)  
+     - [2.1.1 Installing Compilers](https://github.com/AkshayChandole/Cpp-Handbook/tree/main/GettingStartedWithC#211-installing-compilers)  
+     - [2.1.2 Configuring IDEs and Editors](https://github.com/AkshayChandole/Cpp-Handbook/tree/main/GettingStartedWithC#212-configuring-ides-and-editors)  
+   - [2.2 Hello World Program](https://github.com/AkshayChandole/Cpp-Handbook/tree/main/GettingStartedWithC#22-hello-world-program)  
+   - [2.3 Basic Syntax](https://github.com/AkshayChandole/Cpp-Handbook/tree/main/GettingStartedWithC#23-basic-syntax)  
+     - [2.3.1 Comments](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/GettingStartedWithC/readme.md#231-comments)  
+     - [2.3.2 Code Structure](https://github.com/AkshayChandole/Cpp-Handbook/tree/main/GettingStartedWithC#232-code-structure)  
+   - [2.4 Input and Output](https://github.com/AkshayChandole/Cpp-Handbook/tree/main/GettingStartedWithC#24-input-and-output)  
+     - [2.4.1 `cin` and `cout`](https://github.com/AkshayChandole/Cpp-Handbook/tree/main/GettingStartedWithC#241-cin-and-cout)  
+     - [2.4.2 Formatting Output](https://github.com/AkshayChandole/Cpp-Handbook/tree/main/GettingStartedWithC#242-formatting-output)  
 
 ---
 
@@ -282,9 +282,6 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 
 ---
 
-### 8. [C++ Interview Preparation](#cpp-interview-preparation)  
-   - [8.1 Frequently Asked Questions](#frequently-asked-questions)  
-   - [8.2 Common Design Patterns](#common-design-patterns)  
-   - [8.3 Problem-Solving Examples](#problem-solving-examples)  
+# [C++ Interview Questions](#cpp-interview-questions)  
 
 ---
