@@ -274,12 +274,12 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 
 ---
 
-### 7. [Best Practices](#best-practices)  
-   - [7.1 Clean Code](#clean-code)  
-   - [7.2 Error Handling](#error-handling)  
-     - [7.2.1 Exception Handling](#exception-handling)  
-     - [7.2.2 Using `std::optional` and `std::variant`](#using-std-optional-and-std-variant)  
-   - [7.3 Debugging Techniques](#debugging-techniques)  
+### 7. [Best Practices](https://github.com/AkshayChandole/Cpp-Handbook/tree/main/BestPractices#7-best-practices)  
+   - [7.1 Clean Code](https://github.com/AkshayChandole/Cpp-Handbook/tree/main/BestPractices#71-clean-code)  
+   - [7.2 Error Handling](https://github.com/AkshayChandole/Cpp-Handbook/tree/main/BestPractices#72-error-handling)  
+     - [7.2.1 Exception Handling](https://github.com/AkshayChandole/Cpp-Handbook/tree/main/BestPractices#721-exception-handling)  
+     - [7.2.2 Using `std::optional` and `std::variant`](https://github.com/AkshayChandole/Cpp-Handbook/tree/main/BestPractices#722-using-stdoptional-and-stdvariant)  
+   - [7.3 Debugging Techniques](https://github.com/AkshayChandole/Cpp-Handbook/tree/main/BestPractices#73-debugging-techniques)  
 
 ---
 
