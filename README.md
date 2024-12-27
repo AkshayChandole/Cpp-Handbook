@@ -289,7 +289,11 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 4. [Is deconstructor overloading possible? If yes then explain and if no then why?](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/IsDeconstructorOverloadingPossibleIfYesThenExplainAndIfNoThenWhy.md#is-deconstructor-overloading-possible-if-yes-then-explain-and-if-no-then-why)
 5. [Explain inline functions.](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/ExplainInlineFunctions.md#explain-inline-functions)
 6. [Explain friend class and friend function.](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/ExplainFriendClassAndFriendFunction.md#explain-friend-class-and-friend-function)
-
+7. [What is the difference between struct and class?](#https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/WhatIsTheDifferenceBetweenStructAndClass.md#what-is-the-difference-between-struct-and-class)
+8. [What is operator overloading?](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/WhatIsOperatorOverloading.md#what-is-operator-overloading)
+9. [Explain virtual function.](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/ExplainVirtualFunction.md#explain-virtual-function)
+10. [What is a copy constructor?](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/WhatIsACopyConstructor.md#what-is-a-copy-constructor)
+11. 
 
 
 ---
