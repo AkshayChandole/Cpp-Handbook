@@ -293,7 +293,15 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 8. [What is operator overloading?](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/WhatIsOperatorOverloading.md#what-is-operator-overloading)
 9. [Explain virtual function.](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/ExplainVirtualFunction.md#explain-virtual-function)
 10. [What is a copy constructor?](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/WhatIsACopyConstructor.md#what-is-a-copy-constructor)
-11. 
+11. [What is the difference between shallow copy and deep copy?](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/WhatIsTheDifferenceBetweenShallowCopyAndDeepCopy.md#what-is-the-difference-between-shallow-copy-and-deep-copy)
+12. [What are void pointers?](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/WhatAreVoidPointers.md#what-are-void-pointers)
+13. [Explain RAII concept.](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/ExplainRAIIConcept.md#explain-raii-concept)
+14. [Explain rule of three in C++.](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/ExplainRuleOfThreeInC.md#explain-rule-of-three-in-c)
+15. [Explain rule of five in C++.](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/ExplainRuleOfFiveInC.md#explain-rule-of-five-in-c)
+16. [Explain rule of zero in C++.](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/ExplainRuleOfZeroInC.md#explain-rule-of-zero-in-c)
+17. [What is this pointer in C++?](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/WhatIsThisPointerInC.md#what-is-this-pointer-in-c)
+18. [How does virtual inheritance work in C++? (The Diamond Problem)](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/HowDoesVirtualInheritanceWorkInC.md#how-does-virtual-inheritance-work-in-c)
+19. [What happens under the hood for virtual functions? (vPointer, vTable etc)](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/WhatHappensUnderTheHoodForVirtualFunctionsVPointerVTableEtc.md#what-happens-under-the-hood-for-virtual-functions-vpointer-vtable-etc)
 
 
 ---
