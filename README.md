@@ -282,7 +282,7 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 
 ---
 
-# [C++ Theoretical Interview Questions](#cpp-theoretical-interview-questions)  
+# [C++ Theoretical Interview Questions](#c-theoretical-interview-questions)  
 1. [What is the difference between C and C++?](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/DifferenceBetweenCAndCpp.md)
 2. [What are the static members and static member functions?](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/WhatAreTheStaticMembersAndStaticMemberFunctions.md#What-are-the-static-members-and-static-member-functions)
 3. [What is an abstract class and when do you use it?](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/WhatIsAnAbstractClassAndWhenDoYouUseIt.md#what-is-an-abstract-class-and-when-do-you-use-it)
@@ -304,6 +304,7 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 19. [What happens under the hood for virtual functions? (vPointer, vTable etc)](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/WhatHappensUnderTheHoodForVirtualFunctionsVPointerVTableEtc.md#what-happens-under-the-hood-for-virtual-functions-vpointer-vtable-etc)
 
 
-# [C++ Coding Interview Questions](#cpp-coding-interview-questions)
+# [C++ Coding Interview Questions](#c-coding-interview-questions)
+1. [[HackerRank] Abstract Classes - Polymorphism - LRU Cache]()
 
 ---
