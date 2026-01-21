@@ -319,6 +319,7 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    * **Creational Design Patterns**
       * [Singleton Pattern](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/DesignPatterns/SingletonPattern.md#singleton-design-pattern)
       * [Factory Method Pattern](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/DesignPatterns/FactoryMethodDesignPattern.md#factory-method-design-pattern)
+      * [Abstract Factory Pattern](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/DesignPatterns/AbstractFactoryPattern.md#abstract-factory-pattern)
 
 # [C++ Coding Interview Questions](#c-coding-interview-questions)
 1. [[HackerRank] Abstract Classes - Polymorphism - LRU Cache](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CodingQuestions/ImplementLRUCache.md#hackerrank-abstract-classes-polymorphism-lru-cache)
