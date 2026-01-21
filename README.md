@@ -321,8 +321,10 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
       * [Factory Method Pattern](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/DesignPatterns/FactoryMethodDesignPattern.md#factory-method-design-pattern)
       * [Abstract Factory Pattern](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/DesignPatterns/AbstractFactoryPattern.md#abstract-factory-pattern)
    * **Structural Design Patterns**
+      * [Adaptor Pattern](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/DesignPatterns/AdapterPattern.md#adapter-pattern) 
    * **Behavioral Design Patterns**
-      * [Observer Pattern](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/DesignPatterns/ObserverDesignPattern.md#observer-design-pattern) 
+      * [Observer Pattern](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/DesignPatterns/ObserverDesignPattern.md#observer-design-pattern)
+      * [Strategy Pattern](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/DesignPatterns/StrategyDesignPattern.md#strategy-design-pattern)
 
 # [C++ Coding Interview Questions](#c-coding-interview-questions)
 1. [[HackerRank] Abstract Classes - Polymorphism - LRU Cache](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CodingQuestions/ImplementLRUCache.md#hackerrank-abstract-classes-polymorphism-lru-cache)
