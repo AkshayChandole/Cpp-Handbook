@@ -1,5 +1,5 @@
 
-# 🔷 [Factory Method Design Pattern](#factory-method-design-pattern)
+# [Factory Method Design Pattern](#factory-method-design-pattern)
 
 ## 📌 Intent (Canonical Definition)
 
