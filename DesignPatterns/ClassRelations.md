@@ -1,4 +1,4 @@
-<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/0b564676-bb8e-4cb8-b18e-c7189407b02b" /># [Class Relations](#class-relations)
+# [Class Relations](#class-relations)
 
 <a id="association-weakest-relationship"></a>
 ## 1️⃣ [Association (Weakest Relationship)](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/DesignPatterns/ClassRelations.md#1%EF%B8%8F%E2%83%A3-association-weakest-relationship)
@@ -79,7 +79,7 @@ int main() {
 ---
 
 <a id="aggregation-has-a-but-weak-ownership"></a>
-## 2️⃣ [Aggregation (Has-a, but weak ownership)](https://github.com/AkshayChandole/Cpp-Handbook/edit/main/DesignPatterns/ClassRelations.md#2%EF%B8%8F%E2%83%A3-aggregation-has-a-but-weak-ownership)
+## 2️⃣ [Aggregation (Has-a, but weak ownership)](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/DesignPatterns/ClassRelations.md#2%EF%B8%8F%E2%83%A3-aggregation-has-a-but-weak-ownership)
 
 ### 🔹 Definition
 
