@@ -230,8 +230,4 @@ class LogCompressor { /* compression only */ };
 
 > “Single Responsibility Principle states that a class should have only one reason to change, meaning it should encapsulate a single responsibility or concern.”
 
-
-## ✅ Next Step
-
-Shall we move to **Open/Closed Principle (OCP)** next?
-I’ll explain it with **polymorphism, inheritance, and C++ examples**, plus **common traps**.
+---
