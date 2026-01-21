@@ -305,10 +305,10 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 
 
 # [Design Patterns](#design-patterns)
-* [Class Relations]()
-   * [Association]()
-   * [Aggregation]()
-   * [Composition]()
+* [Class Relations](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/DesignPatterns/ClassRelations.md#class-relations)
+   * [Association](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/DesignPatterns/ClassRelations.md#1%EF%B8%8F%E2%83%A3-association-weakest-relationship)
+   * [Aggregation](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/DesignPatterns/ClassRelations.md#2%EF%B8%8F%E2%83%A3-aggregation-has-a-but-weak-ownership)
+   * [Composition](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/DesignPatterns/ClassRelations.md#3%EF%B8%8F%E2%83%A3-composition-strongest-relationship)
 * [SOLID Principles]
    * [Single Responsibility Principle]()
    * [Open Closed Principle]()
