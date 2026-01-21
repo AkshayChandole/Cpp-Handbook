@@ -304,6 +304,12 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 19. [What happens under the hood for virtual functions? (vPointer, vTable etc)](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/WhatHappensUnderTheHoodForVirtualFunctionsVPointerVTableEtc.md#what-happens-under-the-hood-for-virtual-functions-vpointer-vtable-etc)
 
 
+# [Design Patterns](#design-patterns)
+* [Class Relations]()
+   * [Association]()
+   * [Aggregation]()
+   * [Composition]() 
+
 # [C++ Coding Interview Questions](#c-coding-interview-questions)
 1. [[HackerRank] Abstract Classes - Polymorphism - LRU Cache](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CodingQuestions/ImplementLRUCache.md#hackerrank-abstract-classes-polymorphism-lru-cache)
 
