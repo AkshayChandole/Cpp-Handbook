@@ -193,7 +193,7 @@ ISP:
 * Reduces header coupling
 * Improves incremental builds
 
-🔥 Very important in large C++ codebases (Autodesk-scale)
+🔥 Very important in large C++ codebases
 
 ---
 
