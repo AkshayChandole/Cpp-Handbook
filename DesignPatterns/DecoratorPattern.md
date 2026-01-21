@@ -1,1 +1,1 @@
- # [Decorator Pattern](decorator-pattern)
+ # [Decorator Pattern](#decorator-pattern)
