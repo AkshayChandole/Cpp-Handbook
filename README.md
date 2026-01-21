@@ -308,7 +308,13 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 * [Class Relations]()
    * [Association]()
    * [Aggregation]()
-   * [Composition]() 
+   * [Composition]()
+* [SOLID Principles]
+   * [Single Responsibility Principle]()
+   * [Open Closed Principle]()
+   * [Liskov Substitution Principle]()
+   * [Interface Segregation Principle]()
+   * [Dependency Inversion Principle]()
 
 # [C++ Coding Interview Questions](#c-coding-interview-questions)
 1. [[HackerRank] Abstract Classes - Polymorphism - LRU Cache](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CodingQuestions/ImplementLRUCache.md#hackerrank-abstract-classes-polymorphism-lru-cache)
