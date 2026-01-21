@@ -1,7 +1,7 @@
 # [Class Relations](#class-relations)
 
 
-# 1️⃣ [Association (Weakest Relationship)](1-association-weakest-relationship)
+# 1️⃣ [Association (Weakest Relationship)](#1-association-weakest-relationship)
 
 ## 🔹 Definition
 
@@ -291,30 +291,3 @@ Ownership is still **exclusive and strict**.
 | Strength          | Weak        | Medium          | Strong        |
 
 ---
-
-## 🔥 How Interviewers Identify Them
-
-### Ask yourself:
-
-1. **Who owns the object?**
-2. **Who deletes it?**
-3. **Can it exist independently?**
-
----
-
-## 🔥 Interview One-Liners (MEMORIZE)
-
-* **Association**:
-
-  > “Objects interact but have independent lifetimes.”
-
-* **Aggregation**:
-
-  > “One object has another, but does not own its lifetime.”
-
-* **Composition**:
-
-  > “One object owns another and controls its lifetime.”
-
----
-
