@@ -1,7 +1,7 @@
 # [Class Relations](#class-relations)
 
-
-## 1️⃣ [Association (Weakest Relationship)](#association-weakest-relationship)
+<a id="association-weakest-relationship"></a>
+## 1️⃣ Association (Weakest Relationship)
 
 ### 🔹 Definition
 
