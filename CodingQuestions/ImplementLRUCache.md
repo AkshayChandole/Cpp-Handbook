@@ -1,4 +1,4 @@
-# [[HackerRank] - Abstract Classes - Polymorphism - LRU Cache](#hackerrank-abstract-classes-polymorphism-lru-cache)
+# [[HackerRank] - Abstract Classes - Polymorphism - LRU Cache](#hackerrank---abstract-classes---polymorphism---lru-cache)
 
 
 Abstract base classes in C++ can only be used as base classes. Thus, they are allowed to have virtual member functions without definitions.
