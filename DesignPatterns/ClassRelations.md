@@ -1,9 +1,9 @@
 # [Class Relations](#class-relations)
 
 
-# 1️⃣ [Association (Weakest Relationship)](#association-weakest-relationship)
+## 1️⃣ [Association (Weakest Relationship)](#association-weakest-relationship)
 
-## 🔹 Definition
+### 🔹 Definition
 
 > **Association** means *one class uses or knows about another class*,
 > but **does NOT own it** and **does NOT control its lifetime**.
@@ -14,14 +14,17 @@
 
 ---
 
-## 🔹 Real-world example
+### 🔹 Real-world example
 
 > A **Teacher** teaches a **Student**
 > Both exist independently.
 
 ---
 
-## 🔹 C++ Example
+### 🔹 C++ Example
+
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/98934b1f-f706-45fd-b463-791c10d1f339" />
+
 
 ```cpp
 #include <iostream>
@@ -56,7 +59,7 @@ int main() {
 
 ---
 
-## 🔹 Key Observations
+### 🔹 Key Observations
 
 * `Teacher` does NOT store `Student`
 * `Teacher` does NOT delete `Student`
@@ -66,7 +69,7 @@ int main() {
 
 ---
 
-## 🔹 When to use Association
+### 🔹 When to use Association
 
 * Temporary interaction
 * Function parameters
@@ -75,9 +78,9 @@ int main() {
 
 ---
 
-# 2️⃣ Aggregation (Has-a, but weak ownership)
+## 2️⃣ Aggregation (Has-a, but weak ownership)
 
-## 🔹 Definition
+### 🔹 Definition
 
 > **Aggregation** is a *has-a* relationship where:
 
@@ -93,14 +96,14 @@ int main() {
 
 ---
 
-## 🔹 Real-world example
+### 🔹 Real-world example
 
 > A **Team** has **Players**
 > Players can exist without the team.
 
 ---
 
-## 🔹 C++ Example (Pointer-based)
+### 🔹 C++ Example (Pointer-based)
 
 ```cpp
 #include <iostream>
@@ -148,7 +151,7 @@ int main() {
 
 ---
 
-## 🔹 Key Observations
+### 🔹 Key Observations
 
 * `Team` stores pointers to `Player`
 * `Team` does NOT delete `Player`
@@ -159,7 +162,7 @@ int main() {
 
 ---
 
-## 🔹 Using smart pointers (preferred in real systems)
+### 🔹 Using smart pointers (preferred in real systems)
 
 ```cpp
 std::vector<std::shared_ptr<Player>> players;
@@ -169,7 +172,7 @@ This makes ownership **explicitly shared**.
 
 ---
 
-## 🔹 When to use Aggregation
+### 🔹 When to use Aggregation
 
 * Shared resources
 * Objects reused in multiple owners
@@ -178,9 +181,9 @@ This makes ownership **explicitly shared**.
 
 ---
 
-# 3️⃣ Composition (Strongest Relationship)
+## 3️⃣ Composition (Strongest Relationship)
 
-## 🔹 Definition
+### 🔹 Definition
 
 > **Composition** is a *has-a* relationship where:
 
@@ -198,14 +201,14 @@ This makes ownership **explicitly shared**.
 
 ---
 
-## 🔹 Real-world example
+### 🔹 Real-world example
 
 > A **Car** has an **Engine**
 > If the car is destroyed, the engine is destroyed.
 
 ---
 
-## 🔹 C++ Example (Value member)
+### 🔹 C++ Example (Value member)
 
 ```cpp
 #include <iostream>
@@ -249,7 +252,7 @@ int main() {
 
 ---
 
-## 🔹 Key Observations
+### 🔹 Key Observations
 
 * `Engine` is a **member object**
 * Engine is created **with** Car
@@ -260,7 +263,7 @@ int main() {
 
 ---
 
-## 🔹 Composition with `unique_ptr`
+### 🔹 Composition with `unique_ptr`
 
 Sometimes composition is dynamic:
 
@@ -279,7 +282,7 @@ Ownership is still **exclusive and strict**.
 
 ---
 
-## 🔥 Side-by-Side Comparison (INTERVIEW MUST)
+### 🔥 Side-by-Side Comparison (INTERVIEW MUST)
 
 | Aspect            | Association | Aggregation     | Composition   |
 | ----------------- | ----------- | --------------- | ------------- |
