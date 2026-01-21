@@ -309,12 +309,12 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    * [Association](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/DesignPatterns/ClassRelations.md#1%EF%B8%8F%E2%83%A3-association-weakest-relationship)
    * [Aggregation](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/DesignPatterns/ClassRelations.md#2%EF%B8%8F%E2%83%A3-aggregation-has-a-but-weak-ownership)
    * [Composition](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/DesignPatterns/ClassRelations.md#3%EF%B8%8F%E2%83%A3-composition-strongest-relationship)
-* [SOLID Principles]
+* **SOLID Principles**
    * [Single Responsibility Principle](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/DesignPatterns/SingleResponsibilityPrinciple.md#single-responsibility-principle-srp)
    * [Open Closed Principle](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/DesignPatterns/OpenClosedPrinciple.md#open-closed-principle-ocp)
    * [Liskov Substitution Principle](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/DesignPatterns/LiskovSubstitutionPrinciple.md#liskov-substitution-principle-lsp)
-   * [Interface Segregation Principle]()
-   * [Dependency Inversion Principle]()
+   * [Interface Segregation Principle](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/DesignPatterns/InterfaceSegregationPrinciple.md)
+   * [Dependency Inversion Principle](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/DesignPatterns/DependencyInversionPrinciple.md#dependency-inversion-principle-dip)
 
 # [C++ Coding Interview Questions](#c-coding-interview-questions)
 1. [[HackerRank] Abstract Classes - Polymorphism - LRU Cache](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CodingQuestions/ImplementLRUCache.md#hackerrank-abstract-classes-polymorphism-lru-cache)
