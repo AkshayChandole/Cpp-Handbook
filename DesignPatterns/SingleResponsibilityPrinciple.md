@@ -190,8 +190,11 @@ Same principle, different scale.
 ## 🔷 Common SRP Violations in Real Code
 
 ❌ Class doing **logging + business logic**
+
 ❌ Model class doing **DB + validation**
+
 ❌ Controller doing **logic + persistence**
+
 ❌ Utility class doing “everything”
 
 ---
