@@ -1,5 +1,5 @@
 
-# [Interface Segregation Principle (ISP)](#interface-segregation-principle)
+# [Interface Segregation Principle (ISP)](#interface-segregation-principle-isp)
 
 ## 📌 Formal Definition
 
