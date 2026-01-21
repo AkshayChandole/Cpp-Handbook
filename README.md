@@ -310,9 +310,9 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    * [Aggregation](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/DesignPatterns/ClassRelations.md#2%EF%B8%8F%E2%83%A3-aggregation-has-a-but-weak-ownership)
    * [Composition](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/DesignPatterns/ClassRelations.md#3%EF%B8%8F%E2%83%A3-composition-strongest-relationship)
 * [SOLID Principles]
-   * [Single Responsibility Principle]()
-   * [Open Closed Principle]()
-   * [Liskov Substitution Principle]()
+   * [Single Responsibility Principle](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/DesignPatterns/SingleResponsibilityPrinciple.md#single-responsibility-principle-srp)
+   * [Open Closed Principle](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/DesignPatterns/OpenClosedPrinciple.md#open-closed-principle-ocp)
+   * [Liskov Substitution Principle](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/DesignPatterns/LiskovSubstitutionPrinciple.md#liskov-substitution-principle-lsp)
    * [Interface Segregation Principle]()
    * [Dependency Inversion Principle]()
 
