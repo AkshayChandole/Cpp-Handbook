@@ -315,6 +315,9 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    * [Liskov Substitution Principle](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/DesignPatterns/LiskovSubstitutionPrinciple.md#liskov-substitution-principle-lsp)
    * [Interface Segregation Principle](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/DesignPatterns/InterfaceSegregationPrinciple.md)
    * [Dependency Inversion Principle](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/DesignPatterns/DependencyInversionPrinciple.md#dependency-inversion-principle-dip)
+* **Design Patterns**
+   * **Creational Design Patterns**
+      * [Singleton Pattern](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/DesignPatterns/SingletonPattern.md#singleton-design-pattern)
 
 # [C++ Coding Interview Questions](#c-coding-interview-questions)
 1. [[HackerRank] Abstract Classes - Polymorphism - LRU Cache](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CodingQuestions/ImplementLRUCache.md#hackerrank-abstract-classes-polymorphism-lru-cache)
