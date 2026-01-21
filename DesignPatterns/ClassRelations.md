@@ -185,6 +185,7 @@ This makes ownership **explicitly shared**.
 
 ---
 
+<a id="composition-strongest-relationship"></a>
 ## 3️⃣ Composition (Strongest Relationship)
 
 ### 🔹 Definition
@@ -213,6 +214,9 @@ This makes ownership **explicitly shared**.
 ---
 
 ### 🔹 C++ Example (Value member)
+
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/bbdc108f-63be-4ef9-8aaf-88eb7c57d4e3" />
+
 
 ```cpp
 #include <iostream>
