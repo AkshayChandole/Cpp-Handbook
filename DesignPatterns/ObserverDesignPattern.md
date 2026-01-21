@@ -295,7 +295,9 @@ public:
 ```
 
 ✔️ Lightweight
+
 ✔️ No inheritance
+
 ❌ Harder to unsubscribe selectively
 
 ---
@@ -303,9 +305,13 @@ public:
 ## 🔷 Common Observer Pitfalls (INTERVIEW FAVORITES)
 
 ❌ Forgetting to detach observers
+
 ❌ Dangling observer pointers
+
 ❌ Circular notifications
+
 ❌ Blocking operations inside `update()`
+
 ❌ Order-dependent logic
 
 ---
@@ -313,9 +319,13 @@ public:
 ## 🔷 When to Use Observer
 
 ✔️ Event systems
+
 ✔️ UI updates
+
 ✔️ Model–View architectures
+
 ✔️ Notifications
+
 ✔️ Real-time data feeds
 
 ---
@@ -323,7 +333,9 @@ public:
 ## 🔷 When NOT to Use Observer
 
 ❌ Tight performance constraints
+
 ❌ Simple, linear logic
+
 ❌ When reactions are fixed and known
 
 ---
