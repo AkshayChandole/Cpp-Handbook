@@ -186,7 +186,7 @@ This makes ownership **explicitly shared**.
 ---
 
 <a id="composition-strongest-relationship"></a>
-## 3️⃣ Composition (Strongest Relationship)
+## 3️⃣ [Composition (Strongest Relationship)](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/DesignPatterns/ClassRelations.md#3%EF%B8%8F%E2%83%A3-composition-strongest-relationship)
 
 ### 🔹 Definition
 
