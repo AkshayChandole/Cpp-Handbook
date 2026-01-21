@@ -1,5 +1,5 @@
 
-# [Liskov Substitution Principle (LSP)](liskov-substitution-principle-lsp)
+# [Liskov Substitution Principle (LSP)](#liskov-substitution-principle-lsp)
 
 ## 📌 Formal Definition
 
