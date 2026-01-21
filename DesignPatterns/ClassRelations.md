@@ -1,7 +1,7 @@
 # [Class Relations](#class-relations)
 
 <a id="association-weakest-relationship"></a>
-## 1️⃣ Association (Weakest Relationship)
+## 1️⃣ Association (Weakest Relationship)[https://github.com/AkshayChandole/Cpp-Handbook/blob/main/DesignPatterns/ClassRelations.md#1%EF%B8%8F%E2%83%A3-association-weakest-relationship]
 
 ### 🔹 Definition
 
