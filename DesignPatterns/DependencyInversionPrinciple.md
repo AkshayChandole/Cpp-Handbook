@@ -1,4 +1,4 @@
-# [Dependency Inversion Principle (DIP)](#dependency-inversion-principle-dsp)
+# [Dependency Inversion Principle (DIP)](#dependency-inversion-principle-dip)
 
 ## 📌 Formal Definition
 
