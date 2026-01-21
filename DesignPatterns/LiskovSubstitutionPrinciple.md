@@ -267,52 +267,8 @@ Now:
 
 ---
 
-## 🔷 LSP and Virtual Functions
-
-LSP is enforced by:
-
-* **Correct overriding**
-* **Respecting base semantics**
-* **Avoiding surprising behavior**
-
-The compiler checks signatures
-**Humans must check behavior**
-
----
-
-## 🔥 How to Identify LSP Violations (INTERVIEW TOOL)
-
-Ask these questions:
-
-1. Can derived class **accept all inputs** base class accepts?
-2. Does derived class **return results in same semantic range**?
-3. Does derived class **throw fewer or same exceptions**?
-4. Does derived class **preserve invariants**?
-5. Would client code need `dynamic_cast` or type checks?
-
-If any answer is ❌ → LSP violated.
-
----
-
-## 🔥 LSP and Design-by-Contract
-
-LSP is essentially **Design by Contract applied to inheritance**.
-
-Base class:
-
-* Defines the contract
-
-Derived class:
-
-* Must honor it
-
----
-
 ## 🔥 Interview One-Liner (MEMORIZE)
 
 > “The Liskov Substitution Principle states that objects of a derived class must be substitutable for base class objects without breaking the correctness or expectations of the program.”
 
 ---
-
-Shall we move to **Interface Segregation Principle (ISP)** next?
-I’ll explain it with **real C++ interfaces, fat-interface problems, and fixes**.
