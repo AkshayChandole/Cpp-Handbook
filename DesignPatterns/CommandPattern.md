@@ -273,18 +273,6 @@ public:
 
 ---
 
-## 🔥 Common Interview Traps
-
-❌ Forgetting undo state
-
-❌ Invoker knowing receiver
-
-❌ Overengineering simple callbacks
-
-❌ Confusing with Observer
-
----
-
 ## 🔥 Interview One-Liner (MEMORIZE)
 
 > “The Command pattern encapsulates a request as an object, allowing parameterization, queuing, logging, and undoable operations.”
