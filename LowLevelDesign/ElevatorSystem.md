@@ -49,7 +49,13 @@ The elevator control system includes the physical elevator cars, floor and in-ca
 - **Trigger emergency stop:** To press the “Emergency” button inside the car to immediately halt the motion and alert the support team (allowed at any state except maintenance).
 
 
-
+### Elevator control system
+- **Move/stop elevator:** To move up or down or to stop the elevator on a specific floor. Transitions cars between Up, Down, and Idle states; respects the maintenance state.
+- **Dispatch elevator:** To run the elevator-assignment algorithm on each CallElevator use case.
+- **Update display (inside/outside):** To refresh in-car and floor displays with the current floor number and travel direction within 200 ms of any state change.
+- **Operate doors:** To open or close doors on command (only in idle state).
+- **Detect overload/sign alarm:** To ensure safety, inhibit motion and sound/flash overload alarm until cleared when the load exceeds capacity.
+- **Notify operator:** To alert the operator or security in emergency or fault scenarios.
 
  
     
