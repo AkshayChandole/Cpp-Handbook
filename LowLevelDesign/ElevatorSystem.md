@@ -57,5 +57,19 @@ The elevator control system includes the physical elevator cars, floor and in-ca
 - **Detect overload/sign alarm:** To ensure safety, inhibit motion and sound/flash overload alarm until cleared when the load exceeds capacity.
 - **Notify operator:** To alert the operator or security in emergency or fault scenarios.
 
- 
+### Operator
+- **Enter maintenance mode:** To place a car in maintenance so it ignores hall- and in-car requests.
+- **Exit maintenance mode:** To return the car to idle, it re-enters normal dispatch.
+- **Acknowledge/resolve alerts:** To address alarms or emergencies (optional but useful).
+
+### Use case diagram
+Here’s the use case diagram of the elevator system:
+
+<img width="500" height="700" alt="image" src="https://github.com/user-attachments/assets/bf70504b-433b-4903-88a4-1bd8fa371290" />
+
+
+
+
+
+
     
