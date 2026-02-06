@@ -68,8 +68,33 @@ Here’s the use case diagram of the elevator system:
 <img width="500" height="700" alt="image" src="https://github.com/user-attachments/assets/bf70504b-433b-4903-88a4-1bd8fa371290" />
 
 
+## [Class components of an elevator system](#class-components-of-an-elevator-system)
 
+### Button
+- `Button` is an abstract class. There can be four types of buttons: the door button, the elevator button, the hall button, and the emergency stop button. The status of the button determines whether it is pressed or unpressed. We can press the button or check its status through the Button class.
+- The `ElevatorButton` subclass is inherited from the Button class and represents the buttons inside the elevator. When the elevator button is pressed, it specifies the destination floor of the elevator car or where the passenger wants to go.
+- Similar to `ElevatorButton`, `HallButton` is also a subclass of the Button class. This class represents the buttons outside the elevator. It uses the enumeration `Direction` to specify whether the button is for going up or down. The hall button has two important pieces of information: the floor from where the button is pressed and the direction the passenger wants to move.
+- Furthermore, there’s an `EmergencyButton` class that also inherits the behavior of the abstract Button class. This class responds to the passengers’ call when they press the emergency button. It alerts the support team to take prompt action and prevents other passengers from using the elevator car.
+  
+<img width="600" height="250" alt="image" src="https://github.com/user-attachments/assets/2f9ce37b-a059-4d68-b394-9bb3d0f41bda" />
 
+### Elevator panel and hall panel
+- `ElevatorPanel` is a class that represents the complete grid of buttons inside the elevator. In the elevator panel, we will have a list of buttons for selecting the destination floor, two buttons for closing and opening the elevator, and an emergency stop button.
+- The `HallPanel` class represents the buttons that are outside the elevators. The hall panel consists of only two buttons: up and down.
+- The elevator and hall panels are used to take input from the passenger.
 
+<img width="400" height="150" alt="image" src="https://github.com/user-attachments/assets/22c5dee5-d65e-440f-ba1b-edcfac1932b3" />
+
+### Display
+- Every elevator has a display to represent the current floor number and direction (up or down) of the elevator. It also gives information about the capacity of the elevator.
+- The `Display` class consists of the floor number, capacity, and direction. It has separate methods for both elevator display and hall display.
+- The `showElevatorDisplay()` will display all of the class attributes. The `Display` class also has an `update()` method that changes the floor number, the capacity, and the direction of the elevator car.
+
+<img width="150" height="150" alt="image" src="https://github.com/user-attachments/assets/28e927c0-1838-46e7-8aa8-51f1dcee4205" />
+
+### Door
+- The `Door` class symbolizes the door of an elevator. This class references the enum `DoorState`, which depicts that the door’s status can be open or closed.
+
+  <img width="189" height="151" alt="image" src="https://github.com/user-attachments/assets/50449ca4-8a25-4696-af36-af9c92eb3ca1" />
 
     
