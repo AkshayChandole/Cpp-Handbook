@@ -184,12 +184,681 @@ Here are the steps in the elevator call interaction:
 
 <img width="780" height="596" alt="image" src="https://github.com/user-attachments/assets/d17f3b3d-4c9f-454f-aff9-ba2f6efecd59" />
 
-## Sequence diagram for Elevator ride from one floor to another
+### Sequence diagram for Elevator ride from one floor to another
 
 <img width="968" height="837" alt="image" src="https://github.com/user-attachments/assets/bca0253d-0494-4805-bc08-1ee16f9136ee" />
 
+## [Code](#code)
+
+### Direction.h
+
+```cpp
+#pragma once
+
+enum class Direction
+{
+    UP,
+    DOWN,
+    IDLE
+};
+```
+
+### DoorState.h
+
+```cpp
+#pragma once
+
+enum class DoorState
+{
+    OPEN,
+    CLOSED
+};
+```
+
+### ElevatorState.h
+
+```cpp
+#pragma once
+
+enum class ElevatorState
+{
+    IDLE,
+    UP,
+    DOWN,
+    MAINTENANCE
+};
+```
+
+
+### Button.h
+
+```cpp
+#pragma once
+
+class Button
+{
+protected:
+    bool pressed = false;
+
+public:
+    virtual ~Button() = default;
+    virtual void pressDown() { pressed = true; }
+    virtual void reset() { pressed = false; }
+    virtual bool isPressed() const = 0;
+};
+```
+
+
+### Door.h
+
+```cpp
+#pragma once
+#include "DoorState.h"
+
+class Door
+{
+    DoorState state = DoorState::CLOSED;
+
+public:
+    void open() { state = DoorState::OPEN; }
+    void close() { state = DoorState::CLOSED; }
+    bool isOpen() const { return state == DoorState::OPEN; }
+    DoorState getState() const { return state; }
+};
+```
+
+
+### Display.h
+
+```cpp
+#pragma once
+#include "Direction.h"
+#include "ElevatorState.h"
+#include <iostream>
+#include <string>
+
+class Display
+{
+    int floor = 0;
+    int load = 0;
+    Direction direction = Direction::IDLE;
+    ElevatorState state = ElevatorState::IDLE;
+    bool maintenance = false;
+    bool overloaded = false;
+
+public:
+    void update(int f, Direction d, int l, ElevatorState s, bool ov, bool maint)
+    {
+        floor = f;
+        direction = d;
+        load = l;
+        state = s;
+        overloaded = ov;
+        maintenance = maint;
+    }
+    void showElevatorDisplay(int carId)
+    {
+        std::string msg = maintenance                    ? "MAINTENANCE"
+                          : overloaded                   ? "OVERLOADED"
+                          : state == ElevatorState::IDLE ? "IDLE"
+                          : state == ElevatorState::UP   ? "UP"
+                          : state == ElevatorState::DOWN ? "DOWN"
+                                                         : "UNKNOWN";
+        std::cout << "Elevator " << (carId + 1)
+                  << " ► Floor: " << floor
+                  << " | Dir: " << (direction == Direction::UP ? "UP" : direction == Direction::DOWN ? "DOWN"
+                                                                                                     : "IDLE")
+                  << " | Load: " << load
+                  << " | State: " << msg
+                  << std::endl;
+    }
+};
+```
+
+
+### HallButton.h
+
+```cpp
+#pragma once
+
+#include "Button.h"
+#include "Direction.h"
+
+class HallButton : public Button
+{
+    Direction direction;
+
+public:
+    HallButton(Direction dir) : direction(dir) {}
+    Direction getDirection() const { return direction; }
+    bool isPressed() const override { return pressed; }
+};
+```
+
+### ElevatorButton.h
+
+```cpp
+#pragma once
+#include "Button.h"
+
+class ElevatorButton : public Button
+{
+    int destinationFloor;
+
+public:
+    ElevatorButton(int floor) : destinationFloor(floor) {}
+    int getDestinationFloor() const { return destinationFloor; }
+    bool isPressed() const override { return pressed; }
+};
+```
+
+### DoorButton.h
+
+```cpp
+#pragma once
+#include "Button.h"
+
+class DoorButton : public Button
+{
+public:
+    bool isPressed() const override { return pressed; }
+};
+```
+
+### EmergencyButton.h
+
+```cpp
+#pragma once
+#include "Button.h"
+
+class EmergencyButton : public Button
+{
+public:
+    bool getPressed() const { return pressed; }
+    void setPressed(bool val) { pressed = val; }
+    bool isPressed() const override { return pressed; }
+};
+```
+
+### HallPanel.h
+
+```cpp
+#pragma once
+#include "HallButton.h"
+#include "Direction.h"
+
+class HallPanel
+{
+    HallButton *up;
+    HallButton *down;
+
+public:
+    HallPanel(int floorNumber, int topFloor)
+        : up(floorNumber == topFloor ? nullptr : new HallButton(Direction::UP)),
+          down(floorNumber == 0 ? nullptr : new HallButton(Direction::DOWN)) {}
+    ~HallPanel()
+    {
+        delete up;
+        delete down;
+    }
+    HallButton *getUpButton() const { return up; }
+    HallButton *getDownButton() const { return down; }
+};
+```
+
+### ElevatorPanel.h
+
+```cpp
+#pragma once
+#include <vector>
+#include "ElevatorButton.h"
+#include "DoorButton.h"
+#include "EmergencyButton.h"
+
+class ElevatorPanel
+{
+    std::vector<ElevatorButton *> floorButtons;
+    DoorButton openButton;
+    DoorButton closeButton;
+    EmergencyButton emergencyButton;
+
+public:
+    ElevatorPanel(int numFloors)
+    {
+        for (int i = 0; i < numFloors; ++i)
+            floorButtons.push_back(new ElevatorButton(i));
+    }
+    ~ElevatorPanel()
+    {
+        for (auto b : floorButtons)
+            delete b;
+    }
+    std::vector<ElevatorButton *> &getFloorButtons() { return floorButtons; }
+    DoorButton &getOpenButton() { return openButton; }
+    DoorButton &getCloseButton() { return closeButton; }
+    EmergencyButton &getEmergencyButton() { return emergencyButton; }
+    void enterEmergency() { emergencyButton.pressDown(); }
+    void exitEmergency() { emergencyButton.reset(); }
+};
+```
+
+
+### ElevatorCar.h
+
+```cpp
+#pragma once
+#include <queue>
+#include <iostream>
+#include "Door.h"
+#include "Display.h"
+#include "ElevatorPanel.h"
+#include "ElevatorState.h"
+#include "Direction.h"
+
+class ElevatorCar
+{
+    int id;
+    int currentFloor = 0;
+    ElevatorState state = ElevatorState::IDLE;
+    Door door;
+    Display display;
+    ElevatorPanel panel;
+    std::queue<int> requestQueue;
+    int load = 0;
+    static const int MAX_LOAD = 680;
+    bool overloaded = false;
+    bool maintenance = false;
+
+public:
+    ElevatorCar(int id, int numFloors)
+        : id(id), panel(numFloors)
+    {
+        updateDisplay();
+    }
+    int getId() const { return id; }
+    int getCurrentFloor() const { return currentFloor; }
+    ElevatorState getState() const { return state; }
+    ElevatorPanel &getPanel() { return panel; }
+    bool isInMaintenance() const { return maintenance; }
+    bool isOverloaded() const { return overloaded; }
+
+    void registerRequest(int floor)
+    {
+        if (maintenance)
+            return;
+        requestQueue.push(floor);
+    }
+    void move()
+    {
+        if (maintenance || overloaded || requestQueue.empty())
+        {
+            state = ElevatorState::IDLE;
+            updateDisplay();
+            return;
+        }
+        int target = requestQueue.front();
+        requestQueue.pop();
+        if (target == currentFloor)
+        {
+            stop();
+            return;
+        }
+        state = (target > currentFloor) ? ElevatorState::UP : ElevatorState::DOWN;
+        while (currentFloor != target && !maintenance && !overloaded)
+        {
+            currentFloor += (state == ElevatorState::UP ? 1 : -1);
+            updateDisplay();
+            display.showElevatorDisplay(id);
+            std::cout << "Elevator " << (id + 1) << " passing floor " << currentFloor << std::endl;
+        }
+        stop();
+    }
+    void stop()
+    {
+        if (maintenance || overloaded)
+            return;
+        state = ElevatorState::IDLE;
+        updateDisplay();
+        door.open();
+        std::cout << "Elevator " << (id + 1) << " doors opening at floor " << currentFloor << std::endl;
+    }
+    void enterMaintenance()
+    {
+        maintenance = true;
+        state = ElevatorState::MAINTENANCE;
+        door.close();
+        updateDisplay();
+        std::cout << ">>> Elevator " << (id + 1) << " entered MAINTENANCE mode" << std::endl;
+    }
+    void exitMaintenance()
+    {
+        maintenance = false;
+        state = ElevatorState::IDLE;
+        updateDisplay();
+        std::cout << ">>> Elevator " << (id + 1) << " exited MAINTENANCE mode, now IDLE" << std::endl;
+    }
+    void emergencyStop()
+    {
+        state = ElevatorState::IDLE;
+        overloaded = false;
+        door.close();
+        updateDisplay();
+        std::cout << ">>> Elevator " << (id + 1) << " EMERGENCY STOP activated!" << std::endl;
+    }
+    void addLoad(int kg)
+    {
+        load += kg;
+        if (load > MAX_LOAD)
+            triggerOverloadAlarm();
+        updateDisplay();
+    }
+    void removeLoad(int kg)
+    {
+        load -= kg;
+        if (load <= MAX_LOAD)
+            clearOverloadAlarm();
+        updateDisplay();
+    }
+    Display &getDisplay() { return display; }
+    Door &getDoor() { return door; }
+
+private:
+    void triggerOverloadAlarm()
+    {
+        overloaded = true;
+        std::cout << "!!! Elevator " << (id + 1) << " OVERLOAD ALARM !!!" << std::endl;
+    }
+    void clearOverloadAlarm()
+    {
+        overloaded = false;
+        std::cout << "Overload cleared for Elevator " << (id + 1) << "." << std::endl;
+    }
+    void updateDisplay()
+    {
+        Direction dir = state == ElevatorState::UP ? Direction::UP : state == ElevatorState::DOWN ? Direction::DOWN
+                                                                                                  : Direction::IDLE;
+        display.update(currentFloor, dir, load, state, overloaded, maintenance);
+    }
+};
+```
+
+
+### Floor.h
+
+```cpp
+#pragma once
+#include <vector>
+#include "HallPanel.h"
+#include "Display.h"
+
+class Floor
+{
+    int floorNumber;
+    std::vector<HallPanel *> panels;
+    std::vector<Display *> displays;
+
+public:
+    Floor(int floorNumber, int numPanels, int numDisplays, int topFloor)
+        : floorNumber(floorNumber)
+    {
+        for (int i = 0; i < numPanels; ++i)
+            panels.push_back(new HallPanel(floorNumber, topFloor));
+        for (int i = 0; i < numDisplays; ++i)
+            displays.push_back(new Display());
+    }
+    ~Floor()
+    {
+        for (auto p : panels)
+            delete p;
+        for (auto d : displays)
+            delete d;
+    }
+    int getFloorNumber() const { return floorNumber; }
+    std::vector<HallPanel *> &getPanels() { return panels; }
+    HallPanel *getPanel(int idx) { return panels[idx]; }
+    std::vector<Display *> &getDisplays() { return displays; }
+    Display *getDisplay(int idx) { return displays[idx]; }
+};
+```
+
+
+### Building.h
+
+```cpp
+#pragma once
+#include <vector>
+#include "Floor.h"
+#include "ElevatorCar.h"
+
+class Building
+{
+    std::vector<Floor *> floors;
+    std::vector<ElevatorCar *> cars;
+
+public:
+    Building(int numFloors, int numCars, int numPanels, int numDisplays)
+    {
+        int topFloor = numFloors - 1;
+        for (int i = 0; i < numFloors; ++i)
+            floors.push_back(new Floor(i, numPanels, numDisplays, topFloor));
+        for (int i = 0; i < numCars; ++i)
+            cars.push_back(new ElevatorCar(i, numFloors));
+    }
+    ~Building()
+    {
+        for (auto f : floors)
+            delete f;
+        for (auto c : cars)
+            delete c;
+    }
+    std::vector<Floor *> &getFloors() { return floors; }
+    std::vector<ElevatorCar *> &getCars() { return cars; }
+};
+```
+
+
+### ElevatorSystem.h
+
+```cpp
+#pragma once
+#include <queue>
+#include <vector>
+#include <cstdint>
+#include "Building.h"
+#include "Direction.h"
+#include "ElevatorState.h"
+
+struct FloorRequest
+{
+    int floor;
+    Direction dir;
+    FloorRequest(int f, Direction d) : floor(f), dir(d) {}
+};
+
+class ElevatorSystem
+{
+    static ElevatorSystem *system;
+    Building *building;
+    std::queue<FloorRequest> hallRequests;
+    ElevatorSystem(int floors, int cars, int numPanels, int numDisplays)
+        : building(new Building(floors, cars, numPanels, numDisplays)) {}
+
+public:
+    static ElevatorSystem *getInstance(int floors, int cars, int numPanels, int numDisplays)
+    {
+        if (!system)
+            system = new ElevatorSystem(floors, cars, numPanels, numDisplays);
+        return system;
+    }
+    ~ElevatorSystem() { delete building; }
+
+    std::vector<ElevatorCar *> &getCars() { return building->getCars(); }
+    Building *getBuilding() { return building; }
+
+    void callElevator(int floorNum, Direction dir)
+    {
+        hallRequests.push(FloorRequest(floorNum, dir));
+    }
+
+    ElevatorCar *getNearestIdleCar(int floor)
+    {
+        ElevatorCar *best = nullptr;
+        int minDist = INT32_MAX;
+        for (auto car : building->getCars())
+        {
+            if (car->getState() == ElevatorState::IDLE && !car->isInMaintenance() && !car->isOverloaded())
+            {
+                int dist = abs(car->getCurrentFloor() - floor);
+                if (dist < minDist)
+                {
+                    minDist = dist;
+                    best = car;
+                }
+            }
+        }
+        return best;
+    }
+
+    void dispatcher()
+    {
+        while (!hallRequests.empty())
+        {
+            FloorRequest req = hallRequests.front();
+            hallRequests.pop();
+            ElevatorCar *car = getNearestIdleCar(req.floor);
+            if (!car)
+            {
+                std::cout << "No idle car available; re-queueing request" << std::endl;
+                hallRequests.push(req);
+                break;
+            }
+            std::cout << "Dispatching Elevator " << (car->getId() + 1) << " to floor " << req.floor << std::endl;
+            car->registerRequest(req.floor);
+            car->move();
+        }
+    }
+
+    void monitoring()
+    {
+        for (auto car : getCars())
+            car->getDisplay().showElevatorDisplay(car->getId());
+    }
+};
+ElevatorSystem *ElevatorSystem::system = nullptr;
+```
+
+
+## Driver.cpp
+
+```cpp
+#include "ElevatorSystem.h"
+#include "Direction.h"
+#include <iostream>
+#include <vector>
+#include <random>
+#include <ctime>
+
+void runCall(ElevatorSystem *system, int floor, Direction dir)
+{
+    std::cout << "Passenger calls lift on floor " << floor << " (";
+    if (dir == Direction::UP)
+        std::cout << "UP";
+    else if (dir == Direction::DOWN)
+        std::cout << "DOWN";
+    else
+        std::cout << "IDLE";
+    std::cout << ")" << std::endl;
+    ElevatorCar *nearest = system->getNearestIdleCar(floor);
+    if (!nearest)
+    {
+        std::cout << "No idle elevator available right now." << std::endl;
+        return;
+    }
+    std::cout << "→ Nearest elevator is " << (nearest->getId() + 1)
+              << " at floor " << nearest->getCurrentFloor()
+              << ". Lift going ";
+    if (dir == Direction::UP)
+        std::cout << "UP";
+    else if (dir == Direction::DOWN)
+        std::cout << "DOWN";
+    else
+        std::cout << "IDLE";
+    std::cout << "." << std::endl;
+
+    system->callElevator(floor, dir);
+    system->dispatcher();
+    std::cout << "\n[Status after dispatch]" << std::endl;
+    system->monitoring();
+    std::cout << std::string(100, '-') << std::endl;
+}
+
+int main()
+{
+    int numFloors = 13;
+    int numCars = 3;
+    int numPanels = 1;
+    int numDisplays = 3;
+
+    ElevatorSystem *system = ElevatorSystem::getInstance(numFloors, numCars, numPanels, numDisplays);
+
+    std::cout << "=== Scenario 1: Elevator 3 in maintenance, passenger calls elevator from floor 7 ===\n"
+              << std::endl;
+    system->monitoring();
+    std::cout << std::endl;
+
+    ElevatorCar *car3 = system->getCars()[2];
+    car3->enterMaintenance();
+    std::cout << std::endl;
+    system->monitoring();
+    std::cout << std::endl;
+
+    runCall(system, 7, Direction::UP);
+
+    car3->exitMaintenance();
+    std::cout << "\n--- Resetting maintenance for all elevators ---\n"
+              << std::endl;
+    system->monitoring();
+    std::cout << std::endl;
+
+    std::cout << "=== Scenario 2: Random positions, passenger calls elevator from ground (0) to top (12) ===" << std::endl;
+    std::mt19937 rng(static_cast<unsigned int>(std::time(nullptr)));
+    std::uniform_int_distribution<int> dist(0, numFloors - 1);
+
+    for (ElevatorCar *car : system->getCars())
+    {
+        int randomFloor = dist(rng);
+        std::cout << "\n== Setting random position for Elevator " << (car->getId() + 1) << " ==" << std::endl;
+        std::cout << "→ Teleporting Elevator " << (car->getId() + 1) << " to floor " << randomFloor << std::endl;
+        car->registerRequest(randomFloor);
+        car->move();
+    }
+
+    std::cout << "\nElevator positions after random repositioning:" << std::endl;
+    for (ElevatorCar *car : system->getCars())
+    {
+        std::cout << "Elevator " << (car->getId() + 1)
+                  << " ► Floor: " << car->getCurrentFloor()
+                  << " | State: ";
+        ElevatorState st = car->getState();
+        if (st == ElevatorState::IDLE)
+            std::cout << "IDLE";
+        else if (st == ElevatorState::UP)
+            std::cout << "UP";
+        else if (st == ElevatorState::DOWN)
+            std::cout << "DOWN";
+        else if (st == ElevatorState::MAINTENANCE)
+            std::cout << "MAINTENANCE";
+        std::cout << std::endl;
+    }
+    std::cout << std::endl;
+
+    runCall(system, 0, Direction::UP);
+
+    return 0;
+}
+```
 
 
 
 
-    
+
