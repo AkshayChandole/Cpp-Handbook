@@ -1,4 +1,3 @@
-<img width="1181" height="625" alt="image" src="https://github.com/user-attachments/assets/49cfd6e1-05cb-41c8-857a-5d5733cd148b" />
 # [Elevator System](#elevator-system)
 
 <img width="854" height="421" alt="image" src="https://github.com/user-attachments/assets/8da1c5ba-79c8-4c1a-9dda-ea192f5a71d3" />
