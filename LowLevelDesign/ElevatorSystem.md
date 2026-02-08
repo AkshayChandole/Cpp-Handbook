@@ -97,4 +97,66 @@ Here’s the use case diagram of the elevator system:
 
   <img width="189" height="151" alt="image" src="https://github.com/user-attachments/assets/50449ca4-8a25-4696-af36-af9c92eb3ca1" />
 
+### Elevator car
+- `ElevatorCar` is the class that expresses the elevators of the building. Each elevator has a unique ID.
+- This class consists of an enumeration named `ElevatirState` that tells the present state of the elevator.
+- Moreover, every elevator car has a door, an elevator panel, and a display. The elevator car can start moving or stop on any floor.
+
+<img width="221" height="486" alt="image" src="https://github.com/user-attachments/assets/03a77a1b-e29b-464e-92a0-fc2b2239991b" />
+
+### Floor
+- The `Floor` class represents the floors of a building. Each floor consists of several hall panels to call the lift and has displays to indicate the current floor and direction of the lift, as there is a separate panel and display for each elevator.
+- Moreover, we will have `getFloorNumber()`, `getPanel()`, and `getDisplay()` functions to check if the floor is at the bottom or top, and update the panels and displays respectively.
+- The “Down” button will be disabled if the floor is at the lowest level of the building, and the “Up” button will be disabled if the floor is topmost.
+
+<img width="222" height="175" alt="image" src="https://github.com/user-attachments/assets/c793bd30-0a80-445e-af83-dad8552dc22d" />
+
+
+### Building
+- The `Building` class represents an actual building consisting of several floors and elevators.
+  
+<img width="203" height="116" alt="image" src="https://github.com/user-attachments/assets/5db72e51-07ec-4aa9-be77-65fbbb598d78" />
+
+### Elevator system
+- `ElevatorSystem` is the main functional class of the whole elevator control system.
+- The elevator system displays each elevator and monitors the elevator cars.
+- The elevator system has a `dispatcher` to select the best elevator car. Moreover, the system takes control of the elevator doors.
+
+<img width="248" height="194" alt="image" src="https://github.com/user-attachments/assets/42825804-fbd4-45ee-8fd9-8d2501eb5eb9" />
+
+### Enumerations
+- The following is the list of enumerations required in the elevator system:
+  - `ElevatorState`: It describes the state of an elevator, which could be idle, up, down, or maintenance.
+  - `Direction`: When the elevator is not idle, it describes the direction of its motion, which could be up or down.
+  - `DoorState`: When the elevator is idle, it describes the status of an elevator door that could be open or closed.
+
+<img width="618" height="189" alt="image" src="https://github.com/user-attachments/assets/11065a8c-05f4-4a11-809c-9a0c8ecd15a7" />
+
+## [Relationship between the classes](#relationship-between-the-classes)
+
+### Aggregation
+- Aggregation is a “has-a” relationship where the container (whole) can exist independently of the contained (part). The part can also exist independently, and is often shared or referenced.
+- `ElevatorSystem` has an aggregation relationship with `Building`.
+  - The `ElevatorSystem` is the high-level controller and contains a `Building` instance (which has floors and elevator cars). The `Building` object can be reused or replaced if the system is reset.
+- `Building` aggregates, `Floor` and `ElevatorCar`.
+  - The `Building` has multiple floors and elevator cars. Even if the Building is destroyed, the floors and cars might still be conceptual entities (e.g., for reporting or migration).
+
+<img width="537" height="358" alt="image" src="https://github.com/user-attachments/assets/a55dce35-ad61-41ec-bc6d-71dc38c38bb4" />
+
+### Composition
+- Composition is a strong “part-of” relationship where the part cannot exist without the whole. If the whole is destroyed, its parts are destroyed too.
+- `ElevatorCar` is composed of `Door`, `Display`, and `ElevatorPanel`. Each `ElevatorCar` owns its Door, Display, and Panel—these have no meaningful existence outside the car. If the car is decommissioned, so are its door, display, and panel.
+- `Floor` is composed of `HallPanel` and `Display`. Each floor has a unique HallPanel and Display, which do not make sense independently of their floor.
+- `HallPanel` contains `HallButtons`. A HallPanel comprises up/down buttons specific to it; these buttons are not shared with other panels.
+- `ElevatorPanel` contains `ElevatorButtons`, `DoorButtons`, and an `EmergencyButton`. These buttons are part of the elevator’s control panel and are not shared across panels or elevators.
+
+<img width="561" height="648" alt="image" src="https://github.com/user-attachments/assets/cfd6f22c-2c45-4703-b9ff-a5f23bf4d91a" />
+
+
+### Inheritence
+Inheritance is an “is-a” relationship. Subclasses share a contract and behavior with the superclass, and can be used wherever the superclass is expected.
+- `ElevatorButton`, `HallButton`, `DoorButton`, and `EmergencyButton` all extend the abstract `Button` class.
+  -  All buttons share common features (pressed state, press/reset actions), but each has specialized behavior and context. Inheriting from a base Button reduces duplication and supports polymorphism if needed.
+
+
     
