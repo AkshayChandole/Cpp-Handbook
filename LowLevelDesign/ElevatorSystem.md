@@ -1,4 +1,4 @@
-
+<img width="1181" height="625" alt="image" src="https://github.com/user-attachments/assets/49cfd6e1-05cb-41c8-857a-5d5733cd148b" />
 # [Elevator System](#elevator-system)
 
 <img width="854" height="421" alt="image" src="https://github.com/user-attachments/assets/8da1c5ba-79c8-4c1a-9dda-ea192f5a71d3" />
@@ -135,7 +135,7 @@ Here’s the use case diagram of the elevator system:
 ## [Relationship between the classes](#relationship-between-the-classes)
 
 ### Aggregation
-- Aggregation is a “has-a” relationship where the container (whole) can exist independently of the contained (part). The part can also exist independently, and is often shared or referenced.
+Aggregation is a “has-a” relationship where the container (whole) can exist independently of the contained (part). The part can also exist independently, and is often shared or referenced.
 - `ElevatorSystem` has an aggregation relationship with `Building`.
   - The `ElevatorSystem` is the high-level controller and contains a `Building` instance (which has floors and elevator cars). The `Building` object can be reused or replaced if the system is reset.
 - `Building` aggregates, `Floor` and `ElevatorCar`.
@@ -144,7 +144,7 @@ Here’s the use case diagram of the elevator system:
 <img width="537" height="358" alt="image" src="https://github.com/user-attachments/assets/a55dce35-ad61-41ec-bc6d-71dc38c38bb4" />
 
 ### Composition
-- Composition is a strong “part-of” relationship where the part cannot exist without the whole. If the whole is destroyed, its parts are destroyed too.
+Composition is a strong “part-of” relationship where the part cannot exist without the whole. If the whole is destroyed, its parts are destroyed too.
 - `ElevatorCar` is composed of `Door`, `Display`, and `ElevatorPanel`. Each `ElevatorCar` owns its Door, Display, and Panel—these have no meaningful existence outside the car. If the car is decommissioned, so are its door, display, and panel.
 - `Floor` is composed of `HallPanel` and `Display`. Each floor has a unique HallPanel and Display, which do not make sense independently of their floor.
 - `HallPanel` contains `HallButtons`. A HallPanel comprises up/down buttons specific to it; these buttons are not shared with other panels.
@@ -157,6 +157,39 @@ Here’s the use case diagram of the elevator system:
 Inheritance is an “is-a” relationship. Subclasses share a contract and behavior with the superclass, and can be used wherever the superclass is expected.
 - `ElevatorButton`, `HallButton`, `DoorButton`, and `EmergencyButton` all extend the abstract `Button` class.
   -  All buttons share common features (pressed state, press/reset actions), but each has specialized behavior and context. Inheriting from a base Button reduces duplication and supports polymorphism if needed.
+
+## [Class Diagram of an Elevator System](#class-diagram-of-an-elevator-system)
+
+<img width="1181" height="625" alt="image" src="https://github.com/user-attachments/assets/51f6f7da-d671-438a-a55e-07a34e8abf36" />
+
+## [Sequence Diagram of an Elevator System](#sequence-diagram-of-an-elevator-system)
+
+### Sequence diagram for Elevator call
+The sequence diagram for an elevator call should have the following actors and objects that will interact with each other:
+- **Actor:** `Passenger`
+- **Objects:** `HallButton`, `ElevatorSystem`, `Dispatcher`, `ElevatorCar`, and `Door`
+
+Here are the steps in the elevator call interaction:
+1. The passenger presses the hall button to call the elevator.
+2. The hall button signals the elevator system to call an elevator car to the passenger’s floor.
+3. The elevator system checks for available cars (idle state) and ignores all cars in maintenance state.
+4. The elevator system informs the dispatcher to select the best car.
+5. The dispatcher returns the best car to the system.
+6. The elevator system signals the elevator car to move to the passenger’s floor.
+7. The elevator car signals the system when it arrives on the floor.
+8. The system signals the hall button that the elevator has arrived.
+9. The hall button is unpressed.
+10. The elevator system signals the doors to open.
+11. The door opens for the passenger.
+
+<img width="780" height="596" alt="image" src="https://github.com/user-attachments/assets/d17f3b3d-4c9f-454f-aff9-ba2f6efecd59" />
+
+## Sequence diagram for Elevator ride from one floor to another
+
+<img width="968" height="837" alt="image" src="https://github.com/user-attachments/assets/bca0253d-0494-4805-bc08-1ee16f9136ee" />
+
+
+
 
 
     
