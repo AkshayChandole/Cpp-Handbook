@@ -857,7 +857,131 @@ int main()
 }
 ```
 
+### Output
 
+```bash
+=== Scenario 1: Elevator 3 in maintenance, passenger calls elevator from floor 7 ===
+
+Elevator 1 ► Floor: 0 | Dir: IDLE | Load: 0 | State: IDLE
+Elevator 2 ► Floor: 0 | Dir: IDLE | Load: 0 | State: IDLE
+Elevator 3 ► Floor: 0 | Dir: IDLE | Load: 0 | State: IDLE
+
+>>> Elevator 3 entered MAINTENANCE mode
+
+Elevator 1 ► Floor: 0 | Dir: IDLE | Load: 0 | State: IDLE
+Elevator 2 ► Floor: 0 | Dir: IDLE | Load: 0 | State: IDLE
+Elevator 3 ► Floor: 0 | Dir: IDLE | Load: 0 | State: MAINTENANCE
+
+Passenger calls lift on floor 7 (UP)
+→ Nearest elevator is 1 at floor 0. Lift going UP.
+Dispatching Elevator 1 to floor 7
+Elevator 1 ► Floor: 1 | Dir: UP | Load: 0 | State: UP
+Elevator 1 passing floor 1
+Elevator 1 ► Floor: 2 | Dir: UP | Load: 0 | State: UP
+Elevator 1 passing floor 2
+Elevator 1 ► Floor: 3 | Dir: UP | Load: 0 | State: UP
+Elevator 1 passing floor 3
+Elevator 1 ► Floor: 4 | Dir: UP | Load: 0 | State: UP
+Elevator 1 passing floor 4
+Elevator 1 ► Floor: 5 | Dir: UP | Load: 0 | State: UP
+Elevator 1 passing floor 5
+Elevator 1 ► Floor: 6 | Dir: UP | Load: 0 | State: UP
+Elevator 1 passing floor 6
+Elevator 1 ► Floor: 7 | Dir: UP | Load: 0 | State: UP
+Elevator 1 passing floor 7
+Elevator 1 doors opening at floor 7
+
+[Status after dispatch]
+Elevator 1 ► Floor: 7 | Dir: IDLE | Load: 0 | State: IDLE
+Elevator 2 ► Floor: 0 | Dir: IDLE | Load: 0 | State: IDLE
+Elevator 3 ► Floor: 0 | Dir: IDLE | Load: 0 | State: MAINTENANCE
+----------------------------------------------------------------------------------------------------
+>>> Elevator 3 exited MAINTENANCE mode, now IDLE
+
+--- Resetting maintenance for all elevators ---
+
+Elevator 1 ► Floor: 7 | Dir: IDLE | Load: 0 | State: IDLE
+Elevator 2 ► Floor: 0 | Dir: IDLE | Load: 0 | State: IDLE
+Elevator 3 ► Floor: 0 | Dir: IDLE | Load: 0 | State: IDLE
+
+=== Scenario 2: Random positions, passenger calls elevator from ground (0) to top (12) ===
+
+== Setting random position for Elevator 1 ==
+→ Teleporting Elevator 1 to floor 4
+Elevator 1 ► Floor: 6 | Dir: DOWN | Load: 0 | State: DOWN
+Elevator 1 passing floor 6
+Elevator 1 ► Floor: 5 | Dir: DOWN | Load: 0 | State: DOWN
+Elevator 1 passing floor 5
+Elevator 1 ► Floor: 4 | Dir: DOWN | Load: 0 | State: DOWN
+Elevator 1 passing floor 4
+Elevator 1 doors opening at floor 4
+
+== Setting random position for Elevator 2 ==
+→ Teleporting Elevator 2 to floor 12
+Elevator 2 ► Floor: 1 | Dir: UP | Load: 0 | State: UP
+Elevator 2 passing floor 1
+Elevator 2 ► Floor: 2 | Dir: UP | Load: 0 | State: UP
+Elevator 2 passing floor 2
+Elevator 2 ► Floor: 3 | Dir: UP | Load: 0 | State: UP
+Elevator 2 passing floor 3
+Elevator 2 ► Floor: 4 | Dir: UP | Load: 0 | State: UP
+Elevator 2 passing floor 4
+Elevator 2 ► Floor: 5 | Dir: UP | Load: 0 | State: UP
+Elevator 2 passing floor 5
+Elevator 2 ► Floor: 6 | Dir: UP | Load: 0 | State: UP
+Elevator 2 passing floor 6
+Elevator 2 ► Floor: 7 | Dir: UP | Load: 0 | State: UP
+Elevator 2 passing floor 7
+Elevator 2 ► Floor: 8 | Dir: UP | Load: 0 | State: UP
+Elevator 2 passing floor 8
+Elevator 2 ► Floor: 9 | Dir: UP | Load: 0 | State: UP
+Elevator 2 passing floor 9
+Elevator 2 ► Floor: 10 | Dir: UP | Load: 0 | State: UP
+Elevator 2 passing floor 10
+Elevator 2 ► Floor: 11 | Dir: UP | Load: 0 | State: UP
+Elevator 2 passing floor 11
+Elevator 2 ► Floor: 12 | Dir: UP | Load: 0 | State: UP
+Elevator 2 passing floor 12
+Elevator 2 doors opening at floor 12
+
+== Setting random position for Elevator 3 ==
+→ Teleporting Elevator 3 to floor 5
+Elevator 3 ► Floor: 1 | Dir: UP | Load: 0 | State: UP
+Elevator 3 passing floor 1
+Elevator 3 ► Floor: 2 | Dir: UP | Load: 0 | State: UP
+Elevator 3 passing floor 2
+Elevator 3 ► Floor: 3 | Dir: UP | Load: 0 | State: UP
+Elevator 3 passing floor 3
+Elevator 3 ► Floor: 4 | Dir: UP | Load: 0 | State: UP
+Elevator 3 passing floor 4
+Elevator 3 ► Floor: 5 | Dir: UP | Load: 0 | State: UP
+Elevator 3 passing floor 5
+Elevator 3 doors opening at floor 5
+
+Elevator positions after random repositioning:
+Elevator 1 ► Floor: 4 | State: IDLE
+Elevator 2 ► Floor: 12 | State: IDLE
+Elevator 3 ► Floor: 5 | State: IDLE
+
+Passenger calls lift on floor 0 (UP)
+→ Nearest elevator is 1 at floor 4. Lift going UP.
+Dispatching Elevator 1 to floor 0
+Elevator 1 ► Floor: 3 | Dir: DOWN | Load: 0 | State: DOWN
+Elevator 1 passing floor 3
+Elevator 1 ► Floor: 2 | Dir: DOWN | Load: 0 | State: DOWN
+Elevator 1 passing floor 2
+Elevator 1 ► Floor: 1 | Dir: DOWN | Load: 0 | State: DOWN
+Elevator 1 passing floor 1
+Elevator 1 ► Floor: 0 | Dir: DOWN | Load: 0 | State: DOWN
+Elevator 1 passing floor 0
+Elevator 1 doors opening at floor 0
+
+[Status after dispatch]
+Elevator 1 ► Floor: 0 | Dir: IDLE | Load: 0 | State: IDLE
+Elevator 2 ► Floor: 12 | Dir: IDLE | Load: 0 | State: IDLE
+Elevator 3 ► Floor: 5 | Dir: IDLE | Load: 0 | State: IDLE
+----------------------------------------------------------------------------------------------------
+```
 
 
 
