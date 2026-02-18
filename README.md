@@ -283,8 +283,8 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 ---
 
 # [Keywords](#keywords)
-   - const
-   - constexpr
+   - [const](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/Keywords/const.md#const)
+   - [constexpr](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/Keywords/constexpr.md#constexpr)
 
 ---
 
