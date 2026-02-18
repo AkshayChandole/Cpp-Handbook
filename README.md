@@ -283,8 +283,8 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 ---
 
 # [Keywords](#keywords)
-- const
-- constexpr
+   - const
+   - constexpr
 
 ---
 
