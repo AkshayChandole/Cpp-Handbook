@@ -341,5 +341,7 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 
 # [C++ Coding Interview Questions](#c-coding-interview-questions)
 1. [[HackerRank] Abstract Classes - Polymorphism - LRU Cache](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CodingQuestions/ImplementLRUCache.md#hackerrank-abstract-classes-polymorphism-lru-cache)
+2. [Implement custom unique pointer class.](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CodingQuestions/ImplementUniquePointer.md#custom-implementation-of-unique-pointer)
+2. [Implement custom shared pointer class.]()
 
 ---
