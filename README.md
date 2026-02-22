@@ -350,6 +350,7 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 6. [Implement custom queue class.](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CodingQuestions/ImplementQueue.md#queue-implementation)
 7. [Implement custom dequeue class.](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CodingQuestions/ImplementDeque.md#deque-implementation)
 8. [Implement thread-safe singleton class.](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CodingQuestions/ImplementThreadSafeSingletonClass.md#implement-thread-safe-singleton-class)
+9. [Implement custom weak pointer class.](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CodingQuestions/ImplementWeakPointer.md#implement-weak-pointer)
    
 
 ---
