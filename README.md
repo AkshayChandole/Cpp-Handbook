@@ -314,6 +314,7 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 17. [What is this pointer in C++?](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/WhatIsThisPointerInC.md#what-is-this-pointer-in-c)
 18. [How does virtual inheritance work in C++? (The Diamond Problem)](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/HowDoesVirtualInheritanceWorkInC.md#how-does-virtual-inheritance-work-in-c)
 19. [What happens under the hood for virtual functions? (vPointer, vTable etc)](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/WhatHappensUnderTheHoodForVirtualFunctionsVPointerVTableEtc.md#what-happens-under-the-hood-for-virtual-functions-vpointer-vtable-etc)
+20. [Explain the problem of cyclic dependency and how to resolve it.](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/CyclicDependency.md#cyclic-dependency)
 
 
 # [Design Patterns](#design-patterns)
