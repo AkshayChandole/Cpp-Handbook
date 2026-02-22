@@ -5,7 +5,7 @@ In C++, **smart pointers** are objects that manage the lifecycle of dynamically 
 This section explores the different types of smart pointers in C++:
 
 - [5.4.1 Unique Pointer (`std::unique_ptr`)](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/AdvancedCppTopics/UniquePointer.md#unique-pointer)
-- [5.4.2 Shared Pointer (`std::shared_ptr`)](#542-shared-pointer-stdshared_ptr)
+- [5.4.2 Shared Pointer (`std::shared_ptr`)](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/AdvancedCppTopics/SharedPointer.md#shared-pointer)
 - [5.4.3 Weak Pointer (`std::weak_ptr`)](#543-weak-pointer-stdweak_ptr)
 - [5.4.4 Auto Pointer (`std::auto_ptr`) (Deprecated)](#544-auto-pointer-stdauto_ptr-deprecated)
 
