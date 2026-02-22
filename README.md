@@ -347,6 +347,7 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 3. [Implement custom vector class.](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CodingQuestions/ImplementVector.md#vector-implementation)
 4. [Implement custom string class.](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CodingQuestions/ImplementString.md#string-implementation)
 5. [Implement custom stack class.](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CodingQuestions/ImplementStack.md#stack-implementation)
+6. [Implement custom queue class.](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CodingQuestions/ImplementQueue.md#queue-implementation)
    
 
 ---
