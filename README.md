@@ -290,6 +290,10 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 
 ---
 
+# [C++11 Features](#c11-features)
+
+---
+
 # [STL Cheatsheet]()
 
 ---
@@ -316,6 +320,8 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 19. [What happens under the hood for virtual functions? (vPointer, vTable etc)](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/WhatHappensUnderTheHoodForVirtualFunctionsVPointerVTableEtc.md#what-happens-under-the-hood-for-virtual-functions-vpointer-vtable-etc)
 20. [Explain the problem of cyclic dependency and how to resolve it.](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/CyclicDependency.md#cyclic-dependency)
 21. [Explain object slicing with example.](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/ExplainObjectSlicing.md#object-slicing)
+22. [How To Stop Someone To Inherit From Your Class In C++?](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/StopInheritingFromClass.md#how-to-stop-someone-to-inherit-from-your-class-in-c)
+23. [What Is Return Value Of printf And scanf In C/C++?](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/ReturnValueOfPrintfAndScanf.md#what-is-return-value-of-printf-and-scanf-in-cc)
 
 
 # [Design Patterns](#design-patterns)
