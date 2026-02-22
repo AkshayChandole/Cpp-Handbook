@@ -305,8 +305,8 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    - range-based for loop
    - uniform initialization
    - initializer_list
-   - delegating constructors
-   - inheriting constructors
+   - [delegating constructors](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/C%2B%2B11%20Features/delegating_constructors.md#delegating-constructors)
+   - [inheriting constructors](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/C%2B%2B11%20Features/inheriting_constructors.md#inheriting-constructors)
    - explicit conversion operators
    - override
    - final
@@ -345,7 +345,7 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    - scoped enums
    - trailing return type syntax
    - delegating constructors
-   - inline namespacesv
+   - inline namespaces
 
 ---
 
