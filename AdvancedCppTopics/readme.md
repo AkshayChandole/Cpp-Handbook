@@ -29,7 +29,7 @@ The Advanced C++ Topics section delves into more sophisticated features of the l
 
 [**5.4 Smart Pointers**](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/AdvancedCppTopics/SmartPointers.md#54-smart-pointers)
 - [5.4.1 Unique Pointers (`std::unique_ptr`)](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/AdvancedCppTopics/UniquePointer.md#unique-pointer)  
-- [5.4.2 Shared Pointers (`std::shared_ptr`)](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/AdvancedCppTopics/SmartPointers.md#542-shared-pointer-stdshared_ptr)  
+- [5.4.2 Shared Pointers (`std::shared_ptr`)](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/AdvancedCppTopics/SharedPointer.md#shared-pointer)  
 - [5.4.3 Weak Pointers (`std::weak_ptr`)](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/AdvancedCppTopics/SmartPointers.md#543-weak-pointer-stdweak_ptr)  
 - [5.4.4 Comparison with Raw Pointers](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/AdvancedCppTopics/SmartPointers.md#544-auto-pointer-stdauto_ptr-deprecated)  
 
