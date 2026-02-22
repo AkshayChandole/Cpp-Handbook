@@ -291,7 +291,7 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 ---
 
 # [C++11 Features](#c11-features)
-   - [auto](#https://github.com/AkshayChandole/Cpp-Handbook/blob/main/C%2B%2B11%20Features/auto.md#auto)
+   - [auto](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/C%2B%2B11%20Features/auto.md#auto)
    - [decltype](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/C%2B%2B11%20Features/decltype.md#decltype)
    - [nullptr](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/C%2B%2B11%20Features/nullptr.md#nullptr)
    - [constexpr](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/C++11%20Features/constexpr.md#constexpr)
