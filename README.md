@@ -351,106 +351,106 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 
 # [C++14 Features](#c14-features)
 
-   -Generic Lambdas
-   -Lambda Init Capture
-   -Return Type Deduction for Functions
-   -Relaxed `constexpr`
-   -Variable Templates
-   -Binary Literals
-   -Digit Separators
-   -`decltype(auto)`
-   -`[[deprecated]]` Attribute
-   -Sized Deallocation
-   -`std::make_unique`
-   -Shared Locking (`std::shared_timed_mutex`)
-   -User-defined Literals for `std::complex`
-   -Improved `std::integer_sequence`
+   - Generic Lambdas
+   - Lambda Init Capture
+   - Return Type Deduction for Functions
+   - Relaxed `constexpr`
+   - Variable Templates
+   - Binary Literals
+   - Digit Separators
+   - `decltype(auto)`
+   - `[[deprecated]]` Attribute
+   - Sized Deallocation
+   - `std::make_unique`
+   - Shared Locking (`std::shared_timed_mutex`)
+   - User-defined Literals for `std::complex`
+   - Improved `std::integer_sequence`
 
 ---
 
 # [C++17 Features](#c17-features)
 
-   -Structured Bindings
-   -`if constexpr`
-   -Fold Expressions
-   -Inline Variables
-   -Nested Namespace Definition
-   -`constexpr` Lambda
-   -`std::optional`
-   -`std::variant`
-   -`std::any`
-   -`std::string_view`
-   -`std::filesystem`
-   -Parallel STL Algorithms
-   -`std::invoke`
-   -`std::apply`
-   -`std::tuple` Improvements
-   -`std::scoped_lock`
-   -`std::shared_mutex`
-   -Node Handle Interface
-   -Polymorphic Memory Resources (PMR)
-   -Guaranteed Copy Elision
-   -`[[nodiscard]]` Attribute
-   -`[[maybe_unused]]` Attribute
-   -`[[fallthrough]]` Attribute
-   -Aligned Allocation
+   - Structured Bindings
+   - `if constexpr`
+   - Fold Expressions
+   - Inline Variables
+   - Nested Namespace Definition
+   - `constexpr` Lambda
+   - `std::optional`
+   - `std::variant`
+   - `std::any`
+   - `std::string_view`
+   - `std::filesystem`
+   - Parallel STL Algorithms
+   - `std::invoke`
+   - `std::apply`
+   - `std::tuple` Improvements
+   - `std::scoped_lock`
+   - `std::shared_mutex`
+   - Node Handle Interface
+   - Polymorphic Memory Resources (PMR)
+   - Guaranteed Copy Elision
+   - `[[nodiscard]]` Attribute
+   - `[[maybe_unused]]` Attribute
+   - `[[fallthrough]]` Attribute
+   - Aligned Allocation
 
 ---
 
 # [C++20 Features](#c20-features)
 
-   -Concepts
-   -Requires Clauses
-   -Ranges Library
-   -Coroutines
-   -Modules
-   -Three-way Comparison Operator (`<=>`)
-   -`constexpr` Virtual Functions
-   -`consteval`
-   -`constinit`
-   -Designated Initializers
-   -Templated Lambdas
-   -Lambda Capture `*this` by Value
-   -Expanded `constexpr` Support (STL containers, algorithms)
-   -`std::span`
-   -`std::format`
-   -`std::source_location`
-   -`std::jthread`
-   -`std::stop_token`
-   -Calendar and Time Zone Library
-   -`std::bit_cast`
-   -`std::atomic_ref`
-   -`std::endian`
-   -`std::barrier`
-   -`std::latch`
-   -`std::semaphore`
-   -`[[likely]]` and `[[unlikely]]` Attributes
+   - Concepts
+   - Requires Clauses
+   - Ranges Library
+   - Coroutines
+   - Modules
+   - Three-way Comparison Operator (`<=>`)
+   - `constexpr` Virtual Functions
+   - `consteval`
+   - `constinit`
+   - Designated Initializers
+   - Templated Lambdas
+   - Lambda Capture `*this` by Value
+   - Expanded `constexpr` Support (STL containers, algorithms)
+   - `std::span`
+   - `std::format`
+   - `std::source_location`
+   - `std::jthread`
+   - `std::stop_token`
+   - Calendar and Time Zone Library
+   - `std::bit_cast`
+   - `std::atomic_ref`
+   - `std::endian`
+   - `std::barrier`
+   - `std::latch`
+   - `std::semaphore`
+   - `[[likely]]` and `[[unlikely]]` Attributes
 
 ---
 
 # [C++23 Features](#c23-features)
 
-   -`std::expected`
-   -`std::print`
-   -`std::flat_map`
-   -`std::flat_set`
-   -`std::mdspan`
-   -`std::move_only_function`
-   -`std::generator`
-   -`std::ranges::to`
-   -`std::views::zip`
-   -`std::views::chunk`
-   -`std::views::slide`
-   -`std::views::join_with`
-   -`std::views::repeat`
-   -`std::byteswap`
-   -`std::unreachable`
-   -Multidimensional Subscript Operator (`operator[]` with multiple indices)
-   -`if consteval`
-   -Explicit Object Parameter (`this` as parameter)
-   -Static `operator()` and `operator[]`
-   -`std::stacktrace`
-   -`std::out_ptr` / `std::inout_ptr`
+   - `std::expected`
+   - `std::print`
+   - `std::flat_map`
+   - `std::flat_set`
+   - `std::mdspan`
+   - `std::move_only_function`
+   - `std::generator`
+   - `std::ranges::to`
+   - `std::views::zip`
+   - `std::views::chunk`
+   - `std::views::slide`
+   - `std::views::join_with`
+   - `std::views::repeat`
+   - `std::byteswap`
+   - `std::unreachable`
+   - Multidimensional Subscript Operator (`operator[]` with multiple indices)
+   - `if consteval`
+   - Explicit Object Parameter (`this` as parameter)
+   - Static `operator()` and `operator[]`
+   - `std::stacktrace`
+   - `std::out_ptr` / `std::inout_ptr`
 
 ---
 
