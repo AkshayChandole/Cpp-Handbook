@@ -345,5 +345,6 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 2. [Implement custom unique pointer class.](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CodingQuestions/ImplementUniquePointer.md#custom-implementation-of-unique-pointer)
 2. [Implement custom shared pointer class.](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CodingQuestions/ImplementSharedPointer.md#custom-implementation-of-shared-pointer)
 3. [Implement custom vector class.](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CodingQuestions/ImplementVector.md#vector-implementation)
+4. [Implement custom string class.](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CodingQuestions/ImplementString.md#string-implementation)
 
 ---
