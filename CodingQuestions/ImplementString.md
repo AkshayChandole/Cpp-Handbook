@@ -148,6 +148,12 @@ public:
     void print() const {
         std::cout << data_ << "\n";
     }
+
+    // 1️⃣4️⃣ operator<<
+    friend std::ostream& operator<<(std::ostream& os, const String& str) {
+        os << str.data_;
+        return os;
+    }
 };
 ```
 
