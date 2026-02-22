@@ -171,24 +171,6 @@ public:
 
 ---
 
-# 🔹 Test Class (Optional)
-
-```cpp
-class Test {
-public:
-    int value;
-
-    Test(int v = 0) : value(v) {
-        std::cout << "Constructor " << value << "\n";
-    }
-
-    ~Test() {
-        std::cout << "Destructor " << value << "\n";
-    }
-};
-```
-
----
 
 # 🔹 main() – Simulation
 
