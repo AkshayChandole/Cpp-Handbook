@@ -291,6 +291,61 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 ---
 
 # [C++11 Features](#c11-features)
+   - [auto](#https://github.com/AkshayChandole/Cpp-Handbook/blob/main/C%2B%2B11%20Features/auto.md#auto)
+   - [decltype](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/C%2B%2B11%20Features/decltype.md#decltype)
+   - [nullptr](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/C%2B%2B11%20Features/nullptr.md#nullptr)
+   - [constexpr](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/C++11%20Features/constexpr.md#constexpr)
+   - [static_assert](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/C%2B%2B11%20Features/static_assert.md#static_assert)
+   - [rvalue references](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/C%2B%2B11%20Features/rvalue_references.md#rvalue-references)
+   - move semantics
+   - perfect forwarding
+   - std::move
+   - std::forward
+   - lambda expressions
+   - range-based for loop
+   - uniform initialization
+   - initializer_list
+   - delegating constructors
+   - inheriting constructors
+   - explicit conversion operators
+   - override
+   - final
+   - defaulted functions (= default)
+   - deleted functions (= delete)
+   - strongly-typed enums (enum class)
+   - variadic templates
+   - template aliases (using)
+   - type traits
+   - std::tuple
+   - std::array
+   - std::unordered_map
+   - std::unordered_set
+   - std::unique_ptr
+   - std::shared_ptr
+   - std::weak_ptr
+   - std::thread
+   - std::mutex
+   - std::atomic
+   - std::condition_variable
+   - std::future
+   - std::promise
+   - std::async
+   - std::chrono
+   - std::regex
+   - std::function
+   - std::bind
+   - std::initializer_list
+   - raw string literals
+   - Unicode string literals (u8, u, U, R)
+   - user-defined literals
+   - alignas
+   - alignof
+   - noexcept
+   - thread_local
+   - scoped enums
+   - trailing return type syntax
+   - delegating constructors
+   - inline namespacesv
 
 ---
 
