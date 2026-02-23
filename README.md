@@ -521,6 +521,7 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 9. [Implement custom weak pointer class.](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CodingQuestions/ImplementWeakPointer.md#implement-weak-pointer)
 10. [Implement custom lock guard class.](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CodingQuestions/ImplementLockGuard.md#implement-lock-guard)
 
+
 ---
 
 
@@ -536,6 +537,9 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    - [Balanced Paranthesis](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/BalancedParanthesis.md#Balanced-Paranthesis)
    - [Implement Min Stack](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/ImplementMinStack.md#Implement-Min-Stack)
    - [Implement Max Stack](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/ImplementMaxStack.md#Implement-Max-Stack)
+   - [Next Greater Element I](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/NextGreaterElement1.md#Next-Greater-Element-I)
+   - [Next Greater Element II](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/NextGreaterElement2.md#Next-Greater-Element-II)
+   - [Next Smaller Element]()
 
 ### [Binary Trees](#binary-trees)
    - [Binary Tree Preorder Traversal](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinaryTrees/BinaryTreePreorderTraversal.md#binary-tree-preorder-traversal)
