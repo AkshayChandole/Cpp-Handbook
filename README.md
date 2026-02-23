@@ -455,7 +455,7 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 ---
 
 
-# [STL Cheatsheet]()
+# [STL Cheatsheet](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/STLCheatSheet/STLCheatSheet.md#stl-cheatsheet)
 
 ---
 
@@ -519,6 +519,7 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 7. [Implement custom dequeue class.](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CodingQuestions/ImplementDeque.md#deque-implementation)
 8. [Implement thread-safe singleton class.](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CodingQuestions/ImplementThreadSafeSingletonClass.md#implement-thread-safe-singleton-class)
 9. [Implement custom weak pointer class.](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CodingQuestions/ImplementWeakPointer.md#implement-weak-pointer)
+10. [Implement custom lock guard class.](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CodingQuestions/ImplementLockGuard.md#implement-lock-guard)
    
 
 ---
