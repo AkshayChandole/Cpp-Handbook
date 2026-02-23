@@ -535,6 +535,7 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    - [Implement queue using Linkedlist](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/ImplementQueueUsingLinkedlist.md#Implement-queue-using-Linkedlist)
    - [Balanced Paranthesis](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/BalancedParanthesis.md#Balanced-Paranthesis)
    - [Implement Min Stack](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/ImplementMinStack.md#Implement-Min-Stack)
+   - [Implement Max Stack](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/ImplementMaxStack.md#Implement-Max-Stack)
 
 ### [Binary Trees](#binary-trees)
    - [Binary Tree Preorder Traversal](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinaryTrees/BinaryTreePreorderTraversal.md#binary-tree-preorder-traversal)
