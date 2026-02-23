@@ -1,4 +1,4 @@
-# [Implement stack using Linkedlist](Implement-stack-using-Linkedlist)
+# [Implement stack using Linkedlist](#Implement-stack-using-Linkedlist)
 
 
 ## 📌 Problem Definition
