@@ -1,4 +1,4 @@
-# [Same Tree]()
+# [Same Tree](#same-tree)
 
 
 ## 📌 Problem Definition
