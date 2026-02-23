@@ -525,6 +525,17 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 
 
 # [Leetcode Coding Questions](#leetcode-coding-questions)
+
+### [Stack and Queues](#stack-and-queues)
+   - [Implement Stack using Arrays](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/ImplementStackusingArrays.md#implement-stack-using-arrays)
+   - [Implement Queue using Arrays](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/ImplementQueueusingArrays.md#Implement-Queue-using-Arrays)
+   - [Implement Stack using Queue](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/ImplementStackusingQueue.md#Implement-Stack-using-Queue)
+   - [Implement Queue using Stack](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/ImplementQueueusingStack.md#Implement-Queue-using-Stack)
+   - [Implement stack using Linkedlist](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/ImplementStackusingLinkedlist.md#Implement-stack-using-Linkedlist)
+   - [Implement queue using Linkedlist](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/ImplementQueueUsingLinkedlist.md#Implement-queue-using-Linkedlist)
+   - [Balanced Paranthesis](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/BalancedParanthesis.md#Balanced-Paranthesis)
+   - [Implement Min Stack](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/ImplementMinStack.md#Implement-Min-Stack)
+
 ### [Binary Trees](#binary-trees)
    - [Binary Tree Preorder Traversal](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinaryTrees/BinaryTreePreorderTraversal.md#binary-tree-preorder-traversal)
    - [Binary Tree Inorder Traversal](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinaryTrees/BinaryTreeInorderTraversal.md#binary-tree-inorder-traversal)
