@@ -1,4 +1,4 @@
-# [How is std::string implemented?](#How-is-std::string-implemented)
+# [How is std::string implemented?](#How-is-stdstring-implemented)
 
 ## 🔹 std::string – Internal Implementation
 
