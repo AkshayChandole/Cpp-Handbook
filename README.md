@@ -483,6 +483,10 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 21. [Explain object slicing with example.](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/ExplainObjectSlicing.md#object-slicing)
 22. [How To Stop Someone To Inherit From Your Class In C++?](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/StopInheritingFromClass.md#how-to-stop-someone-to-inherit-from-your-class-in-c)
 23. [What Is Return Value Of printf And scanf In C/C++?](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/ReturnValueOfPrintfAndScanf.md#what-is-return-value-of-printf-and-scanf-in-cc)
+24. [How is std::vector implemented internally?](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/InternalImplementationOfVector.md#How-is-stdvector-implemented-internally)
+25. [How is std::deque implemented internally?](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/InternalImplementationOfDeque.md#How-is-stddeque-implemented-internally)
+26. [How is std::list implemented internally?](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/InternalImplementationOfList.md#How-is-stdlist-implemented-internally)
+27. [How is std::string implemented? (SSO – Small String Optimization)](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/InternalImplementationOfString.md#How-is-stdstring-implemented)
 
 
 # [Design Patterns](#design-patterns)
@@ -520,6 +524,7 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 8. [Implement thread-safe singleton class.](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CodingQuestions/ImplementThreadSafeSingletonClass.md#implement-thread-safe-singleton-class)
 9. [Implement custom weak pointer class.](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CodingQuestions/ImplementWeakPointer.md#implement-weak-pointer)
 10. [Implement custom lock guard class.](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CodingQuestions/ImplementLockGuard.md#implement-lock-guard)
+    
 
 
 ---
