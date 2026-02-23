@@ -520,6 +520,40 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 8. [Implement thread-safe singleton class.](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CodingQuestions/ImplementThreadSafeSingletonClass.md#implement-thread-safe-singleton-class)
 9. [Implement custom weak pointer class.](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CodingQuestions/ImplementWeakPointer.md#implement-weak-pointer)
 10. [Implement custom lock guard class.](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CodingQuestions/ImplementLockGuard.md#implement-lock-guard)
+
+---
+
+
+# [Leetcode Coding Questions](#leetcode-coding-questions)
+### [Binary Trees](#binary-trees)
+   - [Binary Tree Preorder Traversal](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinaryTrees/BinaryTreePreorderTraversal.md#binary-tree-preorder-traversal)
+   - [Binary Tree Inorder Traversal](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinaryTrees/BinaryTreeInorderTraversal.md#binary-tree-inorder-traversal)
+   - [Binary Tree Postorder Traversal](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinaryTrees/BinaryTreePostorderTraversal.md#binary-tree-postorder-traversal)
+   - [Binary Tree Level Order Traversal](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinaryTrees/BinaryTreeLevelOrderTraversal.md#binary-tree-level-order-traversal)
+   - [Maximum Depth of Binary Tree](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinaryTrees/MaximumDepthofBinaryTree.md#maximum-depth-of-binary-tree)
+   - [Balanced Binary Tree](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinaryTrees/BalancedBinaryTree.md#balanced-binary-tree)
+   - [Diameter of Binary Tree](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinaryTrees/DiameterofBinaryTree.md#diameter-of-binary-tree)
+   - [Binary Tree Maximum Path Sum](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinaryTrees/BinaryTreeMaximumPathSum.md#binary-tree-maximum-path-sum)
+   - [Same Tree](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinaryTrees/SameTree.md#same-tree)
+   - [Binary Tree Zigzag Level Order Traversal](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinaryTrees/BinaryTreeZigzagLevelOrderTraversal.md#binary-tree-zigzag-level-order-traversal)
+   - [Boundary Traversal](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinaryTrees/BoundaryTraversal.md#boundary-traversal)
+   - [Vertical Order Traversal of a Binary Tree](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinaryTrees/VerticalOrderTraversalofaBinaryTree.md#vertical-order-traversal-of-a-binary-tree)
+   - [Binary Tree Right Side View](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinaryTrees/BinaryTreeRightSideView.md#binary-tree-right-side-view)
+   - [Symmetric Tree](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinaryTrees/SymmetricTree.md#symmetric-tree)
+   - [Flatten Binary Tree to Linked List](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinaryTrees/FlattenBinaryTreetoLinkedList.md#Flatten-binary-tree-to-linked-list)
+   - [Serialize and Deserialize Binary Tree](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinaryTrees/SerializeandDeserializeBinaryTree.md#serialize-and-deserialize-binary-tree)
+   - [Construct Binary Tree from Inorder and Postorder Traversal](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinaryTrees/ConstructBinaryTreefromInorderandPostorderTraversal.md#construct-binary-tree-from-inorder-and-postorder-traversal)
+   - [Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinaryTrees/ConstructBinaryTreefromPreorderandInorderTraversal.md#construct-binary-tree-from-preorder-and-inorder-traversal)
+   - [Count Complete Tree Nodes](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinaryTrees/CountCompleteTreeNodes.md#count-complete-tree-nodes)
+   - [All Nodes Distance K in Binary Tree](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinaryTrees/AllNodesDistanceKinBinaryTree.md#all-nodes-distance-k-in-binary-tree)
+   - [Maximum Width of Binary Tree](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinaryTrees/MaximumWidthofBinaryTree.md#maximum-width-of-binary-tree)
+   - [Lowest Common Ancestor of a Binary Tree](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinaryTrees/LowestCommonAncestorofaBinaryTree.md#lowest-common-ancestor-of-a-binary-tree)
+
+
+
+
+
+
    
 
 ---
