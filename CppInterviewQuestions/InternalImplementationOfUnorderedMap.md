@@ -1,269 +1,342 @@
-# [How is std::unordered_map implemented?](#How-is-stdunordered_map-implemented)
+## [How is std::unordered_map implemented?](#How-is-stdunordered_map-implemented)
 
-### 🔹 std::multimap vs std::map
+### 🔹 std::unordered_map – Internal Implementation
 
-#### Internal Differences
+`std::unordered_map` is implemented as a **hash table**.
 
-At implementation level, **both are typically built on the same Red-Black Tree structure**.
+It provides:
 
-The real difference is **duplicate key handling**.
+* ✅ Average O(1) insert
+* ✅ Average O(1) find
+* ✅ Average O(1) erase
+* ❌ No ordering
+* ❌ Worst case O(n) (hash collisions)
+
+Let’s break it down properly.
 
 ---
 
 ## 1️⃣ Core Data Structure
 
-Both use:
+Internally it contains:
 
-> ✅ Red-Black Tree
-> ✅ Node-based container
-> ✅ Ordered by comparator (`std::less<Key>` by default)
-> ✅ O(log n) insert / erase / find
-
-Node structure is essentially identical:
-
-```cpp
+```cpp id="a1xq9k"
 template<typename Key, typename T>
 struct Node {
     std::pair<const Key, T> data;
-    Node* parent;
-    Node* left;
-    Node* right;
-    bool isRed;
+    Node* next;   // for collision chaining
 };
 ```
 
-So structurally:
+And the main container:
 
+```cpp id="c4mz7s"
+std::vector<Node*> buckets;
+size_t bucket_count;
+size_t size_;
 ```
-map         → unique keys
-multimap    → duplicate keys allowed
+
+So conceptually:
+
+```text id="m1u7qd"
+buckets (array)
+----------------------------------
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 | ...
+----------------------------------
+  |        |
+  v        v
+ [k1]     [k2] -> [k3] -> [k4]
+```
+
+Each bucket stores a **linked list of nodes** (separate chaining).
+
+---
+
+## 2️⃣ How Hashing Works
+
+On insert/find:
+
+```cpp id="kp7b3n"
+size_t index = hash(key) % bucket_count;
+```
+
+Default hash:
+
+```cpp id="n6t9vf"
+std::hash<Key>
+```
+
+Default comparator:
+
+```cpp id="w3lqk1"
+std::equal_to<Key>
 ```
 
 ---
 
-## 2️⃣ Major Internal Difference – Insertion Logic
+## 3️⃣ Insertion Internals
 
-### 🔹 std::map
+#### Step 1 – Compute Bucket
 
-During insertion:
-
-```cpp
-if (key < node->key)
-    go left;
-else if (key > node->key)
-    go right;
-else
-    key already exists → reject insert
+```cpp id="i4osj2"
+index = hash(key) % bucket_count;
 ```
 
-Only one node per key.
+#### Step 2 – Traverse Bucket Chain
 
----
+```cpp id="txr8zd"
+Node* curr = buckets[index];
 
-### 🔹 std::multimap
-
-Insertion logic changes:
-
-```cpp
-if (key < node->key)
-    go left;
-else
-    go right;   // even if equal
-```
-
-⚠ Equal keys are allowed.
-
-This means:
-
-* Duplicates are inserted
-* Typically inserted in the **right subtree of equal key**
-* Maintains sorted grouping of equal keys
-
----
-
-## 3️⃣ Tree Shape with Duplicates
-
-Example inserting:
-
-```
-(5,A)
-(5,B)
-(5,C)
-```
-
-Tree might look like:
-
-```
-        5(A)
-           \
-            5(B)
-               \
-                5(C)
-```
-
-Red-black balancing will still apply, so final structure is balanced.
-
-Important:
-
-All equal keys appear consecutively in inorder traversal.
-
----
-
-## 4️⃣ Lookup Behavior Difference
-
-### 🔹 map::find(key)
-
-Returns:
-
-```
-Single iterator
-```
-
----
-
-### 🔹 multimap::find(key)
-
-Returns:
-
-```
-Iterator to first occurrence
-```
-
-But duplicates may exist.
-
-To access all duplicates:
-
-```cpp
-auto range = mm.equal_range(key);
-
-for (auto it = range.first; it != range.second; ++it) {
-    // process all duplicates
+while (curr) {
+    if (curr->data.first == key)
+        return;  // map does not allow duplicate keys
+    curr = curr->next;
 }
 ```
 
-Internally:
+#### Step 3 – Insert at Head (common strategy)
 
-* `lower_bound(key)` → first equal
-* `upper_bound(key)` → first greater
-
-Range between them are duplicates.
-
----
-
-## 5️⃣ equal_range Internal Logic
-
-Implemented via two tree searches:
-
-```cpp
-lower_bound → first node where !(node->key < key)
-upper_bound → first node where (key < node->key)
+```cpp id="y7kz3m"
+Node* newNode = new Node{{key, value}, buckets[index]};
+buckets[index] = newNode;
 ```
 
-Complexity: O(log n)
+Time complexity: O(1) average.
 
 ---
 
-## 6️⃣ Why Complexity Stays O(log n)
+## 4️⃣ Collision Resolution – Separate Chaining
 
-Even with duplicates:
+If two keys hash to same bucket:
 
-* Red-black properties still maintained
-* Height still bounded by 2*log(n)
+```text id="f3z9qe"
+bucket[3]:
+    [keyA] -> [keyB] -> [keyC]
+```
 
-Worst case many duplicates still balanced.
+This is linked list inside bucket.
 
----
+Other strategies (not used in STL):
 
-## 7️⃣ Iterator Stability
+* Open addressing
+* Quadratic probing
+* Double hashing
 
-Same as map:
-
-| Operation | Invalidates      |
-| --------- | ---------------- |
-| insert    | No               |
-| erase     | Only erased node |
-| clear     | All              |
-
-Because node-based tree.
+STL typically uses chaining.
 
 ---
 
-## 8️⃣ Memory Overhead
+## 5️⃣ Load Factor & Rehashing
 
-Same as map:
+#### Load Factor
 
-* 3 pointers
-* color bit
-* pair<const Key, T>
+```cpp id="c2vy6k"
+load_factor = size_ / bucket_count;
+```
 
-Only difference:
+When:
 
-multimap may store multiple nodes with same key → more memory.
+```text id="p7l8xf"
+load_factor > max_load_factor
+```
 
----
+→ Rehash triggered.
 
-## 9️⃣ Behavioral Difference at API Level
-
-| Feature             | map           | multimap       |
-| ------------------- | ------------- | -------------- |
-| Duplicate keys      | ❌ No          | ✅ Yes          |
-| operator[]          | ✅ Yes         | ❌ No           |
-| insert return       | pair<it,bool> | iterator only  |
-| equal_range useful? | Rare          | Very important |
+Default max_load_factor ≈ 1.0
 
 ---
 
-## 🔟 Why multimap Has No operator[]?
+## 6️⃣ Rehashing Internals
+
+Steps:
+
+1. Allocate new bucket array (usually 2x size)
+2. Recompute bucket index for every element
+3. Move nodes into new buckets
+
+```cpp id="9wmls1"
+for (each old bucket) {
+    for (each node in chain) {
+        size_t new_index = hash(node->key) % new_bucket_count;
+        insert into new_buckets[new_index];
+    }
+}
+```
+
+Complexity: O(n)
+
+But happens rarely → amortized O(1)
+
+---
+
+## 7️⃣ Why Average O(1)?
 
 Because:
 
-```cpp
-mm[key] = value;
+```text id="zq8dva"
+If hash function distributes keys uniformly
 ```
 
-What should happen?
+Each bucket has few elements → constant traversal.
 
-* Overwrite one?
-* Insert new duplicate?
-* Which one?
+Worst case:
 
-Ambiguous → not provided.
+All keys in same bucket → O(n)
 
 ---
 
-## 1️⃣1️⃣ Under the Hood – Template Reuse
+## 8️⃣ Iterator Implementation
 
-In libstdc++ and libc++:
+Iterator must:
 
-Both map and multimap reuse the same internal tree class.
+1. Traverse current bucket chain
+2. Move to next non-empty bucket
+3. Continue
 
 Conceptually:
 
-```cpp
-template<bool IsMulti>
-class Tree;
+```cpp id="4h8n1z"
+class iterator {
+    Node* node;
+    size_t bucket_index;
+};
 ```
-
-* `IsMulti = false` → map
-* `IsMulti = true` → multimap
-
-Difference handled during insert logic.
 
 ---
 
+## 9️⃣ Memory Layout
+
+Memory is not contiguous:
+
+```text id="0v7lch"
+buckets array (contiguous)
+nodes allocated separately on heap
+```
+
+So:
+
+* More memory overhead than vector
+* Better than tree for lookup
+* Less cache-friendly than vector
+
+---
+
+## 🔟 Erase Internals
+
+To erase key:
+
+1. Find bucket
+2. Traverse chain
+3. Fix linked list
+
+```cpp id="3pqm8f"
+prev->next = curr->next;
+delete curr;
+```
+
+Average O(1)
+
+---
+
+## 1️⃣1️⃣ Why unordered_map Is Faster Than map?
+
+Because:
+
+| map            | unordered_map          |
+| -------------- | ---------------------- |
+| Tree traversal | Direct bucket indexing |
+| Rotations      | None                   |
+| O(log n)       | O(1) average           |
+| Ordered        | Unordered              |
+
+---
+
+## 1️⃣2️⃣ Simplified Educational Implementation
+
+```cpp id="n7gk4x"
+#include <vector>
+#include <functional>
+
+template<typename Key, typename Value>
+class SimpleUnorderedMap {
+    struct Node {
+        Key key;
+        Value value;
+        Node* next;
+    };
+
+    std::vector<Node*> buckets;
+    size_t bucket_count;
+
+public:
+    SimpleUnorderedMap(size_t size = 8)
+        : bucket_count(size), buckets(size, nullptr) {}
+
+    void insert(const Key& key, const Value& value) {
+        size_t index = std::hash<Key>{}(key) % bucket_count;
+
+        Node* node = new Node{key, value, buckets[index]};
+        buckets[index] = node;
+    }
+};
+```
+
+Real STL adds:
+
+* Allocator support
+* Exception safety
+* Rehash policies
+* Node handles (C++17)
+* Transparent hashing (C++14+)
+* Prime bucket sizing (libstdc++)
+* Power-of-two bucket sizing (libc++)
+
+---
+
+## 1️⃣3️⃣ Advanced Implementation Details (Interview Gold)
+
+Different libraries differ:
+
+#### 🔹 libstdc++
+
+* Uses prime bucket sizes
+* Reduces clustering
+
+#### 🔹 libc++
+
+* Often uses power-of-two bucket counts
+* Uses bitmask instead of modulo:
+
+```cpp id="j0d0v1"
+index = hash & (bucket_count - 1);
+```
+
+Faster than modulo.
+
+---
+
+## 1️⃣4️⃣ Iterator Invalidation Rules
+
+| Operation | Invalidates         |
+| --------- | ------------------- |
+| insert    | Only if rehash      |
+| erase     | Only erased element |
+| rehash    | All iterators       |
+
+---
 
 
 ## 🔥 Principal-Level Insight
 
-Even though duplicates may cluster:
+Performance depends heavily on:
 
-Red-Black balancing ensures:
-
+```text
+Quality of hash function
+Load factor
+Bucket growth policy
 ```
-Tree height remains logarithmic
-```
 
-Duplicates don’t turn it into linked list.
+In production systems, poor hashing destroys performance.
 
 ---
 
@@ -271,15 +344,16 @@ Duplicates don’t turn it into linked list.
 
 Internally:
 
-```
-std::map        → Red-Black Tree + unique key constraint
-std::multimap   → Same Red-Black Tree + allow duplicates
+```text
+std::unordered_map
+    → Hash function
+    → Bucket array
+    → Linked list chaining
+    → Rehashing when load factor exceeded
 ```
 
-Difference is purely in:
-
-* Insertion rule
-* Lookup behavior
-* API restrictions
+Average complexity: O(1)
+Worst case: O(n)
 
 ---
+
