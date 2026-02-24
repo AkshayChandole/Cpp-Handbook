@@ -487,6 +487,11 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 25. [How is std::deque implemented internally?](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/InternalImplementationOfDeque.md#How-is-stddeque-implemented-internally)
 26. [How is std::list implemented internally?](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/InternalImplementationOfList.md#How-is-stdlist-implemented-internally)
 27. [How is std::string implemented? (SSO – Small String Optimization)](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/InternalImplementationOfString.md#How-is-stdstring-implemented)
+28. [How does std::map work internally?](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/InternalWorkingOfMap.md#How-does-stdmap-work-internally)
+29. [How is std::set implemented internally?](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/InternalImplementationOfSet.md#How-is-stdset-implemented-internally)
+30. [How does std::multimap differ internally from map?](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/DifferenceMapVsMultimap.md#How-does-stdmultimap-differ-internally-from-map)
+31. [How is std::unordered_map implemented?](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/InternalImplementationOfUnorderedMap.md#How-is-stdunordered_map-implemented)
+32. [How is std::unordered_set implemented?](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/CppInterviewQuestions/InternalImplementationOfUnorderedSet.md#How-is-stdunordered_set-implemented)
 
 
 # [Design Patterns](#design-patterns)
