@@ -537,6 +537,15 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 
 # [Leetcode Coding Questions](#leetcode-coding-questions)
 
+### [Arrays](#arrays)
+   - [Two Sum](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Arrays/TwoSum.md#two-sum)
+
+### [Sliding Window](#sliding-window)
+   - [Longest Substring Without Repeating Characters](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/SlidingWindow/LongestSubstringWithoutRepeatingCharacters.md#longest-substring-without-repeating-characters)
+
+### [LinkedList](#linked-list)
+   - [Add Two Numbers](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/LinkedList/AddTwoNumbers.md#add-two-numbers)
+
 ### [Stack and Queues](#stack-and-queues)
    - [Implement Stack using Arrays](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/ImplementStackusingArrays.md#implement-stack-using-arrays)
    - [Implement Queue using Arrays](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/ImplementQueueusingArrays.md#Implement-Queue-using-Arrays)
