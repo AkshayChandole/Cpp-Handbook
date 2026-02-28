@@ -543,8 +543,25 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 ### [Sliding Window](#sliding-window)
    - [Longest Substring Without Repeating Characters](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/SlidingWindow/LongestSubstringWithoutRepeatingCharacters.md#longest-substring-without-repeating-characters)
 
+### [Two Pointers](#two-pointers)
+   - [Longest Palindromic Substring](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/TwoPointers/LongestPalindromicSubstring.md#longest-palindromic-substring)
+   - [Remove Duplicates from Sorted Array](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/TwoPointers/RemoveDuplicatesfromSortedArray.md)
+   - [Trapping Rain Water](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/TwoPointers/TrappingRainWater.md#trapping-rain-water)
+
 ### [LinkedList](#linked-list)
    - [Add Two Numbers](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/LinkedList/AddTwoNumbers.md#add-two-numbers)
+
+### [Backtracking](#backtracking)
+   - [Generate Parentheses](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Backtracking/GenerateParentheses.md#generate-parentheses)
+
+### [Binary Search](#binary-search)
+   - [Median of Two Sorted Arrays](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinarySearch/MedianofTwoSortedArrays.md)
+
+### [Greedy Algorithms](#greedy-algorithms)
+   - [Merge Intervals](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/GreedyAlgorithms/MergeIntervals.md#merge-intervals)
+
+### [String](#string)
+   - [Longest Common Prefix](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/String/LongestCommonPrefix.md#longest-common-prefix)
 
 ### [Stack and Queues](#stack-and-queues)
    - [Implement Stack using Arrays](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/ImplementStackusingArrays.md#implement-stack-using-arrays)
@@ -558,7 +575,6 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    - [Implement Max Stack](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/ImplementMaxStack.md#Implement-Max-Stack)
    - [Next Greater Element I](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/NextGreaterElement1.md#Next-Greater-Element-I)
    - [Next Greater Element II](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/NextGreaterElement2.md#Next-Greater-Element-II)
-   - [Next Smaller Element]()
 
 ### [Binary Trees](#binary-trees)
    - [Binary Tree Preorder Traversal](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinaryTrees/BinaryTreePreorderTraversal.md#binary-tree-preorder-traversal)
@@ -584,7 +600,9 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    - [Maximum Width of Binary Tree](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinaryTrees/MaximumWidthofBinaryTree.md#maximum-width-of-binary-tree)
    - [Lowest Common Ancestor of a Binary Tree](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinaryTrees/LowestCommonAncestorofaBinaryTree.md#lowest-common-ancestor-of-a-binary-tree)
 
-
+### [Math](#math)
+   - [Palindrome Number](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Math/PalindromeNumber.md)
+   - 
 
 
 
