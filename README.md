@@ -539,9 +539,14 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 
 ### [Arrays](#arrays)
    - [Two Sum](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Arrays/TwoSum.md#two-sum)
+   - [Best Time to Buy and Sell Stock](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Arrays/BestTimetoBuyandSellStock.md#best-time-to-buy-and-sell-stock)
 
 ### [Sliding Window](#sliding-window)
    - [Longest Substring Without Repeating Characters](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/SlidingWindow/LongestSubstringWithoutRepeatingCharacters.md#longest-substring-without-repeating-characters)
+
+### [Prefix Sum](#prefix-sum)
+   - [Subarray Sum Equals K](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/PrefixSum/SubarraySumEqualsK.md#subarray-sum-equals-k)
+   - 
 
 ### [Two Pointers](#two-pointers)
    - [Longest Palindromic Substring](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/TwoPointers/LongestPalindromicSubstring.md#longest-palindromic-substring)
@@ -556,6 +561,7 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 
 ### [Binary Search](#binary-search)
    - [Median of Two Sorted Arrays](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinarySearch/MedianofTwoSortedArrays.md)
+   - [Find Peak Element](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinarySearch/FindPeakElement.md#find-peak-element)
 
 ### [Greedy Algorithms](#greedy-algorithms)
    - [Merge Intervals](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/GreedyAlgorithms/MergeIntervals.md#merge-intervals)
@@ -604,9 +610,8 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    - [Palindrome Number](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Math/PalindromeNumber.md)
    - 
 
-
-
-
+### [Design](#design)
+   - [Design Underground System](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Design/DesignUndergroundSystem.md#design-underground-system)
    
 
 ---
