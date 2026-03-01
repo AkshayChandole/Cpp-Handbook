@@ -87,9 +87,9 @@ O(1) (excluding output)
 
 For each index:
 
-[
-answer[i] = (product\ of\ elements\ left) \times (product\ of\ elements\ right)
-]
+```
+answer[i] = (product of elements left) * (product of elements right)
+```
 
 Create two arrays:
 
