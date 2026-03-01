@@ -567,6 +567,7 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 ### [Binary Search](#binary-search)
    - [Median of Two Sorted Arrays](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinarySearch/MedianofTwoSortedArrays.md)
    - [Find Peak Element](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinarySearch/FindPeakElement.md#find-peak-element)
+   - [Search in Rotated Sorted Array](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinarySearch/SearchinRotatedSortedArray.md#search-in-rotated-sorted-array)
 
 ### [Greedy Algorithms](#greedy-algorithms)
    - [Merge Intervals](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/GreedyAlgorithms/MergeIntervals.md#merge-intervals)
@@ -574,6 +575,9 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 ### [String](#string)
    - [Longest Common Prefix](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/String/LongestCommonPrefix.md#longest-common-prefix)
    - [Valid Anagram](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/String/ValidAnagram.md#Valid-Anagram)
+   - [Roman to Integer](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/String/RomantoInteger.md#roman-to-integer)
+
+
 
 ### [Graphs](#graphs)
    - [Number of Islands](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Graphs/NumberOfIslands.md#Number-of-Islands)
