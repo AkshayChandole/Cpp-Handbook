@@ -1,4 +1,4 @@
-# [LRU Cache](#lru-cache)
+# [LRU Cache](#lru-cache)
 
 ## 🟢 LRU Cache
 
