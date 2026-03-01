@@ -540,6 +540,7 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 ### [Arrays](#arrays)
    - [Two Sum](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Arrays/TwoSum.md#two-sum)
    - [Best Time to Buy and Sell Stock](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Arrays/BestTimetoBuyandSellStock.md#best-time-to-buy-and-sell-stock)
+   - [Invalid Transactions](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Arrays/InvalidTransactions.md#invalid-transactions)
 
 ### [Sliding Window](#sliding-window)
    - [Longest Substring Without Repeating Characters](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/SlidingWindow/LongestSubstringWithoutRepeatingCharacters.md#longest-substring-without-repeating-characters)
@@ -555,9 +556,13 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 
 ### [LinkedList](#linked-list)
    - [Add Two Numbers](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/LinkedList/AddTwoNumbers.md#add-two-numbers)
+   - [Merge Two Sorted Lists](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/LinkedList/MergeTwoSortedLists.md#merge-two-sorted-lists)
+   - [Flatten a Multilevel Doubly Linked List](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/LinkedList/FlattenaMultilevelDoublyLinkedList.md#flatten-a-multilevel-doubly-linked-list)
 
 ### [Backtracking](#backtracking)
    - [Generate Parentheses](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Backtracking/GenerateParentheses.md#generate-parentheses)
+   - [Subsets](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Backtracking/Subsets.md#Subsets)
+   - [Word Search](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Backtracking/WordSearch.md#Word-Search)
 
 ### [Binary Search](#binary-search)
    - [Median of Two Sorted Arrays](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinarySearch/MedianofTwoSortedArrays.md)
@@ -568,6 +573,7 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 
 ### [String](#string)
    - [Longest Common Prefix](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/String/LongestCommonPrefix.md#longest-common-prefix)
+   - [Valid Anagram](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/String/ValidAnagram.md#Valid-Anagram)
 
 ### [Stack and Queues](#stack-and-queues)
    - [Implement Stack using Arrays](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/ImplementStackusingArrays.md#implement-stack-using-arrays)
@@ -581,6 +587,7 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    - [Implement Max Stack](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/ImplementMaxStack.md#Implement-Max-Stack)
    - [Next Greater Element I](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/NextGreaterElement1.md#Next-Greater-Element-I)
    - [Next Greater Element II](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/NextGreaterElement2.md#Next-Greater-Element-II)
+   - [Valid Parentheses](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/ValidParentheses.md#valid-parentheses)
 
 ### [Binary Trees](#binary-trees)
    - [Binary Tree Preorder Traversal](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinaryTrees/BinaryTreePreorderTraversal.md#binary-tree-preorder-traversal)
@@ -608,10 +615,12 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 
 ### [Math](#math)
    - [Palindrome Number](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Math/PalindromeNumber.md)
+   - [Reverse Integer](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Math/ReverseInteger.md#reverse-integer)
    - 
 
 ### [Design](#design)
    - [Design Underground System](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Design/DesignUndergroundSystem.md#design-underground-system)
+   - [LRU Cache](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Design/LRUCache.md#lru-cache)
    
 
 ---
