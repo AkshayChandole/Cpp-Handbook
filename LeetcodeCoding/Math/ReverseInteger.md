@@ -1,9 +1,7 @@
-# [Reverse Integer](#reverse-integer)
 
+# [Reverse Integer](#reverse-integer)
 
 ## 🟢 Reverse Integer
-
----
 
 ### 📌 Problem
 
