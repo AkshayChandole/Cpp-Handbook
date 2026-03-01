@@ -575,6 +575,9 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    - [Longest Common Prefix](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/String/LongestCommonPrefix.md#longest-common-prefix)
    - [Valid Anagram](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/String/ValidAnagram.md#Valid-Anagram)
 
+### [Graphs](#graphs)
+   - [Number of Islands](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Graphs/NumberOfIslands.md#Number-of-Islands)
+
 ### [Stack and Queues](#stack-and-queues)
    - [Implement Stack using Arrays](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/ImplementStackusingArrays.md#implement-stack-using-arrays)
    - [Implement Queue using Arrays](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/ImplementQueueusingArrays.md#Implement-Queue-using-Arrays)
@@ -621,6 +624,8 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 ### [Design](#design)
    - [Design Underground System](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Design/DesignUndergroundSystem.md#design-underground-system)
    - [LRU Cache](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Design/LRUCache.md#lru-cache)
+   - [Insert Delete GetRandom O(1)](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Design/InsertDeleteGetRandom.md#insert-delete-getrandom)
+   - 
    
 
 ---
