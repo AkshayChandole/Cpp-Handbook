@@ -541,6 +541,7 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    - [Two Sum](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Arrays/TwoSum.md#two-sum)
    - [Best Time to Buy and Sell Stock](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Arrays/BestTimetoBuyandSellStock.md#best-time-to-buy-and-sell-stock)
    - [Invalid Transactions](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Arrays/InvalidTransactions.md#invalid-transactions)
+   - [Product of Array Except Self](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Arrays/ProductofArrayExceptSelf.md#product-of-array-except-self)
 
 ### [Sliding Window](#sliding-window)
    - [Longest Substring Without Repeating Characters](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/SlidingWindow/LongestSubstringWithoutRepeatingCharacters.md#longest-substring-without-repeating-characters)
@@ -553,6 +554,7 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    - [Longest Palindromic Substring](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/TwoPointers/LongestPalindromicSubstring.md#longest-palindromic-substring)
    - [Remove Duplicates from Sorted Array](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/TwoPointers/RemoveDuplicatesfromSortedArray.md)
    - [Trapping Rain Water](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/TwoPointers/TrappingRainWater.md#trapping-rain-water)
+   - [Three Sum](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/TwoPointers/ThreeSum.md#three-sum)
 
 ### [LinkedList](#linked-list)
    - [Add Two Numbers](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/LinkedList/AddTwoNumbers.md#add-two-numbers)
@@ -576,11 +578,15 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    - [Longest Common Prefix](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/String/LongestCommonPrefix.md#longest-common-prefix)
    - [Valid Anagram](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/String/ValidAnagram.md#Valid-Anagram)
    - [Roman to Integer](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/String/RomantoInteger.md#roman-to-integer)
-
-
+   - [String to Integer (atoi)](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/String/StringToInteger.md#string-to-integer)
 
 ### [Graphs](#graphs)
    - [Number of Islands](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Graphs/NumberOfIslands.md#Number-of-Islands)
+
+### [Dynamic Programming](#Dynamic-Programming)
+   - [Word Break](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/DynamicProgramming/WordBreak.md#Word-Break)
+   - [Word Break II](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/DynamicProgramming/WordBreakII.md#word-break-ii)
+   - [Climbing Stairs](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/DynamicProgramming/ClimbingStairs.md#climbing-stairs)
 
 ### [Stack and Queues](#stack-and-queues)
    - [Implement Stack using Arrays](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/ImplementStackusingArrays.md#implement-stack-using-arrays)
