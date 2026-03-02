@@ -21,9 +21,9 @@ Return the maximum amount of water.
 
 For two indices `i` and `j`:
 
-[
-Area = min(height[i], height[j]) \times (j - i)
-]
+```
+Area = min(height[i], height[j]) * (j - i)
+```
 
 ---
 
