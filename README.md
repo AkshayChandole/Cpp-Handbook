@@ -547,6 +547,8 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 
 ### [Sliding Window](#sliding-window)
    - [Longest Substring Without Repeating Characters](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/SlidingWindow/LongestSubstringWithoutRepeatingCharacters.md#longest-substring-without-repeating-characters)
+   - [Contains Duplicate II](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/SlidingWindow/ContainsDuplicateII.md#contains-duplicate-ii)
+   - 
 
 ### [Prefix Sum](#prefix-sum)
    - [Subarray Sum Equals K](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/PrefixSum/SubarraySumEqualsK.md#subarray-sum-equals-k)
@@ -559,11 +561,15 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    - [Three Sum](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/TwoPointers/ThreeSum.md#three-sum)
    - [Container With Most Water](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/TwoPointers/ContainerWithMostWater.md#container-with-most-water)
    - [Move Zeroes](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/TwoPointers/MoveZeroes.md#move-zeroes)
+   - [Meeting Rooms II](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/TwoPointers/MeetingRoomsII.md#meeting-rooms-ii)
+   - [Happy Number](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/TwoPointers/HappyNumber.md#happy-number)
 
 ### [LinkedList](#linked-list)
    - [Add Two Numbers](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/LinkedList/AddTwoNumbers.md#add-two-numbers)
    - [Merge Two Sorted Lists](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/LinkedList/MergeTwoSortedLists.md#merge-two-sorted-lists)
    - [Flatten a Multilevel Doubly Linked List](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/LinkedList/FlattenaMultilevelDoublyLinkedList.md#flatten-a-multilevel-doubly-linked-list)
+   - [Sort List](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/LinkedList/SortList.md#Sort-List)
+   - [Reorder List](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/LinkedList/ReorderList.md#Reorder-List)
 
 ### [Backtracking](#backtracking)
    - [Generate Parentheses](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Backtracking/GenerateParentheses.md#generate-parentheses)
@@ -574,6 +580,8 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    - [Median of Two Sorted Arrays](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinarySearch/MedianofTwoSortedArrays.md)
    - [Find Peak Element](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinarySearch/FindPeakElement.md#find-peak-element)
    - [Search in Rotated Sorted Array](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinarySearch/SearchinRotatedSortedArray.md#search-in-rotated-sorted-array)
+   - [Search Insert Position](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinarySearch/SearchInsertPosition.md#Search-Insert-Position)
+   - [Peak Index in a Mountain Array](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinarySearch/PeakIndexinaMountainArray.md#peak-index-in-a-mountain-array)
 
 ### [Greedy Algorithms](#greedy-algorithms)
    - [Merge Intervals](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/GreedyAlgorithms/MergeIntervals.md#merge-intervals)
@@ -588,11 +596,13 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 
 ### [Graphs](#graphs)
    - [Number of Islands](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Graphs/NumberOfIslands.md#Number-of-Islands)
+   - [Evaluate Division](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Graphs/EvaluateDivision.md#evaluate-division)
 
 ### [Dynamic Programming](#Dynamic-Programming)
    - [Word Break](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/DynamicProgramming/WordBreak.md#Word-Break)
    - [Word Break II](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/DynamicProgramming/WordBreakII.md#word-break-ii)
    - [Climbing Stairs](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/DynamicProgramming/ClimbingStairs.md#climbing-stairs)
+   - [Coin Change](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/DynamicProgramming/CoinChange.md#coin-change)
 
 ### [Stack and Queues](#stack-and-queues)
    - [Implement Stack using Arrays](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/ImplementStackusingArrays.md#implement-stack-using-arrays)
@@ -602,11 +612,10 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    - [Implement stack using Linkedlist](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/ImplementStackusingLinkedlist.md#Implement-stack-using-Linkedlist)
    - [Implement queue using Linkedlist](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/ImplementQueueUsingLinkedlist.md#Implement-queue-using-Linkedlist)
    - [Balanced Paranthesis](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/BalancedParanthesis.md#Balanced-Paranthesis)
-   - [Implement Min Stack](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/ImplementMinStack.md#Implement-Min-Stack)
-   - [Implement Max Stack](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/ImplementMaxStack.md#Implement-Max-Stack)
    - [Next Greater Element I](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/NextGreaterElement1.md#Next-Greater-Element-I)
    - [Next Greater Element II](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/NextGreaterElement2.md#Next-Greater-Element-II)
    - [Valid Parentheses](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/ValidParentheses.md#valid-parentheses)
+   - [Remove All Adjacent Duplicates in String II](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/RemoveAllAdjacentDuplicatesinStringII.md#remove-all-adjacent-duplicates-in-string-ii)
 
 ### [Binary Trees](#binary-trees)
    - [Binary Tree Preorder Traversal](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinaryTrees/BinaryTreePreorderTraversal.md#binary-tree-preorder-traversal)
@@ -635,12 +644,16 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 ### [Math](#math)
    - [Palindrome Number](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Math/PalindromeNumber.md)
    - [Reverse Integer](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Math/ReverseInteger.md#reverse-integer)
+   - [Pow(x, n)](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Math/Pow(x%2Cn).md#powx-n)
    - 
 
 ### [Design](#design)
    - [Design Underground System](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Design/DesignUndergroundSystem.md#design-underground-system)
    - [LRU Cache](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Design/LRUCache.md#lru-cache)
    - [Insert Delete GetRandom O(1)](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Design/InsertDeleteGetRandom.md#insert-delete-getrandom)
+   - [Implement Min Stack](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/ImplementMinStack.md#Implement-Min-Stack)
+   - [Implement Max Stack](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/ImplementMaxStack.md#Implement-Max-Stack)
+   - [Implement Magic Dictionary](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Design/ImplementMagicDictionary.md#implement-magic-dictionary)
    - 
    
 
