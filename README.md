@@ -542,6 +542,8 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    - [Best Time to Buy and Sell Stock](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Arrays/BestTimetoBuyandSellStock.md#best-time-to-buy-and-sell-stock)
    - [Invalid Transactions](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Arrays/InvalidTransactions.md#invalid-transactions)
    - [Product of Array Except Self](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Arrays/ProductofArrayExceptSelf.md#product-of-array-except-self)
+   - [Maximum Subarray](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Arrays/MaximumSubarray.md#Maximum-Subarray)
+   - [Max Consecutive Ones](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Arrays/MaxConsecutiveOnes.md#max-consecutive-ones)
 
 ### [Sliding Window](#sliding-window)
    - [Longest Substring Without Repeating Characters](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/SlidingWindow/LongestSubstringWithoutRepeatingCharacters.md#longest-substring-without-repeating-characters)
@@ -555,6 +557,8 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    - [Remove Duplicates from Sorted Array](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/TwoPointers/RemoveDuplicatesfromSortedArray.md)
    - [Trapping Rain Water](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/TwoPointers/TrappingRainWater.md#trapping-rain-water)
    - [Three Sum](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/TwoPointers/ThreeSum.md#three-sum)
+   - [Container With Most Water](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/TwoPointers/ContainerWithMostWater.md#container-with-most-water)
+   - [Move Zeroes](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/TwoPointers/MoveZeroes.md#move-zeroes)
 
 ### [LinkedList](#linked-list)
    - [Add Two Numbers](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/LinkedList/AddTwoNumbers.md#add-two-numbers)
@@ -579,6 +583,8 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    - [Valid Anagram](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/String/ValidAnagram.md#Valid-Anagram)
    - [Roman to Integer](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/String/RomantoInteger.md#roman-to-integer)
    - [String to Integer (atoi)](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/String/StringToInteger.md#string-to-integer)
+   - [Group Anagrams](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Arrays/GroupAnagrams.md#Group-Anagrams)
+   - 
 
 ### [Graphs](#graphs)
    - [Number of Islands](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Graphs/NumberOfIslands.md#Number-of-Islands)
