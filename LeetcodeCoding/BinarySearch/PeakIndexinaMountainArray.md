@@ -86,9 +86,9 @@ Works, but not optimal.
 
 Find index where:
 
-[
-arr[i] > arr[i-1] \quad \text{and} \quad arr[i] > arr[i+1]
-]
+```
+arr[i] > arr[i-1] and arr[i] > arr[i+1]
+```
 
 ---
 
