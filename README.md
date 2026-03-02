@@ -603,6 +603,7 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    - [Word Break II](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/DynamicProgramming/WordBreakII.md#word-break-ii)
    - [Climbing Stairs](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/DynamicProgramming/ClimbingStairs.md#climbing-stairs)
    - [Coin Change](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/DynamicProgramming/CoinChange.md#coin-change)
+   - [Sort Integers by The Power Value](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/DynamicProgramming/SortIntegersbyThePowerValue.md#sort-integers-by-the-power-value)
 
 ### [Stack and Queues](#stack-and-queues)
    - [Implement Stack using Arrays](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/ImplementStackusingArrays.md#implement-stack-using-arrays)
