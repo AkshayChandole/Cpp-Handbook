@@ -93,17 +93,8 @@ O(1)
 
 ### 💡 Key Insight
 
-Instead of multiplying `n` times:
+<img width="579" height="160" alt="image" src="https://github.com/user-attachments/assets/d665b360-c096-4f76-b184-2e13b72336bd" />
 
-[
-x^n =
-\begin{cases}
-(x^{n/2})^2 & \text{if n is even} \
-x \cdot (x^{n/2})^2 & \text{if n is odd}
-\end{cases}
-]
-
-This reduces exponent by half each time.
 
 ---
 
@@ -164,9 +155,8 @@ Example:
 n = 13 → binary = 1101
 ```
 
-[
-x^{13} = x^8 \cdot x^4 \cdot x^1
-]
+<img width="190" height="47" alt="image" src="https://github.com/user-attachments/assets/bd8617fd-095b-4d84-bf14-55536e14d01d" />
+
 
 ---
 
