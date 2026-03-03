@@ -563,6 +563,8 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    - [Move Zeroes](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/TwoPointers/MoveZeroes.md#move-zeroes)
    - [Meeting Rooms II](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/TwoPointers/MeetingRoomsII.md#meeting-rooms-ii)
    - [Happy Number](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/TwoPointers/HappyNumber.md#happy-number)
+   - [Merge Sorted Array](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/TwoPointers/MergeSortedArray.md#merge-sorted-array)
+   -  
 
 ### [LinkedList](#linked-list)
    - [Add Two Numbers](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/LinkedList/AddTwoNumbers.md#add-two-numbers)
@@ -582,6 +584,7 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    - [Search in Rotated Sorted Array](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinarySearch/SearchinRotatedSortedArray.md#search-in-rotated-sorted-array)
    - [Search Insert Position](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinarySearch/SearchInsertPosition.md#Search-Insert-Position)
    - [Peak Index in a Mountain Array](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinarySearch/PeakIndexinaMountainArray.md#peak-index-in-a-mountain-array)
+   - [Remove Letter To Equalize Frequency](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/String/RemoveLetterToEqualizeFrequency.md#remove-letter-to-equalize-frequency)
 
 ### [Greedy Algorithms](#greedy-algorithms)
    - [Merge Intervals](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/GreedyAlgorithms/MergeIntervals.md#merge-intervals)
@@ -592,11 +595,13 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    - [Roman to Integer](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/String/RomantoInteger.md#roman-to-integer)
    - [String to Integer (atoi)](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/String/StringToInteger.md#string-to-integer)
    - [Group Anagrams](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Arrays/GroupAnagrams.md#Group-Anagrams)
-   - 
+   - [Decode String](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/String/DecodeString.md#Decode-String)
 
 ### [Graphs](#graphs)
    - [Number of Islands](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Graphs/NumberOfIslands.md#Number-of-Islands)
    - [Evaluate Division](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Graphs/EvaluateDivision.md#evaluate-division)
+   - [All Paths From Source to Target](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Graphs/AllPathsFromSourcetoTarget.md#all-paths-from-source-to-target)
+   - 
 
 ### [Dynamic Programming](#Dynamic-Programming)
    - [Word Break](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/DynamicProgramming/WordBreak.md#Word-Break)
@@ -617,6 +622,7 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    - [Next Greater Element II](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/NextGreaterElement2.md#Next-Greater-Element-II)
    - [Valid Parentheses](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/ValidParentheses.md#valid-parentheses)
    - [Remove All Adjacent Duplicates in String II](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/RemoveAllAdjacentDuplicatesinStringII.md#remove-all-adjacent-duplicates-in-string-ii)
+   - [Next Greater Element I](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/NextGreaterElementI.md#next-greater-element-i)
 
 ### [Binary Trees](#binary-trees)
    - [Binary Tree Preorder Traversal](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinaryTrees/BinaryTreePreorderTraversal.md#binary-tree-preorder-traversal)
@@ -655,6 +661,7 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    - [Implement Min Stack](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/ImplementMinStack.md#Implement-Min-Stack)
    - [Implement Max Stack](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/ImplementMaxStack.md#Implement-Max-Stack)
    - [Implement Magic Dictionary](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Design/ImplementMagicDictionary.md#implement-magic-dictionary)
+   - [Design Browser History](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Design/DesignBrowserHistory.md#design-browser-history)
    - 
    
 
