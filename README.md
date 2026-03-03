@@ -545,7 +545,7 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    - [Maximum Subarray](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Arrays/MaximumSubarray.md#Maximum-Subarray)
    - [Max Consecutive Ones](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Arrays/MaxConsecutiveOnes.md#max-consecutive-ones)
    - [Rotting Oranges](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Arrays/RottingOranges.md#rotting-oranges)
-   - 
+   - [Permutations II](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Arrays/PermutationsII.md#permutations-ii)
 
 ### [Sliding Window](#sliding-window)
    - [Longest Substring Without Repeating Characters](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/SlidingWindow/LongestSubstringWithoutRepeatingCharacters.md#longest-substring-without-repeating-characters)
@@ -592,6 +592,9 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
 
 ### [Greedy Algorithms](#greedy-algorithms)
    - [Merge Intervals](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/GreedyAlgorithms/MergeIntervals.md#merge-intervals)
+
+### [Heap](#heap)
+   - [Top K Frequent Words](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Heap/TopKFrequentWords.md#top-k-frequent-words)
 
 ### [String](#string)
    - [Longest Common Prefix](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/String/LongestCommonPrefix.md#longest-common-prefix)
