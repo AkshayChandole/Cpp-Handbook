@@ -566,7 +566,7 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    - [Meeting Rooms II](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/TwoPointers/MeetingRoomsII.md#meeting-rooms-ii)
    - [Happy Number](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/TwoPointers/HappyNumber.md#happy-number)
    - [Merge Sorted Array](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/TwoPointers/MergeSortedArray.md#merge-sorted-array)
-   -  
+   - [Sort Colors](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/TwoPointers/SortColors.md#Sort-Colors)
 
 ### [LinkedList](#linked-list)
    - [Add Two Numbers](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/LinkedList/AddTwoNumbers.md#add-two-numbers)
@@ -663,6 +663,7 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    - [Find the Winner of the Circular Game](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Math/FindtheWinneroftheCircularGame.md#find-the-winner-of-the-circular-game)
    - [Sqrt(x)](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Math/Sqrt(x).md#Sqrtx)
    - [Add Binary](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Math/AddBinary.md#add-binary)
+   - [Basic Calculator II](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Math/BasicCalculatorII.md#basic-calculator-ii)
 
 ### [Design](#design)
    - [Design Underground System](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Design/DesignUndergroundSystem.md#design-underground-system)
@@ -675,6 +676,7 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    - [Design A Leaderboard](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Design/DesignALeaderboard.md#design-a-leaderboard)
    - [Design an Ordered Stream](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Design/DesignanOrderedStream.md#design-an-ordered-stream)
    - [Design an Ordered Stream](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Design/DesignSearchAutocompleteSystem.md#design-search-autocomplete-system)
+   - 
    
 
 ---
