@@ -567,6 +567,7 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    - [Happy Number](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/TwoPointers/HappyNumber.md#happy-number)
    - [Merge Sorted Array](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/TwoPointers/MergeSortedArray.md#merge-sorted-array)
    - [Sort Colors](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/TwoPointers/SortColors.md#Sort-Colors)
+   - [Valid Palindrome II](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/TwoPointers/ValidPalindromeII.md#valid-palindrome-ii)
 
 ### [LinkedList](#linked-list)
    - [Add Two Numbers](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/LinkedList/AddTwoNumbers.md#add-two-numbers)
@@ -606,6 +607,7 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    - [Number of Islands](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Graphs/NumberOfIslands.md#Number-of-Islands)
    - [Evaluate Division](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Graphs/EvaluateDivision.md#evaluate-division)
    - [All Paths From Source to Target](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Graphs/AllPathsFromSourcetoTarget.md#all-paths-from-source-to-target)
+   - [Bus Routes](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Graphs/BusRoutes.md)
    - 
 
 ### [Dynamic Programming](#Dynamic-Programming)
@@ -630,6 +632,7 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    - [Remove All Adjacent Duplicates in String II](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/RemoveAllAdjacentDuplicatesinStringII.md#remove-all-adjacent-duplicates-in-string-ii)
    - [Next Greater Element I](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/NextGreaterElementI.md#next-greater-element-i)
    - [Largest Rectangle in Histogram](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/LargestRectangleinHistogram.md#largest-rectangle-in-histogram)
+   - [Daily Temperatures](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/DailyTemperatures.md#daily-temperatures)
 
 ### [Binary Trees](#binary-trees)
    - [Binary Tree Preorder Traversal](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinaryTrees/BinaryTreePreorderTraversal.md#binary-tree-preorder-traversal)
