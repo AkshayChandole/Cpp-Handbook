@@ -544,6 +544,8 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    - [Product of Array Except Self](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Arrays/ProductofArrayExceptSelf.md#product-of-array-except-self)
    - [Maximum Subarray](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Arrays/MaximumSubarray.md#Maximum-Subarray)
    - [Max Consecutive Ones](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Arrays/MaxConsecutiveOnes.md#max-consecutive-ones)
+   - [Rotting Oranges](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Arrays/RottingOranges.md#rotting-oranges)
+   - 
 
 ### [Sliding Window](#sliding-window)
    - [Longest Substring Without Repeating Characters](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/SlidingWindow/LongestSubstringWithoutRepeatingCharacters.md#longest-substring-without-repeating-characters)
@@ -598,6 +600,7 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    - [Group Anagrams](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Arrays/GroupAnagrams.md#Group-Anagrams)
    - [Decode String](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/String/DecodeString.md#Decode-String)
    - [Minimum Number of Steps to Make Two Strings Anagram](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/String/MinimumNumberofStepstoMakeTwoStringsAnagram.md#minimum-number-of-steps-to-make-two-strings-anagram)
+   - [Word Ladder](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/String/WordLadder.md#word-ladder)
 
 ### [Graphs](#graphs)
    - [Number of Islands](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Graphs/NumberOfIslands.md#Number-of-Islands)
@@ -657,7 +660,9 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    - [Palindrome Number](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Math/PalindromeNumber.md)
    - [Reverse Integer](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Math/ReverseInteger.md#reverse-integer)
    - [Pow(x, n)](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Math/Pow(x%2Cn).md#powx-n)
-   - 
+   - [Find the Winner of the Circular Game](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Math/FindtheWinneroftheCircularGame.md#find-the-winner-of-the-circular-game)
+   - [Sqrt(x)](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Math/Sqrt(x).md#Sqrtx)
+   - [Add Binary](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Math/AddBinary.md#add-binary)
 
 ### [Design](#design)
    - [Design Underground System](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Design/DesignUndergroundSystem.md#design-underground-system)
@@ -668,7 +673,8 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    - [Implement Magic Dictionary](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Design/ImplementMagicDictionary.md#implement-magic-dictionary)
    - [Design Browser History](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Design/DesignBrowserHistory.md#design-browser-history)
    - [Design A Leaderboard](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Design/DesignALeaderboard.md#design-a-leaderboard)
-   - 
+   - [Design an Ordered Stream](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Design/DesignanOrderedStream.md#design-an-ordered-stream)
+   - [Design an Ordered Stream](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Design/DesignSearchAutocompleteSystem.md#design-search-autocomplete-system)
    
 
 ---
