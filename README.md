@@ -572,6 +572,7 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    - [Flatten a Multilevel Doubly Linked List](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/LinkedList/FlattenaMultilevelDoublyLinkedList.md#flatten-a-multilevel-doubly-linked-list)
    - [Sort List](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/LinkedList/SortList.md#Sort-List)
    - [Reorder List](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/LinkedList/ReorderList.md#Reorder-List)
+   - [Add Two Numbers II](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/LinkedList/AddTwoNumbersII.md#add-two-numbers-ii)
 
 ### [Backtracking](#backtracking)
    - [Generate Parentheses](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Backtracking/GenerateParentheses.md#generate-parentheses)
@@ -596,6 +597,7 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    - [String to Integer (atoi)](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/String/StringToInteger.md#string-to-integer)
    - [Group Anagrams](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Arrays/GroupAnagrams.md#Group-Anagrams)
    - [Decode String](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/String/DecodeString.md#Decode-String)
+   - [Minimum Number of Steps to Make Two Strings Anagram](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/String/MinimumNumberofStepstoMakeTwoStringsAnagram.md#minimum-number-of-steps-to-make-two-strings-anagram)
 
 ### [Graphs](#graphs)
    - [Number of Islands](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Graphs/NumberOfIslands.md#Number-of-Islands)
@@ -609,6 +611,7 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    - [Climbing Stairs](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/DynamicProgramming/ClimbingStairs.md#climbing-stairs)
    - [Coin Change](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/DynamicProgramming/CoinChange.md#coin-change)
    - [Sort Integers by The Power Value](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/DynamicProgramming/SortIntegersbyThePowerValue.md#sort-integers-by-the-power-value)
+   - [Unique Paths II](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/DynamicProgramming/UniquePathsII.md#unique-paths-ii)
 
 ### [Stack and Queues](#stack-and-queues)
    - [Implement Stack using Arrays](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/ImplementStackusingArrays.md#implement-stack-using-arrays)
@@ -623,6 +626,7 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    - [Valid Parentheses](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/ValidParentheses.md#valid-parentheses)
    - [Remove All Adjacent Duplicates in String II](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/RemoveAllAdjacentDuplicatesinStringII.md#remove-all-adjacent-duplicates-in-string-ii)
    - [Next Greater Element I](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/NextGreaterElementI.md#next-greater-element-i)
+   - [Largest Rectangle in Histogram](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/LargestRectangleinHistogram.md#largest-rectangle-in-histogram)
 
 ### [Binary Trees](#binary-trees)
    - [Binary Tree Preorder Traversal](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinaryTrees/BinaryTreePreorderTraversal.md#binary-tree-preorder-traversal)
@@ -647,6 +651,7 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    - [All Nodes Distance K in Binary Tree](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinaryTrees/AllNodesDistanceKinBinaryTree.md#all-nodes-distance-k-in-binary-tree)
    - [Maximum Width of Binary Tree](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinaryTrees/MaximumWidthofBinaryTree.md#maximum-width-of-binary-tree)
    - [Lowest Common Ancestor of a Binary Tree](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinaryTrees/LowestCommonAncestorofaBinaryTree.md#lowest-common-ancestor-of-a-binary-tree)
+   - [Validate Binary Search Tree](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/BinaryTrees/ValidateBinarySearchTree.md#validate-binary-search-tree)
 
 ### [Math](#math)
    - [Palindrome Number](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Math/PalindromeNumber.md)
@@ -662,6 +667,7 @@ Welcome to Cpp-Handbook, your one-stop resource for mastering C++! This reposito
    - [Implement Max Stack](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/StackAndQueues/ImplementMaxStack.md#Implement-Max-Stack)
    - [Implement Magic Dictionary](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Design/ImplementMagicDictionary.md#implement-magic-dictionary)
    - [Design Browser History](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Design/DesignBrowserHistory.md#design-browser-history)
+   - [Design A Leaderboard](https://github.com/AkshayChandole/Cpp-Handbook/blob/main/LeetcodeCoding/Design/DesignALeaderboard.md#design-a-leaderboard)
    - 
    
 
